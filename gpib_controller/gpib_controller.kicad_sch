@@ -1,0 +1,129 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0f352524-50ff-469d-9a68-783e183b0073")
+	(paper "User" 431.8 279.4)
+	(lib_symbols)
+	(text "This project is licensed under the MIT License\nView license: https://opensource.org/license/mit"
+		(exclude_from_sim no)
+		(at 25.4 66.04 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.032 2.032)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4c2e8039-9460-448b-bdfe-f1cf3293beb8")
+	)
+	(text "Designed by Noah Husby <opensource@husbylabs.com>"
+		(exclude_from_sim no)
+		(at 71.12 40.64 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6dca0294-472a-471f-b19a-d1d055cdb4ed")
+	)
+	(text "This module acts as a GPIB/HP-IB (General Purpose Interface Bus) controller that reads and sends \ncommands to a PM2812 power supply.The USB-C port on the board allows serial communication with a \ncomputer to monitor the power supply. Additionally, an RS485 interface is exposed for a desk-\nmounted control panel which will display power supply status and allow for control."
+		(exclude_from_sim no)
+		(at 25.4 53.34 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6f3f8180-3307-47c3-b445-73f0b59cee9c")
+	)
+	(text "PM2812 GPIB Controller"
+		(exclude_from_sim no)
+		(at 86.36 33.02 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 7.62 7.62)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7a6907ac-c12d-4a78-a45b-148f8ab21927")
+	)
+	(sheet
+		(at 25.4 228.6)
+		(size 76.2 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "642cbd6b-8c2c-4a8a-b65c-89c798f24c3f")
+		(property "Sheetname" "Overview"
+			(at 25.4 227.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "overview.kicad_sch"
+			(at 25.4 254.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "husby_labs.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCBC7UVANbeYCEAtxsWHGS5ac4JWtisn1rDwwFltCCdFme+cSP//78AEAFXAFAAWwA5xP+4
+				E/F/PDbL2dd6cg0533GwgE1L9uc/S/JrwQJmzfaTHb/kTwAAAqLofZTWouJUGb/9nAOKVWf8Nft1
+				DwEQKCjmnBeVtC+2Y/YRARAYQyTOVz0bIgRc1e5VQOAv7szGaI9YrGbVX/LvHpMXRltiplL2rv3q
+				oufsN2PvwZYtq5CHwa4dfPvtn+/vinCuXfVfD0Ps0ab9XT9cLefsz/XHqmoP633PA5gPxF0f6KbR
+				LiO/KBRVR6Z16IWclMqGuWgajiNrbBHUALOwlnMuLEQnFCmNyxwcLYPBbKhBM/yrI+dsyv7XvTZ1
+				7I8iEEZ7ZiaKtey6Ts6rUN0a4kuTnNKjhzaBAoJii4teB7q4JoLKyVG0ielWMcQNSTeUzDKpNCBc
+				ZuE0DYKZ87IOk4yiSbaHfXgWrG+bNk1YcmoSbuPAtxydn+13/2AEhpTg26r+Gmbc6exitVw0S2Y5
+				2YCCoBFJhdRMiRQkKUiaA3BEpMaqc9xqeADAnW2O5AVVJg8IkNNDQhsuL8mFsjglGYrXlbjai9DO
+				EOgR5kGYU/vBYmXacNB+ZYN8MzgOBSLFIa3U/tXVdrZa+TTsUPnLjMcQPboxtaFZvMjVPg0EZezl
+				Flj2WFb24Zo9NzMQANACBRPUR1cLQJpBrMbt314QZzsCZaEgw1KxcabHcONJo0zjlJZL6QicQNAm
+				ip7cwbtcNhTzmKdSlmH5eUJISU/R+a3Q1h84FQ36v4AHJecjCoNEvbQExR9qOrdgggKem2PpR7b+
+				9SdWHarMo0B2mGQLMwsCDqREeIVQcey1ge7uw7y5GTp0WabfHrBG7WvdISb1tdteoW2z1aEPXe76
+				jI75Wi0RSySamJ8gt7sW0Rkfpgo=|
+			)
+			(checksum "A97F0A5335376938A0BBF65A9057E979")
+		)
+	)
+)
