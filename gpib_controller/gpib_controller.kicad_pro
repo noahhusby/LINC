@@ -627,5 +627,7 @@
       "Overview"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PROJECT_NAME": "PM 2812 GPIB Controller"
+  }
 }
