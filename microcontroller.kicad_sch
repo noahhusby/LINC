@@ -2048,6 +2048,370 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PARTSDB:CS10820-24M"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CS10820-24M"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7847/EXS00A-CS10820.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "24 MHz ±15ppm Crystal 6pF 80 Ohms 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/1/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Crystals, Oscillators, Resonators/Crystals"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CS10820-24M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "4-SMD (2x1.6)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CS10820-24M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey SPN" "644-CS10820-24MDKR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "644-CS10820-24MDKR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CS10820-24M_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CS10820-24M_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2580,16 +2944,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 215.9 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a77b377-e326-42a1-8e32-60be378b82e2")
-	)
-	(wire
-		(pts
 			(xy 119.38 60.96) (xy 119.38 63.5)
 		)
 		(stroke
@@ -2770,7 +3124,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 40.64 109.22 0)
+		(at 101.6 147.32 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2779,7 +3133,7 @@
 		(fields_autoplaced yes)
 		(uuid "06a9005d-ca36-48c4-94de-56febec82e7b")
 		(property "Reference" "U3"
-			(at 30.988 97.79 0)
+			(at 91.948 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3143,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 37.084 97.79 0)
+			(at 98.044 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +3153,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 65.024 189.23 0)
+			(at 125.984 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +3163,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 54.102 186.69 0)
+			(at 115.062 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +3172,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 66.04 184.404 0)
+			(at 127 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,6 +3379,12 @@
 					(unit 2)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3095,11 +3455,17 @@
 					(unit 1)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 157.48 73.66 0)
+		(at 223.52 73.66 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3108,7 +3474,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a83d2e2-5d1b-4de7-97a5-fb3854dc9eb7")
 		(property "Reference" "U3"
-			(at 147.828 62.23 0)
+			(at 213.868 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3484,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 153.924 62.23 0)
+			(at 219.964 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3494,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 181.864 153.67 0)
+			(at 247.904 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3504,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 170.942 151.13 0)
+			(at 236.982 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3513,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 182.88 148.844 0)
+			(at 248.92 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,11 +3720,219 @@
 					(unit 6)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CS10820-24M")
+		(at 60.96 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35da7583-f701-4829-bc19-c64fc114c32e")
+		(property "Reference" "U4"
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CS10820-24M"
+			(at 60.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7847/EXS00A-CS10820.pdf"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24 MHz ±15ppm Crystal 6pF 80 Ohms 4-SMD, No Lead"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 60.96 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 60.96 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/1/info"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Crystals, Oscillators, Resonators/Crystals"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CS10820-24M"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "4-SMD (2x1.6)"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "1"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CS10820-24M"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "644-CS10820-24MDKR-ND"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "644-CS10820-24MDKR-ND"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df266acb-9785-4032-8482-877f39ec4b74")
+		)
+		(pin "2"
+			(uuid "c868dd82-e307-4dca-a15f-9963856a6752")
+		)
+		(pin "4"
+			(uuid "327f8b03-697c-48ef-839b-98ab92e5fff8")
+		)
+		(pin "3"
+			(uuid "f6a8d7a4-2c0b-4c83-b5d0-206f1f49634a")
+		)
+		(instances
+			(project ""
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 195.58 45.72 0)
+		(at 261.62 45.72 0)
 		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3367,7 +3941,7 @@
 		(fields_autoplaced yes)
 		(uuid "46c931cf-30e1-44ad-99c6-7062e1d9645b")
 		(property "Reference" "U3"
-			(at 185.928 34.29 0)
+			(at 251.968 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3951,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 192.024 34.29 0)
+			(at 258.064 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3961,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 219.964 125.73 0)
+			(at 286.004 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3971,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 209.042 123.19 0)
+			(at 275.082 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3980,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 220.98 120.904 0)
+			(at 287.02 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,6 +4185,12 @@
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "U3")
 					(unit 8)
+				)
+			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 1)
 				)
 			)
 		)
@@ -3872,6 +4452,12 @@
 					(unit 1)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3938,11 +4524,17 @@
 					(unit 1)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 116.84 132.08 0)
+		(at 241.3 147.32 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3951,7 +4543,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ec505c7-15ca-431f-a52b-025c5e84bbc0")
 		(property "Reference" "U3"
-			(at 107.188 120.65 0)
+			(at 231.648 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4553,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 113.284 120.65 0)
+			(at 237.744 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4563,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 141.224 212.09 0)
+			(at 265.684 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 130.302 209.55 0)
+			(at 254.762 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4582,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 142.24 207.264 0)
+			(at 266.7 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,11 +4789,17 @@
 					(unit 4)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 165.1 43.18 0)
+		(at 231.14 43.18 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4210,7 +4808,7 @@
 		(fields_autoplaced yes)
 		(uuid "948fa986-21c5-44d5-bf6e-674ec36e1711")
 		(property "Reference" "U3"
-			(at 155.448 31.75 0)
+			(at 221.488 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4818,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 161.544 31.75 0)
+			(at 227.584 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4828,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 189.484 123.19 0)
+			(at 255.524 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4838,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 178.562 120.65 0)
+			(at 244.602 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4847,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 190.5 118.364 0)
+			(at 256.54 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,6 +5054,12 @@
 					(unit 7)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4523,6 +5127,12 @@
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4596,11 +5206,17 @@
 					(unit 1)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 88.9 132.08 0)
+		(at 213.36 147.32 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4609,7 +5225,7 @@
 		(fields_autoplaced yes)
 		(uuid "b216d03b-404e-489a-8928-b98971e731c0")
 		(property "Reference" "U3"
-			(at 79.248 120.65 0)
+			(at 203.708 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +5235,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 85.344 120.65 0)
+			(at 209.804 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +5245,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 113.284 212.09 0)
+			(at 237.744 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +5255,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 102.362 209.55 0)
+			(at 226.822 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +5264,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 114.3 207.264 0)
+			(at 238.76 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,6 +5471,12 @@
 					(unit 3)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4921,6 +5543,12 @@
 			(project ""
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4993,6 +5621,12 @@
 					(unit 1)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5059,11 +5693,17 @@
 					(unit 1)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 139.7 104.14 0)
+		(at 205.74 104.14 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5072,7 +5712,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb33de7a-c792-4442-b4df-e5bb361200c5")
 		(property "Reference" "U3"
-			(at 130.048 92.71 0)
+			(at 196.088 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5722,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 136.144 92.71 0)
+			(at 202.184 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5732,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 164.084 184.15 0)
+			(at 230.124 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5742,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 153.162 181.61 0)
+			(at 219.202 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5751,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 165.1 179.324 0)
+			(at 231.14 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,6 +5958,12 @@
 					(unit 5)
 				)
 			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5381,6 +6027,12 @@
 			(project ""
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "overview"
+				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
