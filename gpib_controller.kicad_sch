@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "0f352524-50ff-469d-9a68-783e183b0073")
 	(paper "User" 431.8 279.4)
 	(title_block
@@ -74,11 +74,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "642cbd6b-8c2c-4a8a-b65c-89c798f24c3f")
 		(property "Sheetname" "Overview"
 			(at 25.4 227.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,6 +90,8 @@
 		)
 		(property "Sheetfile" "overview.kicad_sch"
 			(at 25.4 254.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
