@@ -10,146 +10,6 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32H5_SPLIT:STM32H533RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2048,6 +1908,723 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PARTSDB:CC0603CRNPO9BN6R8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "6.8 pF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603CRNPO9BN6R8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "6.8 pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/7/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors/Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0603CRNPO9BN6R8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "C-0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CC0603CRNPO9BN6R8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey SPN" "311-3861-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "311-3861-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603CRNPO9BN6R8_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CC0603CRNPO9BN6R8_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PARTSDB:CC0603KRX7R7BB104"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "[[Capacitance]]"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors/Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0603KRX7R7BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "C-0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CC0603KRX7R7BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey SPN" "311-1088-6-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "311-1088-6-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603KRX7R7BB104_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CC0603KRX7R7BB104_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PARTSDB:CL10A475KP8NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7 µF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/6/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors/Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10A475KP8NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "C-0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CL10A475KP8NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey SPN" "1276-1044-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "1276-1044-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A475KP8NNNC_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A475KP8NNNC_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PARTSDB:CS10820-24M"
 			(pin_names
 				(offset 1.016)
@@ -2056,7 +2633,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "Y"
 				(at 3.175 5.08 0)
 				(effects
 					(font
@@ -2412,6 +2989,662 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PARTSDB:FTSH-105-01-L-DV-K"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FTSH-105-01-L-DV-K"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Samtec_FTSH:SAMTEC_FTSH-105-01-X-DV-K-X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/productspecs/clp-ftsh.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Header Surface Mount 10 position 0.050\" (1.27mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/4/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Connectors, Interconnects/Rectangular Connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FTSH-105-01-L-DV-K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf" "Samtec Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "FTSH-105-01-L-DV-K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey SPN" "SAM8799-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "SAM8799-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector_Samtec_FTSH:SAMTEC_FTSH-105-01-X-DV-K-X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FTSH-105-01-L-DV-K_0_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PARTSDB:MU00525-32.768K"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MU00525-32.768K"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6320/MU00525-32.768K.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32.768 kHz Crystal 6pF 70 kOhms 2-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/3/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Crystals, Oscillators, Resonators/Crystals"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MU00525-32.768K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "2-SMD (3.2x1.5)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "MU00525-32.768K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey SPN" "644-MU00525-32.768KDKR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "644-MU00525-32.768KDKR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MU00525-32.768K_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MU00525-32.768K_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2667,6 +3900,18 @@
 		(uuid "049b4b74-c54a-4075-8015-5c69e176f68c")
 	)
 	(junction
+		(at 45.72 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08e6ff29-d4dc-4c07-abc7-80de9689e058")
+	)
+	(junction
+		(at 30.48 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1094f5fa-a3b6-4838-880c-c3c2d834e929")
+	)
+	(junction
 		(at 81.28 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2677,6 +3922,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cbc4157-9341-4c4a-b745-809844f4b798")
+	)
+	(junction
+		(at 30.48 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "418f02c2-66e6-4119-8435-195065e32e10")
 	)
 	(junction
 		(at 35.56 63.5)
@@ -2697,10 +3948,22 @@
 		(uuid "70777dbc-42b0-43db-be7d-52725abddb8a")
 	)
 	(junction
+		(at 45.72 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79eb72bf-dc17-4246-9a2e-24c6881a02ec")
+	)
+	(junction
 		(at 35.56 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab70c70-4e8c-42d2-8c23-6d6ca5755a8e")
+	)
+	(junction
+		(at 48.26 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "808614e1-7141-4321-9f42-23426e2ce870")
 	)
 	(junction
 		(at 55.88 63.5)
@@ -2721,10 +3984,34 @@
 		(uuid "8e009b75-87df-4465-a706-5fc0f3b145c1")
 	)
 	(junction
+		(at 45.72 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a55c8385-64b5-446d-be69-19e6ed7fc08c")
+	)
+	(junction
 		(at 55.88 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a57074fa-1028-43ab-af43-9b207cbdb7bb")
+	)
+	(junction
+		(at 30.48 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8d5cea1-3ee0-4578-8077-c9c2c6cd0154")
+	)
+	(junction
+		(at 45.72 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aad905e9-502b-4403-95f8-5d466e185a76")
+	)
+	(junction
+		(at 119.38 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3f1dd9f-71ab-4fe5-857b-e22a62677b35")
 	)
 	(junction
 		(at 66.04 63.5)
@@ -2739,6 +4026,12 @@
 		(uuid "be7ef9d3-1ac7-4ffa-8e02-870d51598c1e")
 	)
 	(junction
+		(at 48.26 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ddf8a9-8953-40cf-bf04-8aa724357814")
+	)
+	(junction
 		(at 45.72 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2751,16 +4044,212 @@
 		(uuid "ddf73589-1500-4bf8-872a-7cae61356368")
 	)
 	(no_connect
+		(at 50.8 187.96)
+		(uuid "168d103e-eaac-4caa-9066-8e7aa51e76b1")
+	)
+	(no_connect
 		(at 116.84 50.8)
 		(uuid "4687ce13-324f-4eeb-bb77-6efc8b728152")
+	)
+	(no_connect
+		(at 71.12 185.42)
+		(uuid "4f71328c-689c-48ae-a8f9-75fb8fef3142")
 	)
 	(no_connect
 		(at 83.82 45.72)
 		(uuid "637162d8-a0d6-42bc-b1e5-6a2f8013806b")
 	)
 	(no_connect
+		(at 71.12 187.96)
+		(uuid "a088358f-24a8-48d9-9673-454dd190de63")
+	)
+	(no_connect
 		(at 83.82 50.8)
 		(uuid "e38b0f5e-f2bc-40f2-ac97-5dec0ad29692")
+	)
+	(bus_entry
+		(at 312.42 96.52)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b72018-af3b-4fa7-81d7-d87e7661bc41")
+	)
+	(bus_entry
+		(at 312.42 91.44)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac2e324-76d3-4d0a-9ae1-c5c7f62eac49")
+	)
+	(bus_entry
+		(at 73.66 162.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f215922-1577-4a98-a9e7-87a81b16097e")
+	)
+	(bus_entry
+		(at 73.66 172.72)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395ea959-9299-472f-8854-626245ca1cbb")
+	)
+	(bus_entry
+		(at 66.04 127)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8662f8-a255-499c-939e-150dfaef6553")
+	)
+	(bus_entry
+		(at 73.66 170.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f29f97f-3557-4c02-b3c8-5187af89631a")
+	)
+	(bus_entry
+		(at 312.42 86.36)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b90a597-8fef-448c-9b7e-f5b3c58c6084")
+	)
+	(bus_entry
+		(at 312.42 81.28)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb3705e-ec34-4815-a8b1-743786b71559")
+	)
+	(bus_entry
+		(at 66.04 139.7)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a18edb-1c08-480f-bb10-f191bb2b6326")
+	)
+	(bus_entry
+		(at 312.42 88.9)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61df26c1-4a69-4d89-ae50-7031720e9956")
+	)
+	(bus_entry
+		(at 73.66 165.1)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6206908f-b132-43f9-898a-0a0208ea3ae6")
+	)
+	(bus_entry
+		(at 312.42 83.82)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7155e7ba-ae0c-4b67-8829-ea63c686f06f")
+	)
+	(bus_entry
+		(at 312.42 93.98)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d173918-15e8-44dc-9ec0-eb229da7acb0")
+	)
+	(bus_entry
+		(at 66.04 152.4)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f95930-e7e8-4333-8b91-34082b02b0dc")
+	)
+	(bus_entry
+		(at 66.04 114.3)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a105ed39-4118-473a-89c4-0ae5b8f6149d")
+	)
+	(bus_entry
+		(at 312.42 78.74)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5e8274-a5fd-405b-ab60-cbed905e7e5f")
+	)
+	(wire
+		(pts
+			(xy 45.72 114.3) (xy 45.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f61237-5311-4471-9da9-72b8883ac9ed")
+	)
+	(wire
+		(pts
+			(xy 30.48 146.05) (xy 30.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2be6d7-1d0d-454f-8ba8-4aa7c464a0e7")
+	)
+	(bus
+		(pts
+			(xy 73.66 172.72) (xy 73.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dda0ad1-76a7-42ea-b2ff-35eeeb299f4a")
+	)
+	(wire
+		(pts
+			(xy 48.26 185.42) (xy 48.26 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec48e3d-69b0-47b3-b7e0-37feeadebdd8")
 	)
 	(wire
 		(pts
@@ -2792,6 +4281,26 @@
 		)
 		(uuid "12dc46b7-a880-4029-98cd-811e2f0ec56f")
 	)
+	(bus
+		(pts
+			(xy 68.58 124.46) (xy 68.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ffe945-6510-4853-9248-bba5f7ba3d3c")
+	)
+	(wire
+		(pts
+			(xy 299.72 81.28) (xy 312.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13337e46-d239-4f11-8cbc-2e7195a6c229")
+	)
 	(wire
 		(pts
 			(xy 116.84 55.88) (xy 119.38 55.88)
@@ -2801,6 +4310,26 @@
 			(type default)
 		)
 		(uuid "1618b71e-cea9-4683-917a-412f1e3b0330")
+	)
+	(wire
+		(pts
+			(xy 76.2 172.72) (xy 86.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7215b5-8334-4d25-9298-1a95743f4a9a")
+	)
+	(bus
+		(pts
+			(xy 73.66 157.48) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd445a1-5a8a-4278-bfff-294400c5b778")
 	)
 	(wire
 		(pts
@@ -2814,6 +4343,26 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 83.82) (xy 312.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e35373-9c3c-429d-ab4d-7a35f7106451")
+	)
+	(bus
+		(pts
+			(xy 314.96 91.44) (xy 314.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a6d8b4-3af7-49f5-99f2-a32b53b48f5f")
+	)
+	(wire
+		(pts
 			(xy 35.56 73.66) (xy 35.56 76.2)
 		)
 		(stroke
@@ -2824,6 +4373,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 190.5) (xy 119.38 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283aea75-9e23-48c0-9f51-e6ffbdcd5f40")
+	)
+	(bus
+		(pts
+			(xy 314.96 76.2) (xy 317.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4f9699-039d-40cf-8893-2e6c1b1d2945")
+	)
+	(wire
+		(pts
 			(xy 66.04 73.66) (xy 76.2 73.66)
 		)
 		(stroke
@@ -2831,6 +4400,76 @@
 			(type default)
 		)
 		(uuid "2ef8a96d-f7ee-48f8-987b-6010b3b175be")
+	)
+	(wire
+		(pts
+			(xy 50.8 180.34) (xy 48.26 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f21eb36-b1a1-42c8-9508-f390def32710")
+	)
+	(wire
+		(pts
+			(xy 45.72 139.7) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3635302e-90c3-424f-9e56-deed7bb65ae4")
+	)
+	(wire
+		(pts
+			(xy 40.64 152.4) (xy 45.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e6e54f-be0b-4ba7-b36c-cedde8d0be0f")
+	)
+	(wire
+		(pts
+			(xy 40.64 127) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aeb59ad-bb53-4171-a201-69651b070f88")
+	)
+	(wire
+		(pts
+			(xy 71.12 180.34) (xy 86.36 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9c5eb6-f354-4fd7-9179-9b24d1e6fca1")
+	)
+	(bus
+		(pts
+			(xy 68.58 111.76) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb03bb3-14cb-4057-8ca3-26e077e50f70")
+	)
+	(bus
+		(pts
+			(xy 314.96 86.36) (xy 314.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400d9e11-8f1f-4cc1-9333-2da42aefe250")
 	)
 	(wire
 		(pts
@@ -2862,6 +4501,36 @@
 		)
 		(uuid "463e30f4-8fa3-4d69-9a14-3c48842c535b")
 	)
+	(bus
+		(pts
+			(xy 73.66 162.56) (xy 73.66 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46654f90-6f28-482f-8f44-c37bd3fc7de0")
+	)
+	(wire
+		(pts
+			(xy 299.72 86.36) (xy 312.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb10eb4-d91c-4d80-9b24-a6492b725c49")
+	)
+	(wire
+		(pts
+			(xy 76.2 165.1) (xy 86.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bd2395-76c3-4497-a8dd-b7fc8019a6a6")
+	)
 	(wire
 		(pts
 			(xy 116.84 63.5) (xy 119.38 63.5)
@@ -2871,6 +4540,16 @@
 			(type default)
 		)
 		(uuid "555b5232-47a8-48a5-b3b0-cfb82e9c6cbb")
+	)
+	(bus
+		(pts
+			(xy 73.66 157.48) (xy 68.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6bd57c-3b23-42ea-b71e-1f3f8db0722b")
 	)
 	(wire
 		(pts
@@ -2884,6 +4563,26 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 78.74) (xy 312.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1ecc62-8571-4842-bde4-7f14180b561f")
+	)
+	(wire
+		(pts
+			(xy 50.8 190.5) (xy 48.26 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d45621-56cd-454c-b2ca-1857fc35750b")
+	)
+	(wire
+		(pts
 			(xy 76.2 63.5) (xy 76.2 66.04)
 		)
 		(stroke
@@ -2891,6 +4590,26 @@
 			(type default)
 		)
 		(uuid "67f2557c-0e25-4043-86db-c2293108db45")
+	)
+	(wire
+		(pts
+			(xy 48.26 177.8) (xy 48.26 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd7fb74-1ff5-4532-bac0-f5e3d54431fc")
+	)
+	(bus
+		(pts
+			(xy 314.96 76.2) (xy 314.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb10fdb-e36c-4358-b225-d2eb43193617")
 	)
 	(wire
 		(pts
@@ -2904,6 +4623,36 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 139.7) (xy 30.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736bd017-7135-42c0-8554-cfb13e3b553b")
+	)
+	(wire
+		(pts
+			(xy 30.48 139.7) (xy 30.48 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751c8e57-56f0-4e9f-b58e-42939df842da")
+	)
+	(wire
+		(pts
+			(xy 76.2 175.26) (xy 86.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75facdc1-81a5-44f7-93eb-4ceeb6f3e6a5")
+	)
+	(wire
+		(pts
 			(xy 45.72 73.66) (xy 55.88 73.66)
 		)
 		(stroke
@@ -2914,6 +4663,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 152.4) (xy 45.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c83e57b-fe7c-4c20-badd-3c7088155b86")
+	)
+	(wire
+		(pts
 			(xy 81.28 58.42) (xy 83.82 58.42)
 		)
 		(stroke
@@ -2921,6 +4680,36 @@
 			(type default)
 		)
 		(uuid "7ce30f9f-8615-4430-a867-eb8db06822ed")
+	)
+	(bus
+		(pts
+			(xy 68.58 137.16) (xy 68.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3010ea-93fe-4970-b34f-deb974e4a330")
+	)
+	(wire
+		(pts
+			(xy 299.72 93.98) (xy 312.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8522984f-a165-4372-82f8-1ee58f38b9f7")
+	)
+	(wire
+		(pts
+			(xy 30.48 152.4) (xy 35.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86bac6e8-f765-4086-922b-0321fa0e2ec8")
 	)
 	(wire
 		(pts
@@ -2954,6 +4743,76 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 190.5) (xy 48.26 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d0fdd0-b3f2-4a58-b1fb-9e133e89450c")
+	)
+	(wire
+		(pts
+			(xy 119.38 190.5) (xy 119.38 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e53f8c-b332-4cff-808a-a900b3368fff")
+	)
+	(wire
+		(pts
+			(xy 299.72 96.52) (xy 312.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942b5477-785e-4ab5-aab1-86a1d613fd4b")
+	)
+	(wire
+		(pts
+			(xy 119.38 182.88) (xy 116.84 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991d6f00-ccd8-4949-9bdb-2360c8578565")
+	)
+	(wire
+		(pts
+			(xy 48.26 182.88) (xy 50.8 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aaa3301-f74e-449f-94d8-1a774c5c6a45")
+	)
+	(wire
+		(pts
+			(xy 76.2 167.64) (xy 86.36 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5b9d2c-211d-4c1c-b538-717e37f76949")
+	)
+	(bus
+		(pts
+			(xy 314.96 81.28) (xy 314.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddf3d25-8193-4a8c-8f9b-f78315e281a2")
+	)
+	(wire
+		(pts
 			(xy 81.28 58.42) (xy 81.28 60.96)
 		)
 		(stroke
@@ -2961,6 +4820,16 @@
 			(type default)
 		)
 		(uuid "a1af59bf-06f0-4f9e-8f57-e7571da202cb")
+	)
+	(wire
+		(pts
+			(xy 124.46 190.5) (xy 124.46 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23987e8-0f0d-4531-80fe-be8fc2e5cdc9")
 	)
 	(wire
 		(pts
@@ -2994,6 +4863,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 139.7) (xy 66.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ccdac3-d8ca-4019-b897-e61850d33cb8")
+	)
+	(wire
+		(pts
 			(xy 35.56 66.04) (xy 35.56 63.5)
 		)
 		(stroke
@@ -3001,6 +4880,76 @@
 			(type default)
 		)
 		(uuid "a98fc256-9aee-419d-847f-0bc2430cce40")
+	)
+	(wire
+		(pts
+			(xy 299.72 91.44) (xy 312.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dc425e-b9d0-407c-87d8-c14e2e55c90a")
+	)
+	(wire
+		(pts
+			(xy 45.72 127) (xy 66.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf49247-e818-494e-ac97-c7d047c3e688")
+	)
+	(wire
+		(pts
+			(xy 71.12 182.88) (xy 86.36 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5cfa95-178a-4758-96d5-8f376ce73f5e")
+	)
+	(wire
+		(pts
+			(xy 124.46 182.88) (xy 124.46 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c843c4-f023-4126-89ea-3b3bc8aec2d8")
+	)
+	(wire
+		(pts
+			(xy 45.72 124.46) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67fb368-f017-4ca9-98f0-ccedb890502b")
+	)
+	(bus
+		(pts
+			(xy 314.96 78.74) (xy 314.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9088c7c-8537-4635-9342-384c4c8b2f8a")
+	)
+	(wire
+		(pts
+			(xy 48.26 185.42) (xy 50.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9327eb5-d4f1-49c8-b734-279174152cef")
 	)
 	(wire
 		(pts
@@ -3014,6 +4963,36 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 114.3) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f52104-e5da-4c11-a6a3-6013ab0e3c97")
+	)
+	(bus
+		(pts
+			(xy 314.96 83.82) (xy 314.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc42c8f-8fd0-4b92-a2f4-b1862f898c40")
+	)
+	(bus
+		(pts
+			(xy 73.66 170.18) (xy 73.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c881196e-88d4-44f9-b5cb-9a273e5966f0")
+	)
+	(wire
+		(pts
 			(xy 76.2 63.5) (xy 81.28 63.5)
 		)
 		(stroke
@@ -3021,6 +5000,66 @@
 			(type default)
 		)
 		(uuid "c9bf2da8-8311-4351-b853-03ac48f68c9f")
+	)
+	(wire
+		(pts
+			(xy 30.48 114.3) (xy 35.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4b981b-1c12-412e-881f-e6e1702ff792")
+	)
+	(wire
+		(pts
+			(xy 45.72 152.4) (xy 66.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d252642c-50df-4f1b-8a4b-4fd1a83dd910")
+	)
+	(wire
+		(pts
+			(xy 48.26 190.5) (xy 48.26 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58828af-fa13-4b84-9bd2-1417d837fef4")
+	)
+	(wire
+		(pts
+			(xy 40.64 139.7) (xy 45.72 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d739fdc9-324c-4e72-98f9-eeabf4c64daf")
+	)
+	(wire
+		(pts
+			(xy 30.48 127) (xy 30.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76f1aa7-8392-4d86-b7fa-2edff9bc435c")
+	)
+	(wire
+		(pts
+			(xy 299.72 88.9) (xy 312.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8efc24d-cf68-4bb6-b2c8-4918ec43ea7a")
 	)
 	(wire
 		(pts
@@ -3042,6 +5081,26 @@
 		)
 		(uuid "dd0ebd0a-c809-464a-935b-e757cf951a69")
 	)
+	(bus
+		(pts
+			(xy 73.66 165.1) (xy 73.66 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd233105-13e7-4582-a661-e15828c31f69")
+	)
+	(bus
+		(pts
+			(xy 314.96 88.9) (xy 314.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df34874e-98b1-4ede-907a-3260f18c9fe4")
+	)
 	(wire
 		(pts
 			(xy 55.88 63.5) (xy 55.88 66.04)
@@ -3051,6 +5110,46 @@
 			(type default)
 		)
 		(uuid "df654418-65df-47c3-b0be-e7a83ceecfb3")
+	)
+	(wire
+		(pts
+			(xy 119.38 182.88) (xy 124.46 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4638b94-c0ea-4305-b6d0-0e18fdd1e02c")
+	)
+	(bus
+		(pts
+			(xy 68.58 149.86) (xy 68.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64677dd-57ef-4e51-be8f-6423f7f8e636")
+	)
+	(wire
+		(pts
+			(xy 30.48 152.4) (xy 30.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c62a26-f47a-4aed-a428-6f9b4c33306f")
+	)
+	(wire
+		(pts
+			(xy 30.48 127) (xy 35.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3f4d65-7327-41c2-93ce-5993a8559b86")
 	)
 	(wire
 		(pts
@@ -3084,6 +5183,26 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 146.05) (xy 40.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08d3e31-3f2d-4906-a6bf-45c0883b8ca1")
+	)
+	(bus
+		(pts
+			(xy 317.5 73.66) (xy 327.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2927af2-ec1c-4c49-b58e-36aced441173")
+	)
+	(wire
+		(pts
 			(xy 116.84 60.96) (xy 119.38 60.96)
 		)
 		(stroke
@@ -3091,6 +5210,26 @@
 			(type default)
 		)
 		(uuid "f2f5b28d-3ee2-4976-93ac-29bd4eb7d08e")
+	)
+	(wire
+		(pts
+			(xy 30.48 127) (xy 30.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3de0865-891b-4cd7-87d6-06b8c3d0b54f")
+	)
+	(wire
+		(pts
+			(xy 45.72 114.3) (xy 66.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41fb726-ad9e-4b8b-957b-2ebe289ca169")
 	)
 	(wire
 		(pts
@@ -3122,9 +5261,367 @@
 		)
 		(uuid "fb0ba89b-e7a8-4b0b-b76a-750f69d97e6c")
 	)
+	(label "OSC_OUT"
+		(at 55.88 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0da94669-459b-4180-ac77-56fce5391573")
+	)
+	(label "OSC_OUT"
+		(at 76.2 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "207834b1-201f-4096-9998-c4dc8a11dd07")
+	)
+	(label "DIO6"
+		(at 307.34 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29e20fb3-559a-4f09-996d-82afaabe15b6")
+	)
+	(label "DIO[0..7]"
+		(at 317.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31409079-8e30-4221-8676-572ebc91da04")
+	)
+	(label "DIO4"
+		(at 307.2784 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d414e6c-bf09-4d0b-bd6b-04c6db78ca63")
+	)
+	(label "OSC_IN"
+		(at 76.2 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f065e4a-47f7-46a9-b0b8-85bda50b57be")
+	)
+	(label "OSC32_OUT"
+		(at 55.88 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54ff4de7-2d93-4271-a71a-f0422e8bcea7")
+	)
+	(label "OSC32_IN"
+		(at 76.2 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e8d0791-463b-4bd5-bbb5-6f76605b99b8")
+	)
+	(label "OSC32_IN"
+		(at 55.88 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa0f880-1780-41a4-bdc5-e2c1b1a32ea5")
+	)
+	(label "OSC_IN"
+		(at 55.88 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c6f5e9a-6148-40e1-9063-fa6f441bb9b8")
+	)
+	(label "DIO3"
+		(at 307.34 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bccf876-003e-44b1-8c01-a2e8d108829d")
+	)
+	(label "DIO7"
+		(at 307.34 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f3ef862-cdcb-476d-b867-b88a3d1a3e1c")
+	)
+	(label "DIO8"
+		(at 307.34 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a83b0446-6e23-44b1-a0cb-5c687af407be")
+	)
+	(label "DIO2"
+		(at 307.34 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba3fccd2-50ba-43e4-b426-b3e8faa62dfb")
+	)
+	(label "DIO5"
+		(at 307.2784 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc6199da-1e8d-4eaa-8d30-7ebf0cbb6202")
+	)
+	(label "DIO1"
+		(at 307.34 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef2a85ba-b260-4cc7-8d4a-426005e3d890")
+	)
+	(label "OSC32_OUT"
+		(at 76.2 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0179278-e308-4ecd-8ae6-456714d4290f")
+	)
+	(hierarchical_label "DIO[0..7]"
+		(shape bidirectional)
+		(at 327.66 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98aa9f15-502c-480e-8cd0-9ca0bf5b001d")
+	)
+	(symbol
+		(lib_id "PARTSDB:CC0603KRX7R7BB104")
+		(at 45.72 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "040cea32-9456-4282-b3f3-23db3eb45463")
+		(property "Reference" "C4"
+			(at 48.0395 67.5795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 47.7808 69.2058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "5"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603KRX7R7BB104"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-1088-6-ND"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-1088-6-ND"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c107663-8e90-47d5-a7d6-45a756e7a8a0")
+		)
+		(pin "2"
+			(uuid "1bbd0bc6-53a0-4e1b-a3f8-090f64ba4e78")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 101.6 147.32 0)
+		(at 101.6 172.72 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3133,7 +5630,7 @@
 		(fields_autoplaced yes)
 		(uuid "06a9005d-ca36-48c4-94de-56febec82e7b")
 		(property "Reference" "U3"
-			(at 91.948 135.89 0)
+			(at 91.948 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +5640,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 98.044 135.89 0)
+			(at 98.044 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +5650,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 125.984 227.33 0)
+			(at 125.984 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +5660,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 115.062 224.79 0)
+			(at 115.062 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +5669,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 127 222.504 0)
+			(at 127 247.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,84 +5885,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 55.88 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0800e864-802f-4cb0-ad95-962d89a716fa")
-		(property "Reference" "C3"
-			(at 58.42 67.3163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 58.42 69.8563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27c753d3-c9a9-40ef-a6a5-1450992c8a7f")
-		)
-		(pin "1"
-			(uuid "0a6dcb72-2bbb-47d1-b648-83be1e0846b6")
-		)
-		(instances
-			(project "gpib_controller"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "overview"
-				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 223.52 73.66 0)
+		(at 231.14 73.66 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3474,7 +5895,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a83d2e2-5d1b-4de7-97a5-fb3854dc9eb7")
 		(property "Reference" "U3"
-			(at 213.868 62.23 0)
+			(at 221.488 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +5905,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 219.964 62.23 0)
+			(at 227.584 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +5915,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 247.904 153.67 0)
+			(at 255.524 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +5925,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 236.982 151.13 0)
+			(at 244.602 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +5934,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 248.92 148.844 0)
+			(at 256.54 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,33 +6150,210 @@
 		)
 	)
 	(symbol
+		(lib_id "PARTSDB:CC0603CRNPO9BN6R8")
+		(at 38.1 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d29b3d9-845b-43b0-9144-45d09066a688")
+		(property "Reference" "C9"
+			(at 38.0785 147.9759 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8 pF"
+			(at 38.1214 149.6725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603CRNPO9BN6R8"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.8 pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/7/info"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603CRNPO9BN6R8"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "7"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603CRNPO9BN6R8"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-3861-1-ND"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-3861-1-ND"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe57f909-0146-4b20-8214-1fce6e6cf71a")
+		)
+		(pin "1"
+			(uuid "7e6fc7ea-ff52-4a0e-b110-5a402f0c7a8c")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PARTSDB:CS10820-24M")
-		(at 60.96 119.38 0)
+		(at 45.72 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35da7583-f701-4829-bc19-c64fc114c32e")
-		(property "Reference" "U4"
-			(at 60.96 110.49 0)
+		(uuid "16025859-4f66-4d3c-b3b3-1ba3a3431239")
+		(property "Reference" "Y2"
+			(at 50.8 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "CS10820-24M"
-			(at 60.96 113.03 0)
+			(at 50.8 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +6362,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7847/EXS00A-CS10820.pdf"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +6371,7 @@
 			)
 		)
 		(property "Description" "24 MHz ±15ppm Crystal 6pF 80 Ohms 4-SMD, No Lead"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +6380,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 60.96 132.08 0)
+			(at 33.02 146.05 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3792,7 +6390,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 60.96 134.62 0)
+			(at 30.48 146.05 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3802,7 +6400,7 @@
 			)
 		)
 		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/1/info"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +6409,7 @@
 			)
 		)
 		(property "Category" "Crystals, Oscillators, Resonators/Crystals"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +6418,7 @@
 			)
 		)
 		(property "Manufacturer" "NDK (NIHON DEMPA KOGYO CO., LTD)"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +6427,7 @@
 			)
 		)
 		(property "MPN" "CS10820-24M"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +6436,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +6445,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "4-SMD (2x1.6)"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +6454,7 @@
 			)
 		)
 		(property "Part-DB ID" "1"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +6463,7 @@
 			)
 		)
 		(property "manf" "NDK (NIHON DEMPA KOGYO CO., LTD)"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +6472,7 @@
 			)
 		)
 		(property "manf#" "CS10820-24M"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +6481,7 @@
 			)
 		)
 		(property "DigiKey SPN" "644-CS10820-24MDKR-ND"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +6490,7 @@
 			)
 		)
 		(property "digikey#" "644-CS10820-24MDKR-ND"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +6499,7 @@
 			)
 		)
 		(property "Stock" "0"
-			(at 60.96 119.38 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,21 +6508,371 @@
 			)
 		)
 		(pin "1"
-			(uuid "df266acb-9785-4032-8482-877f39ec4b74")
+			(uuid "6de7f448-3b87-403a-bb5c-4f30e33ad3ef")
 		)
 		(pin "2"
-			(uuid "c868dd82-e307-4dca-a15f-9963856a6752")
+			(uuid "833de6df-4d45-481c-8ad3-8c44ed616ee0")
 		)
 		(pin "4"
-			(uuid "327f8b03-697c-48ef-839b-98ab92e5fff8")
+			(uuid "1c5085a0-b600-4efe-aa02-cf6c4e7b19e8")
 		)
 		(pin "3"
-			(uuid "f6a8d7a4-2c0b-4c83-b5d0-206f1f49634a")
+			(uuid "b343330c-7ea3-471e-84bb-0bff425642f6")
 		)
 		(instances
-			(project ""
+			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "U4")
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CC0603CRNPO9BN6R8")
+		(at 38.1 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "184126ed-f64f-47ef-a43e-0b807b0cb250")
+		(property "Reference" "C6"
+			(at 38.0785 109.8759 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8 pF"
+			(at 38.1214 111.5725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603CRNPO9BN6R8"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.8 pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/7/info"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603CRNPO9BN6R8"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "7"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603CRNPO9BN6R8"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-3861-1-ND"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-3861-1-ND"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0a957d7-a72c-4364-8ba8-8bfbae8ae5e7")
+		)
+		(pin "1"
+			(uuid "e05a939c-6a23-44a4-b889-663e9d611d15")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CC0603CRNPO9BN6R8")
+		(at 38.1 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1afd5002-7a16-4729-9830-8f410bb6729c")
+		(property "Reference" "C7"
+			(at 38.0785 122.5759 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8 pF"
+			(at 38.1214 124.2725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603CRNPO9BN6R8"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.8 pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/7/info"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603CRNPO9BN6R8"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "7"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603CRNPO9BN6R8"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-3861-1-ND"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-3861-1-ND"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5edf0140-595d-4a1e-9ecb-958d83cb07fe")
+		)
+		(pin "1"
+			(uuid "5322964e-c256-431b-be4d-296cb1c1fa18")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3932,7 +6880,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 261.62 45.72 0)
+		(at 287.02 45.72 0)
 		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3941,7 +6889,7 @@
 		(fields_autoplaced yes)
 		(uuid "46c931cf-30e1-44ad-99c6-7062e1d9645b")
 		(property "Reference" "U3"
-			(at 251.968 34.29 0)
+			(at 277.368 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +6899,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 258.064 34.29 0)
+			(at 283.464 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 286.004 125.73 0)
+			(at 311.404 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +6919,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 275.082 123.19 0)
+			(at 300.482 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +6928,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 287.02 120.904 0)
+			(at 312.42 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,6 +7138,426 @@
 			(project "overview"
 				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "496f221d-8c34-48aa-bcaf-364088a584fc")
+		(property "Reference" "#PWR011"
+			(at 124.46 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f64becc-aac6-494e-ba55-5dbf252207a5")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CC0603KRX7R7BB104")
+		(at 55.88 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c3e6581-999e-4598-8357-9bb5c7539f04")
+		(property "Reference" "C3"
+			(at 58.1995 67.5795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.9408 69.2058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "5"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603KRX7R7BB104"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-1088-6-ND"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-1088-6-ND"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c2105b5-cca7-47c6-8879-9a3e363c44c2")
+		)
+		(pin "2"
+			(uuid "c39a8066-537e-4657-aecd-083729bba8f6")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CC0603KRX7R7BB104")
+		(at 76.2 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58637d0c-7c9f-42d5-872e-df85e96f7920")
+		(property "Reference" "C1"
+			(at 78.5195 67.5795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.2608 69.2058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "5"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603KRX7R7BB104"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-1088-6-ND"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-1088-6-ND"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dde4082a-53b0-47b1-81ce-1357bcc3abb9")
+		)
+		(pin "2"
+			(uuid "7cd55490-8ca3-47aa-ab99-22bf6b1b2f7b")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4798,8 +8166,183 @@
 		)
 	)
 	(symbol
+		(lib_id "PARTSDB:CC0603CRNPO9BN6R8")
+		(at 38.1 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9429e815-3ebe-4e7d-bc3a-f2a4d73517a5")
+		(property "Reference" "C8"
+			(at 38.0785 135.2759 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8 pF"
+			(at 38.1214 136.9725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603CRNPO9BN6R8"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.8 pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/7/info"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603CRNPO9BN6R8"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "7"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603CRNPO9BN6R8"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-3861-1-ND"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-3861-1-ND"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c48eda24-b59a-4e9d-b4b0-a274a05642aa")
+		)
+		(pin "1"
+			(uuid "134e54b8-ffa3-4711-90ad-44a778bda216")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 231.14 43.18 0)
+		(at 251.46 81.28 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4808,7 +8351,7 @@
 		(fields_autoplaced yes)
 		(uuid "948fa986-21c5-44d5-bf6e-674ec36e1711")
 		(property "Reference" "U3"
-			(at 221.488 31.75 0)
+			(at 241.808 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +8361,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 227.584 31.75 0)
+			(at 247.904 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +8371,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 255.524 123.19 0)
+			(at 275.844 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +8381,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 244.602 120.65 0)
+			(at 264.922 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +8390,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 256.54 118.364 0)
+			(at 276.86 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,35 +8606,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 66.04 68.58 0)
+		(lib_id "PARTSDB:FTSH-105-01-L-DV-K")
+		(at 60.96 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1caf766-6a1f-477b-bcab-4cae592c7794")
-		(property "Reference" "C2"
-			(at 68.58 67.3163 0)
+		(uuid "a561b696-82f5-45af-b587-8a8f25c8f9b4")
+		(property "Reference" "J2"
+			(at 60.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 68.58 69.8563 0)
+		(property "Value" "FTSH-105-01-L-DV-K"
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 66.04 68.58 0)
+		(property "Footprint" "Connector_Samtec_FTSH:SAMTEC_FTSH-105-01-X-DV-K-X"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/productspecs/clp-ftsh.pdf"
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,8 +8650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 66.04 68.58 0)
+		(property "Description" "Connector Header Surface Mount 10 position 0.050\" (1.27mm)"
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,8 +8659,38 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 68.58 0)
+		(property "PARTREV" "H"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/4/info"
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,98 +8698,130 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5a8c144d-d7f5-4403-a78b-3dcf0c1e5e11")
+		(property "Category" "Connectors, Interconnects/Rectangular Connectors"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "20548060-0a01-461d-a7b5-5fede86ecac9")
+		(property "Manufacturer" "Samtec Inc."
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTSH-105-01-L-DV-K"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "4"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samtec Inc."
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "FTSH-105-01-L-DV-K"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "SAM8799-ND"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "SAM8799-ND"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "3a0d7a51-a44f-4a96-8385-752993cf6a14")
+		)
+		(pin "08"
+			(uuid "cdd7a5f9-4728-4a3b-9f29-667712d43877")
+		)
+		(pin "06"
+			(uuid "8b2e46c4-d673-47be-9ac2-cb7f686685cf")
+		)
+		(pin "04"
+			(uuid "d4cedd8e-2e90-4572-9f78-e32ab7b5e338")
+		)
+		(pin "02"
+			(uuid "eb966273-a1ff-40c5-a547-8b6c0c62c9ad")
+		)
+		(pin "09"
+			(uuid "c56f2965-8387-4386-a56a-9eaa4fc435f6")
+		)
+		(pin "07"
+			(uuid "67a95073-504f-4c54-a29e-64bb2870f96b")
+		)
+		(pin "05"
+			(uuid "ff4a79de-2440-4078-ae64-035d535fb45b")
+		)
+		(pin "03"
+			(uuid "6e346740-47e7-4e59-9cb7-22fb2ad22f82")
+		)
+		(pin "01"
+			(uuid "73577eef-898a-4a49-9b6b-c5a8e5109299")
 		)
 		(instances
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "overview"
-				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3763dbd-c988-429f-b476-8e412e50d581")
-		(property "Reference" "C4"
-			(at 48.26 67.3163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 48.26 69.8563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9257b81a-bace-4c95-9b26-52180b8725f2")
-		)
-		(pin "1"
-			(uuid "5538b62a-74c5-48ec-ad76-d52e2a16b9e5")
-		)
-		(instances
-			(project "gpib_controller"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "overview"
-				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5216,7 +8829,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5_SPLIT:STM32H533RETx")
-		(at 213.36 147.32 0)
+		(at 289.56 127 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5225,7 +8838,7 @@
 		(fields_autoplaced yes)
 		(uuid "b216d03b-404e-489a-8928-b98971e731c0")
 		(property "Reference" "U3"
-			(at 203.708 135.89 0)
+			(at 279.908 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +8848,7 @@
 			)
 		)
 		(property "Value" "STM32H533RETx"
-			(at 209.804 135.89 0)
+			(at 286.004 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +8858,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 237.744 227.33 0)
+			(at 313.944 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +8868,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h533re.pdf"
-			(at 226.822 224.79 0)
+			(at 303.022 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +8877,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 272KB RAM, 49 GPIO, LQFP64"
-			(at 238.76 222.504 0)
+			(at 314.96 202.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,89 +9093,15 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 76.2 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd18b7ec-a96a-4ef7-9ed0-3af733819de7")
-		(property "Reference" "C1"
-			(at 78.74 67.3163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 78.74 69.8563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e398346-6314-4a82-9181-0b716fc60447")
-		)
-		(pin "1"
-			(uuid "55a6d6f9-e656-4ee6-b1a9-0679acbf145f")
-		)
-		(instances
-			(project ""
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "overview"
-				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PARTSDB:CL10A475KP8NNNC")
 		(at 35.56 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d261c87b-bbe6-4aea-aa94-9e838d290179")
+		(fields_autoplaced yes)
+		(uuid "b4571bf4-0566-405d-81b4-057cf0da97a4")
 		(property "Reference" "C5"
 			(at 38.1 67.3163 0)
 			(effects
@@ -5572,8 +9111,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 37.7995 69.2871 0)
+		(property "Value" "4.7 µF"
+			(at 38.1 69.8563 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +9129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -5599,7 +9138,115 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/6/info"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "6"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL10A475KP8NNNC"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "1276-1044-1-ND"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1276-1044-1-ND"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -5609,10 +9256,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2490ad4b-33b7-40e1-baf1-cb3c117c163f")
+			(uuid "166a8253-e04f-473c-b5c4-64774960f3c1")
 		)
 		(pin "1"
-			(uuid "80022ec4-c6a7-42cd-820d-5842777a141c")
+			(uuid "6be7442f-540a-4405-88fc-8518f16b9e9a")
 		)
 		(instances
 			(project "gpib_controller"
@@ -5621,9 +9268,247 @@
 					(unit 1)
 				)
 			)
-			(project "overview"
-				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
-					(reference "C?")
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:MU00525-32.768K")
+		(at 45.72 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9602c92-fa24-4e6c-b0a9-5763fd137dd8")
+		(property "Reference" "Y1"
+			(at 49.53 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MU00525-32.768K"
+			(at 49.53 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6320/MU00525-32.768K.pdf"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32.768 kHz Crystal 6pF 70 kOhms 2-SMD, No Lead"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/3/info"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Crystals, Oscillators, Resonators/Crystals"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MU00525-32.768K"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "2-SMD (3.2x1.5)"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "3"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "NDK (NIHON DEMPA KOGYO CO., LTD)"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MU00525-32.768K"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "644-MU00525-32.768KDKR-ND"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "644-MU00525-32.768KDKR-ND"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a229dfe-1e83-484b-b948-503ca1634651")
+		)
+		(pin "1"
+			(uuid "9f050c7b-e6e4-4aee-a838-3c1d37d9de2f")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfe9b3c2-e5bc-478b-b4bc-09b1fb821753")
+		(property "Reference" "#PWR010"
+			(at 48.26 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2283e0f4-bbda-446e-a1d7-26d7232406b3")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5696,6 +9581,492 @@
 			(project "overview"
 				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e13d5401-1122-4cf9-a594-653553e615f1")
+		(property "Reference" "#PWR0101"
+			(at 30.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a879e823-4790-4862-a043-734e67925317")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CC0603KRX7R7BB104")
+		(at 66.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f09bfc26-eda8-4019-b790-48d2acfddc26")
+		(property "Reference" "C2"
+			(at 68.3595 67.5795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 68.1008 69.2058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "5"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603KRX7R7BB104"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-1088-6-ND"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-1088-6-ND"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a527b1f5-51bd-48f8-b901-d014cc8cf0da")
+		)
+		(pin "2"
+			(uuid "cca05fb2-0e17-47b8-9ede-7acfea1f4b12")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f29250e0-a51f-4c15-b32d-7bfb2911e9fa")
+		(property "Reference" "#PWR09"
+			(at 30.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cabaeab8-1c85-4823-a0c4-e9956148d0a6")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CC0603KRX7R7BB104")
+		(at 124.46 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8a5c253-54f5-4903-b0ea-2d115837bf6e")
+		(property "Reference" "C10"
+			(at 126.7795 186.9595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 126.5208 188.5858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "5"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CC0603KRX7R7BB104"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey SPN" "311-1088-6-ND"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "311-1088-6-ND"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "0"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37442f47-5f62-4db8-b790-2a6fdadacc54")
+		)
+		(pin "2"
+			(uuid "9287a3d9-f6ad-4261-a256-c539dc358495")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6024,7 +10395,7 @@
 			(uuid "beeee91c-65c0-479a-8c1c-6002c337366d")
 		)
 		(instances
-			(project ""
+			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "#PWR07")
 					(unit 1)
@@ -6033,6 +10404,72 @@
 			(project "overview"
 				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbdbf7a0-f009-4d61-ad14-65a90f91812e")
+		(property "Reference" "#PWR0102"
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 48.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beeee91c-65c0-479a-8c1c-6002c337366d")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)

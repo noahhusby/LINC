@@ -2854,6 +2854,16 @@
 				(justify left top)
 			)
 		)
+		(pin "DIO[0..7]" bidirectional
+			(at 152.4 104.14 0)
+			(uuid "49d985e3-43fa-4d9c-95c4-07f8380ee1dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f"
