@@ -645,7 +645,7 @@
         "uuid": "0f352524-50ff-469d-9a68-783e183b0073"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-2,TP1,#PWR1-5,#PWR13,R1",
     "variants": []
   },
   "sheets": [
@@ -664,6 +664,14 @@
     [
       "642cbd6b-8c2c-4a8a-b65c-89c798f24c3f",
       "Overview"
+    ],
+    [
+      "73704267-92dc-4000-926d-27ac1279d609",
+      "GPIB Transceiver"
+    ],
+    [
+      "b8b9e038-f19a-4634-b386-ca56990adcb1",
+      "Connectors"
     ]
   ],
   "text_variables": {
