@@ -158,6 +158,16 @@
 				(justify left top)
 			)
 		)
+		(pin "iDIO[0..7]" bidirectional
+			(at 167.64 71.12 180)
+			(uuid "bfd43e71-f6a2-4699-9c67-468cb91fd6b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f"
@@ -202,16 +212,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DIO[0..7]" bidirectional
-			(at 152.4 71.12 0)
-			(uuid "49d985e3-43fa-4d9c-95c4-07f8380ee1dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SRQ" bidirectional
@@ -307,6 +307,16 @@
 		(pin "NRFD" bidirectional
 			(at 152.4 78.74 0)
 			(uuid "2680bfe3-1f9b-400c-aa54-efd816030717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "iDIO[0..7]" bidirectional
+			(at 152.4 71.12 0)
+			(uuid "e18f47af-359e-4f79-942b-c7ccb0634232")
 			(effects
 				(font
 					(size 1.27 1.27)

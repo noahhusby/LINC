@@ -6538,7 +6538,7 @@
 		)
 		(uuid "207834b1-201f-4096-9998-c4dc8a11dd07")
 	)
-	(label "DIO6"
+	(label "iDIO6"
 		(at 307.34 91.44 0)
 		(effects
 			(font
@@ -6548,7 +6548,7 @@
 		)
 		(uuid "29e20fb3-559a-4f09-996d-82afaabe15b6")
 	)
-	(label "DIO[0..7]"
+	(label "iDIO[0..7]"
 		(at 317.5 73.66 0)
 		(effects
 			(font
@@ -6558,7 +6558,7 @@
 		)
 		(uuid "31409079-8e30-4221-8676-572ebc91da04")
 	)
-	(label "DIO4"
+	(label "iDIO4"
 		(at 307.2784 86.36 0)
 		(effects
 			(font
@@ -6668,7 +6668,7 @@
 		)
 		(uuid "77290dd3-f623-4f18-b3cd-d3972d2ae920")
 	)
-	(label "DIO3"
+	(label "iDIO3"
 		(at 307.34 83.82 0)
 		(effects
 			(font
@@ -6678,7 +6678,7 @@
 		)
 		(uuid "7bccf876-003e-44b1-8c01-a2e8d108829d")
 	)
-	(label "DIO7"
+	(label "iDIO7"
 		(at 307.34 93.98 0)
 		(effects
 			(font
@@ -6728,7 +6728,7 @@
 		)
 		(uuid "a40a5988-76e5-47be-bb27-052b966ecb76")
 	)
-	(label "DIO8"
+	(label "iDIO8"
 		(at 307.34 96.52 0)
 		(effects
 			(font
@@ -6748,7 +6748,7 @@
 		)
 		(uuid "a83c1dce-7460-4d04-96cd-8588c49af8fe")
 	)
-	(label "DIO2"
+	(label "iDIO2"
 		(at 307.34 81.28 0)
 		(effects
 			(font
@@ -6768,7 +6768,7 @@
 		)
 		(uuid "bde69390-3278-4aaf-a1e8-53c8df920156")
 	)
-	(label "DIO5"
+	(label "iDIO5"
 		(at 307.2784 88.9 0)
 		(effects
 			(font
@@ -6788,7 +6788,7 @@
 		)
 		(uuid "cf3ea0b4-061c-4dc3-8859-1dc20cda02e2")
 	)
-	(label "DIO1"
+	(label "iDIO1"
 		(at 307.34 78.74 0)
 		(effects
 			(font
@@ -6907,7 +6907,7 @@
 		)
 		(uuid "93f85ffb-38f4-4033-9451-c8dfa2fff09a")
 	)
-	(hierarchical_label "DIO[0..7]"
+	(hierarchical_label "iDIO[0..7]"
 		(shape bidirectional)
 		(at 327.66 73.66 0)
 		(effects
