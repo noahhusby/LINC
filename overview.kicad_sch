@@ -40,6 +40,16 @@
 		)
 		(uuid "6d26116b-9d0b-4d9e-b0cb-1a118a3fd79a")
 	)
+	(bus
+		(pts
+			(xy 198.12 71.12) (xy 213.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70223607-6563-43ed-af98-ebd6c30ad843")
+	)
 	(wire
 		(pts
 			(xy 152.4 78.74) (xy 167.64 78.74)
@@ -166,6 +176,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "DIO[0..7]" bidirectional
+			(at 198.12 71.12 0)
+			(uuid "2b9de346-2a6a-4100-9844-791570b734cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -373,6 +393,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DIO[0..7]" bidirectional
+			(at 213.36 71.12 180)
+			(uuid "9dceb31d-5fa8-47f9-9718-431da5db68eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_RX_N" bidirectional
+			(at 213.36 109.22 180)
+			(uuid "28a2df12-45de-4de5-ab44-97b9ef07ea18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_TX_N" bidirectional
+			(at 213.36 111.76 180)
+			(uuid "cbbfb365-0aa6-46a1-9f92-86c6f6e90319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_TX_P" bidirectional
+			(at 213.36 114.3 180)
+			(uuid "cebbe7d1-102e-4a6e-9d86-dd5225221441")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_RX_P" bidirectional
+			(at 213.36 116.84 180)
+			(uuid "2d49f52a-5fcf-4811-985b-513d1895fc16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
