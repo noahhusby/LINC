@@ -3137,83 +3137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 203.2 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e98df5c0-d3a9-4f66-a010-78c02b65163d")
-		(property "Reference" "#PWR019"
-			(at 203.2 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 203.2 43.942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2b894bb-19b4-4ba2-a51b-13208e8db302")
-		)
-		(instances
-			(project "gpib_controller"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/b8b9e038-f19a-4634-b386-ca56990adcb1"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PARTSDB:RJHSE5380")
 		(at 190.5 60.96 0)
 		(unit 1)
@@ -3223,9 +3146,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2a74ccd-7052-44fe-a0ac-37977482dd8c")
+		(fields_autoplaced yes)
+		(uuid "e68a44a3-dabc-4622-9e20-dff2f4fcd2ac")
 		(property "Reference" "J3"
-			(at 190.5 44.704 0)
+			(at 190.5 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3235,7 +3159,7 @@
 			)
 		)
 		(property "Value" "RJHSE5380"
-			(at 190.5 46.99 0)
+			(at 190.5 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3398,37 +3322,114 @@
 				)
 			)
 		)
-		(pin "6"
-			(uuid "540915f0-d380-4052-9943-9a825e5292b5")
-		)
-		(pin "5"
-			(uuid "4b7f9f22-7110-44fb-98e2-152af000a6ac")
-		)
-		(pin "4"
-			(uuid "360a1fba-9912-4de8-8754-e8227cef726c")
-		)
-		(pin "3"
-			(uuid "c841be89-aef9-466d-a5ce-2cdbc4ddf491")
-		)
-		(pin "1"
-			(uuid "33b12cd7-47af-42f0-a9e7-30155977eaae")
+		(pin "7"
+			(uuid "1b446d3d-6ca2-4109-882b-98df2f04167e")
 		)
 		(pin "8"
-			(uuid "bdf5ddfd-ed01-41b3-9c87-84cce341fefc")
-		)
-		(pin "7"
-			(uuid "def3d0c0-a47d-4390-a5ff-5cd62889fc26")
+			(uuid "478307c6-1818-4427-a870-7e87f55c71c1")
 		)
 		(pin "SH"
-			(uuid "1a06f8c0-a577-4281-889f-448837081b15")
+			(uuid "93c4d8fa-8e67-4664-b74d-905a0834e657")
+		)
+		(pin "6"
+			(uuid "fd4f865e-14c6-43f4-9d2b-9bde8e7879d1")
+		)
+		(pin "1"
+			(uuid "a88ffd5b-5eec-4299-8389-f595e96a4fe3")
 		)
 		(pin "2"
-			(uuid "45ef5a20-4157-4004-97e7-9af7a40b0d62")
+			(uuid "bfdc2b16-f4f3-4d83-ae2a-8487e599fc50")
+		)
+		(pin "3"
+			(uuid "9230de0f-e8f8-4936-bf00-77321a337368")
+		)
+		(pin "4"
+			(uuid "4a53e291-72c8-4780-b161-a6e68d8bb252")
+		)
+		(pin "5"
+			(uuid "bc225bc6-28f0-4773-9f8c-0a4ef00f9a38")
 		)
 		(instances
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/b8b9e038-f19a-4634-b386-ca56990adcb1"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 203.2 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e98df5c0-d3a9-4f66-a010-78c02b65163d")
+		(property "Reference" "#PWR019"
+			(at 203.2 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 203.2 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 203.2 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2b894bb-19b4-4ba2-a51b-13208e8db302")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/b8b9e038-f19a-4634-b386-ca56990adcb1"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
