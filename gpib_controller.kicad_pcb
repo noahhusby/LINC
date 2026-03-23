@@ -151,7 +151,7 @@
 			)
 		)
 		(property ki_fp_filters "LQFP*10x10mm*P0.5mm*")
-		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd/5bb0fcae-6c23-4306-906c-401cf9204f98")
+		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd/fb33de7a-c792-4442-b4df-e5bb361200c5")
 		(sheetname "/Overview/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
 		(units
@@ -762,7 +762,7 @@
 			(size 0.3 1.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Overview/Microcontroller/iREN")
+			(net "/Overview/GPIB Transceiver/iREN")
 			(pinfunction "PB0_26")
 			(pintype "bidirectional")
 			(uuid "972b9b26-ec7e-4bbe-8a47-0309ad066b32")
@@ -4425,6 +4425,564 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
+			)
+		)
+	)
+	(footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+		(layer "F.Cu")
+		(uuid "5d97b288-881f-43f5-9734-92e5d1feb737")
+		(at 183.475 88.84)
+		(descr "SOT, 5 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=171, JEDEC MO-203, variant AA, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203)")
+		(tags "SOT TO_SOT_SMD SC-88A SOT-353 SC-70-5")
+		(property "Reference" "U6"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "aac4485d-cdf7-4af9-b7f3-a8d4f543fa29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G07DCKR"
+			(at 0 1.8 0)
+			(layer "F.Fab")
+			(uuid "e98d7859-9a79-4746-9a89-14a615801187")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf?ts=1753365038545&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LVC1G07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a376e7c2-9f50-42fd-9577-8f6b4f98e230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain Output SC-70-5"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64f2720b-1538-4364-b3ef-86782730cb70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a38a08c9-76a3-4d8f-a490-5414897849df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/15/info"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99df1b56-202d-44a2-8b6a-1b9f8e7ce256")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)/Logic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f28bdb2a-3a8a-490c-8920-1ad2a70a97fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "801cbf72-c8b1-406f-9430-7fec5c9d104d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G07DCKR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44dbe9a0-1813-4a85-b9d5-dc9fabf53437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c355d46e-20fe-4fab-8174-51761298916d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "SC-70-5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06565a33-4d0b-402f-93e2-c43d0200fa04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-DB ID" "15"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f561ef6-eb11-494e-a834-f85738a8ad28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8482300-bd5e-4ed8-933c-6b0149b9bfd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "SN74LVC1G07DCKR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69e88637-225f-4082-9d59-3a74ae86ea1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey SPN" "296-8486-6-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1461784-20d9-4a5d-bdc7-2cc4cfa96858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "296-8486-6-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbb28ba4-0a8c-4119-8f47-12c550ff92c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "726da336-18ca-466f-9f91-4d4f056fcb86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/73704267-92dc-4000-926d-27ac1279d609/9760e7a0-420d-451d-98c1-5d8ef963329d")
+		(sheetname "/Overview/GPIB Transceiver/")
+		(sheetfile "gpib.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "2" "4" "1" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.735 -1.11)
+			(end 0.735 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "663c4739-46b8-48f3-8e7a-f319371706fb")
+		)
+		(fp_line
+			(start -0.735 -1.085)
+			(end -0.735 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb161b8c-5e6b-4d87-8296-c3e7df2d6db2")
+		)
+		(fp_line
+			(start -0.735 1.11)
+			(end -0.735 1.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "576226c2-e6eb-4eea-8b2f-867b595a7624")
+		)
+		(fp_line
+			(start 0.735 -1.11)
+			(end 0.735 -1.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fe3eb6a9-f758-4f7e-9d1d-2d9e78963691")
+		)
+		(fp_line
+			(start 0.735 -0.215)
+			(end 0.735 0.215)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "941393fc-e3cd-4e44-93e1-d94be446bb61")
+		)
+		(fp_line
+			(start 0.735 1.085)
+			(end 0.735 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "59b472d0-0d7b-451f-ba10-715fcb0490b9")
+		)
+		(fp_line
+			(start 0.735 1.11)
+			(end -0.735 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e795ec40-3a95-4916-a6f2-e0c5410d78fc")
+		)
+		(fp_poly
+			(pts
+				(xy -1.18 -1.09) (xy -1.32 -1.28) (xy -1.04 -1.28)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "74bf4f24-d75b-4642-a025-4c2509d86e87")
+		)
+		(fp_line
+			(start -1.45 -0.93)
+			(end -0.73 -0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9e3d1285-5cab-4389-98e7-1b0e1637a980")
+		)
+		(fp_line
+			(start -1.45 0.93)
+			(end -1.45 -0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6d44d9d0-8238-404a-bbcc-8cf6d521f4b4")
+		)
+		(fp_line
+			(start -0.73 -1.1)
+			(end 0.73 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2857364e-7aa8-42ab-a2b6-a18fa40ffcb8")
+		)
+		(fp_line
+			(start -0.73 -0.93)
+			(end -0.73 -1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "997d1b96-818c-432e-a387-12fc7fb4a5f3")
+		)
+		(fp_line
+			(start -0.73 0.93)
+			(end -1.45 0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e60ab65-7292-46b2-8c6f-619ad4721c46")
+		)
+		(fp_line
+			(start -0.73 1.1)
+			(end -0.73 0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f79aedf9-c8d3-4439-b924-120af7067cca")
+		)
+		(fp_line
+			(start 0.73 -1.1)
+			(end 0.73 -0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce52b351-e667-4b67-a31c-37ffb3f465d9")
+		)
+		(fp_line
+			(start 0.73 -0.93)
+			(end 1.45 -0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "77ff5844-bce6-4e84-961f-699fffa0b2b3")
+		)
+		(fp_line
+			(start 0.73 -0.37)
+			(end 0.73 0.37)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a1a97b82-b072-4684-bd19-a9f9b111ef1b")
+		)
+		(fp_line
+			(start 0.73 0.37)
+			(end 1.45 0.37)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f8d11e19-82cf-4870-802e-77b35b4250e3")
+		)
+		(fp_line
+			(start 0.73 0.93)
+			(end 0.73 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d8245dd-d572-4d49-97b9-478549aeaa46")
+		)
+		(fp_line
+			(start 0.73 1.1)
+			(end -0.73 1.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "01be694f-54b8-43b6-8de3-c97d7fde904e")
+		)
+		(fp_line
+			(start 1.45 -0.93)
+			(end 1.45 -0.37)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b9378f18-f127-4282-9f5c-4d8e516e3ca4")
+		)
+		(fp_line
+			(start 1.45 -0.37)
+			(end 0.73 -0.37)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "223d2628-0dcc-45ca-bed0-8fdae4db8fa4")
+		)
+		(fp_line
+			(start 1.45 0.37)
+			(end 1.45 0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e390e03c-d68e-462d-9442-b9d36215bb88")
+		)
+		(fp_line
+			(start 1.45 0.93)
+			(end 0.73 0.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2890d855-a452-4841-aaaa-3e1f66e2c2ed")
+		)
+		(fp_poly
+			(pts
+				(xy -0.3125 -1) (xy 0.625 -1) (xy 0.625 1) (xy -0.625 1) (xy -0.625 -0.6875)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "47cab4ad-28cc-47dc-8213-9736727801af")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "8839aad7-97d4-4439-9a8f-9bdcdc35c292")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.8375 -0.65)
+			(size 1.025 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "unconnected-(U6-NC-Pad1)")
+			(pinfunction "NC_1")
+			(pintype "input+no_connect")
+			(uuid "d69245f8-58d0-423e-a582-ed721bfa6921")
+		)
+		(pad "2" smd roundrect
+			(at -0.8375 0)
+			(size 1.025 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/Overview/GPIB Transceiver/iREN")
+			(pinfunction "A_2")
+			(pintype "input")
+			(uuid "0b76e92a-7cf1-47ce-9c6b-0a49a7a61395")
+		)
+		(pad "3" smd roundrect
+			(at -0.8375 0.65)
+			(size 1.025 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_3")
+			(pintype "power_in")
+			(uuid "ca18f375-e0df-4890-967c-c4b1c1bd5c33")
+		)
+		(pad "4" smd roundrect
+			(at 0.8375 0.65)
+			(size 1.025 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "unconnected-(U6-Y-Pad4)")
+			(pinfunction "Y_4")
+			(pintype "output")
+			(uuid "1dd2f5f7-fdd0-4420-b41d-1df3d0776bba")
+		)
+		(pad "5" smd roundrect
+			(at 0.8375 -0.65)
+			(size 1.025 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+3V3")
+			(pinfunction "VCC_5")
+			(pintype "power_in")
+			(uuid "d3c5b613-9252-41dd-8d17-39b9fee3fbb8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)

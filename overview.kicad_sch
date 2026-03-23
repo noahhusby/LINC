@@ -12,6 +12,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 198.12 78.74) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aac17ec-3d0d-4c57-949e-0da84ce48aa1")
+	)
+	(wire
+		(pts
 			(xy 152.4 129.54) (xy 167.64 129.54)
 		)
 		(stroke
@@ -19,6 +29,16 @@
 			(type default)
 		)
 		(uuid "0ec5f6ea-3f9f-4191-adf5-0ce2344bccee")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248e6d70-12fe-43be-a4d5-783c062344bf")
 	)
 	(wire
 		(pts
@@ -42,6 +62,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326551c7-0a63-41c0-b8b4-543fd964da8a")
+	)
+	(wire
+		(pts
 			(xy 152.4 127) (xy 167.64 127)
 		)
 		(stroke
@@ -49,6 +79,16 @@
 			(type default)
 		)
 		(uuid "336d8ad2-b1e7-4457-885e-8370da79f0fe")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb68535-be47-4096-849e-b105eae246c2")
 	)
 	(wire
 		(pts
@@ -69,6 +109,16 @@
 			(type default)
 		)
 		(uuid "626bb66a-a41b-4fce-9e57-bd2b78d9eedd")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64427137-23f2-41e4-b290-f858ada7a158")
 	)
 	(bus
 		(pts
@@ -110,6 +160,16 @@
 		)
 		(uuid "79f74728-f55c-4318-abdb-6425182b4b55")
 	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f7f36f-64a5-491f-b30b-e589a44b759b")
+	)
 	(bus
 		(pts
 			(xy 152.4 71.12) (xy 167.64 71.12)
@@ -119,6 +179,16 @@
 			(type default)
 		)
 		(uuid "87a48e80-adca-4567-a410-86485a44b097")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.2) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb5a747-a012-46ec-a8f8-4bf4fc54b08f")
 	)
 	(wire
 		(pts
@@ -326,6 +396,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "iREN" input
+			(at 167.64 93.98 180)
+			(uuid "e0def5b1-566a-47fa-ad58-86b954001058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EOI" bidirectional
+			(at 198.12 91.44 0)
+			(uuid "80012610-f818-4717-b7b5-175b59edfc60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REN" bidirectional
+			(at 198.12 93.98 0)
+			(uuid "76a3760f-9447-47db-b8ed-575955153601")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAV" bidirectional
+			(at 198.12 76.2 0)
+			(uuid "5b1800e2-ceeb-40f4-9c42-e5918464c6c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRFD" bidirectional
+			(at 198.12 78.74 0)
+			(uuid "3565de2f-04ec-446b-a179-8873b6f39bb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IFC" bidirectional
+			(at 198.12 88.9 0)
+			(uuid "f6138059-239c-4ecf-a0e5-d2c1c6882ff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ATN" bidirectional
+			(at 198.12 86.36 0)
+			(uuid "de120a01-c01d-4536-b4ae-ac5de75aca15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NDAC" bidirectional
+			(at 198.12 81.28 0)
+			(uuid "0eeb9b21-6702-43ce-8fb7-a84052764b0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -638,6 +788,76 @@
 		(pin "CTRL_RX_P" bidirectional
 			(at 213.36 129.54 180)
 			(uuid "2d49f52a-5fcf-4811-985b-513d1895fc16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REN" bidirectional
+			(at 213.36 93.98 180)
+			(uuid "cb581d0e-b1f5-4dbc-8aca-e40c5b99ff28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NDAC" bidirectional
+			(at 213.36 81.28 180)
+			(uuid "1fb1e7c0-af9b-49fd-a61c-4024322baa0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EOI" bidirectional
+			(at 213.36 91.44 180)
+			(uuid "648b248b-96a7-45c0-8e58-d3aec0a52fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ATN" bidirectional
+			(at 213.36 86.36 180)
+			(uuid "cc00bf67-2ea1-4692-9f6e-fc600652943d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAV" bidirectional
+			(at 213.36 76.2 180)
+			(uuid "cc2c1910-2e0f-4935-b6b2-957287d043a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IFC" bidirectional
+			(at 213.36 88.9 180)
+			(uuid "6a262f7f-cab1-4c7e-a1f0-7ff0a83ccabf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRFD" bidirectional
+			(at 213.36 78.74 180)
+			(uuid "21ef4194-ef97-4a67-a9ec-ba62e04a16f1")
 			(effects
 				(font
 					(size 1.27 1.27)

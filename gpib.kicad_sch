@@ -476,6 +476,786 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PARTSDB:SN74LVC14APWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC14APWR"
+				(at -8.89 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/sg/sdyu001ac/sdyu001ac.pdf?ts=1769658314291"
+				(at -1.27 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inverter IC 6 Channel Schmitt Trigger 14-TSSOP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/16/info"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Integrated Circuits (ICs)/Logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SN74LVC14APWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB Footprint" "14-TSSOP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB ID" "16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manf" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manf#" "SN74LVC14APWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey SPN" "296-1224-6-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "digikey#" "296-1224-6-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74LVC14APWR_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC14APWR_1_1"
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "3Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "4Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "4A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "5Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "5A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "6Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "6A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PARTSDB:SN74LVC1G07DCKR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.858 18.288 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1G07DCKR"
+				(at -2.286 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf?ts=1753365038545&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LVC1G07"
+				(at -1.27 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain Output SC-70-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/15/info"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Integrated Circuits (ICs)/Logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SN74LVC1G07DCKR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB Footprint" "SC-70-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB ID" "15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manf" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manf#" "SN74LVC1G07DCKR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey SPN" "296-8486-6-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "digikey#" "296-8486-6-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74LVC1G07DCKR_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G07DCKR_1_1"
+				(pin input line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PARTSDB:SN74LVC8T245PWR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2121,6 +2901,10 @@
 		)
 		(uuid "0bef4000-ed2d-4146-9c97-957a55a61cde")
 	)
+	(no_connect
+		(at 93.98 149.86)
+		(uuid "58a37fae-ed17-4426-99be-a76e09ab1441")
+	)
 	(bus_entry
 		(at 99.06 76.2)
 		(size -2.54 -2.54)
@@ -2285,6 +3069,16 @@
 		)
 		(uuid "0acc9d79-7ebb-4df8-89cd-48a513b9e6f1")
 	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 96.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d144c07-f22f-4664-8654-dbd523ef175c")
+	)
 	(bus
 		(pts
 			(xy 147.32 68.58) (xy 147.32 73.66)
@@ -2317,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 129.54) (xy 82.55 134.62)
+			(xy 83.82 129.54) (xy 83.82 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 116.84) (xy 62.23 116.84)
+			(xy 73.66 116.84) (xy 63.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2377,13 +3171,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 124.46) (xy 62.23 124.46)
+			(xy 73.66 124.46) (xy 63.5 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "30115268-65db-44bd-95eb-13c132dbfd1e")
+	)
+	(wire
+		(pts
+			(xy 71.12 144.78) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cd2b13-3037-4517-8a36-c2ab172c77b9")
 	)
 	(wire
 		(pts
@@ -2407,6 +3211,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 127) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d279f5a-1c32-4e2b-a0e1-f7aa3d46328b")
+	)
+	(wire
+		(pts
+			(xy 93.98 147.32) (xy 96.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0ead2a-65c2-41a7-a4cb-35f7d6df5f4e")
+	)
+	(wire
+		(pts
 			(xy 111.76 45.72) (xy 99.06 45.72)
 		)
 		(stroke
@@ -2424,6 +3248,16 @@
 			(type default)
 		)
 		(uuid "44f807a5-ea77-4e03-b60c-4672056380ba")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458f7512-d8ef-42c8-b1f5-1738b2944f4d")
 	)
 	(wire
 		(pts
@@ -2457,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 119.38) (xy 62.23 119.38)
+			(xy 73.66 119.38) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +3311,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 121.92) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec47050-739a-401c-bf5f-a5114d0ba8da")
+	)
+	(wire
+		(pts
 			(xy 111.76 50.8) (xy 99.06 50.8)
 		)
 		(stroke
@@ -2487,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 101.6) (xy 82.55 106.68)
+			(xy 83.82 101.6) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2515,6 +3359,16 @@
 		)
 		(uuid "693de2c3-5af0-4dd8-b153-fe3e0851a25d")
 	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc9a81c-55dd-4136-902a-933bc20d9ddf")
+	)
 	(bus
 		(pts
 			(xy 96.52 38.1) (xy 93.98 35.56)
@@ -2527,13 +3381,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 111.76) (xy 62.23 111.76)
+			(xy 73.66 111.76) (xy 63.5 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "787d0bea-f7ce-4142-ac00-4f6fa1571d51")
+	)
+	(wire
+		(pts
+			(xy 93.98 152.4) (xy 96.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c659ea-690f-4345-ad24-5baa8f23de20")
 	)
 	(bus
 		(pts
@@ -2575,6 +3439,26 @@
 		)
 		(uuid "82436a09-0085-48d4-a2ea-813baeede005")
 	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c97f200-dc40-4cc5-8ce4-06fdd8c54bec")
+	)
+	(wire
+		(pts
+			(xy 96.52 147.32) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92773472-2190-4c1e-855a-76d63542f06f")
+	)
 	(bus
 		(pts
 			(xy 93.98 35.56) (xy 83.82 35.56)
@@ -2587,13 +3471,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 62.23 114.3)
+			(xy 73.66 114.3) (xy 63.5 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93daad54-701b-447b-bc18-541f279ae1ca")
+	)
+	(wire
+		(pts
+			(xy 73.66 149.86) (xy 63.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98014351-c9ff-4536-b868-94edc2a55e46")
 	)
 	(bus
 		(pts
@@ -2614,6 +3508,16 @@
 			(type default)
 		)
 		(uuid "a302a944-b831-45ea-abed-07698075e52f")
+	)
+	(wire
+		(pts
+			(xy 73.66 147.32) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8db3c1c-5e68-4d4c-b987-c1d4ccc937f7")
 	)
 	(wire
 		(pts
@@ -2667,6 +3571,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 124.46) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbebf2d7-54d0-46e7-b5d4-32dfefbc232d")
+	)
+	(wire
+		(pts
 			(xy 132.08 76.2) (xy 144.78 76.2)
 		)
 		(stroke
@@ -2674,6 +3588,16 @@
 			(type default)
 		)
 		(uuid "bf307836-cfca-46a7-ba1a-2c57370a7f07")
+	)
+	(wire
+		(pts
+			(xy 93.98 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c545ea79-904b-4fbe-bd00-0da5828145f5")
 	)
 	(wire
 		(pts
@@ -2717,7 +3641,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 121.92) (xy 62.23 121.92)
+			(xy 73.66 121.92) (xy 63.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2736,7 +3660,7 @@
 		(uuid "037edf4b-73f2-40e6-8bb0-664eff9557a2")
 	)
 	(label "iIFC"
-		(at 68.58 121.92 180)
+		(at 69.85 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2744,6 +3668,16 @@
 			(justify right bottom)
 		)
 		(uuid "07eebbc8-3ee2-47f9-827a-b3762dd052b0")
+	)
+	(label "REN"
+		(at 99.06 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1092191f-fd96-4494-ad71-69af3c2ae80b")
 	)
 	(label "DIO5"
 		(at 139.6384 60.96 0)
@@ -2756,7 +3690,7 @@
 		(uuid "11bc1749-1c28-4ccc-bf99-f995c3ec4061")
 	)
 	(label "iNDAC"
-		(at 68.58 116.84 180)
+		(at 69.85 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2776,7 +3710,7 @@
 		(uuid "157d8846-5557-4a6c-97a6-df247ae642ce")
 	)
 	(label "iATN"
-		(at 68.58 119.38 180)
+		(at 69.85 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2784,6 +3718,16 @@
 			(justify right bottom)
 		)
 		(uuid "1b448dbc-f054-48cc-8af1-ac8bb14e0762")
+	)
+	(label "IFC"
+		(at 99.06 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f565515-0954-47ee-9d16-1557b1bfaa94")
 	)
 	(label "DIO2"
 		(at 139.7 45.72 0)
@@ -2824,6 +3768,16 @@
 			(justify right bottom)
 		)
 		(uuid "545b0e3c-7e2d-41b3-9dac-e2d18b6de8c9")
+	)
+	(label "iREN"
+		(at 69.85 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ba987aa-8ffe-43f0-a03b-cb4cac81d123")
 	)
 	(label "DIO[0..7]"
 		(at 149.86 35.56 0)
@@ -2866,7 +3820,7 @@
 		(uuid "8eab6ca0-b9d5-4d9b-9aae-a0e79ec0dda9")
 	)
 	(label "iNRFD"
-		(at 68.58 114.3 180)
+		(at 69.85 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2874,6 +3828,16 @@
 			(justify right bottom)
 		)
 		(uuid "95b30721-79d3-4e6b-92c5-4f141f3abdf2")
+	)
+	(label "NDAC"
+		(at 99.0375 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99683bad-83c7-4618-8c49-bf2731a2ff50")
 	)
 	(label "iDIO6"
 		(at 104.14 66.04 180)
@@ -2896,7 +3860,7 @@
 		(uuid "a2f765dc-1c8f-40e9-998f-9ece6ab1565f")
 	)
 	(label "iDAV"
-		(at 68.58 111.76 180)
+		(at 69.85 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2904,6 +3868,16 @@
 			(justify right bottom)
 		)
 		(uuid "a458b647-772f-4ad4-a45a-d46a430bb72c")
+	)
+	(label "EOI"
+		(at 99.06 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa4c8719-08c1-419d-ad13-b3b33234f3e4")
 	)
 	(label "iDIO[0..7]"
 		(at 93.98 35.56 180)
@@ -2945,6 +3919,26 @@
 		)
 		(uuid "da46f61f-eedd-4f96-8b0d-f43a6059094f")
 	)
+	(label "NRFD"
+		(at 99.06 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dacb3e02-e7cd-46a1-b5fe-b2ebbfa24f60")
+	)
+	(label "DAV"
+		(at 99.06 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db12f728-b4c4-4c56-bff0-11ec80690d6c")
+	)
 	(label "iDIO2"
 		(at 104.14 45.72 180)
 		(effects
@@ -2955,8 +3949,18 @@
 		)
 		(uuid "e8065094-1299-48d0-bdce-1bd355a328fb")
 	)
+	(label "ATN"
+		(at 99.0375 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9ecdbcd-c734-41eb-8540-dd262a980adb")
+	)
 	(label "iEOI"
-		(at 68.58 124.46 180)
+		(at 69.85 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2965,9 +3969,20 @@
 		)
 		(uuid "f8acdf3c-1918-459f-9b55-2e950784f0c5")
 	)
+	(hierarchical_label "ATN"
+		(shape bidirectional)
+		(at 154.94 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05e7add0-47f1-4ba7-a0ae-9e544143692f")
+	)
 	(hierarchical_label "iDAV"
 		(shape input)
-		(at 62.23 111.76 180)
+		(at 63.5 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2978,7 +3993,7 @@
 	)
 	(hierarchical_label "iATN"
 		(shape input)
-		(at 62.23 119.38 180)
+		(at 63.5 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2989,7 +4004,7 @@
 	)
 	(hierarchical_label "iEOI"
 		(shape input)
-		(at 62.23 124.46 180)
+		(at 63.5 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2997,6 +4012,28 @@
 			(justify right)
 		)
 		(uuid "3bee592c-efb7-4b92-be9c-ebe6e043a5a9")
+	)
+	(hierarchical_label "IFC"
+		(shape bidirectional)
+		(at 154.94 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fb4adea-8379-4be8-825e-f9b36141b40a")
+	)
+	(hierarchical_label "DAV"
+		(shape bidirectional)
+		(at 154.94 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72ccc5f8-5de3-40aa-b457-2385fafd5a76")
 	)
 	(hierarchical_label "iDIO[0..7]"
 		(shape bidirectional)
@@ -3011,7 +4048,7 @@
 	)
 	(hierarchical_label "iNRFD"
 		(shape input)
-		(at 62.23 114.3 180)
+		(at 63.5 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,9 +4057,42 @@
 		)
 		(uuid "83cde0b0-ff76-4269-9feb-723783412403")
 	)
+	(hierarchical_label "REN"
+		(shape bidirectional)
+		(at 154.94 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87ba5e17-817f-4bbb-bc99-748a0fc86fff")
+	)
+	(hierarchical_label "NDAC"
+		(shape bidirectional)
+		(at 154.94 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bc441f2-bbdc-445d-8ddb-30469f689776")
+	)
+	(hierarchical_label "NRFD"
+		(shape bidirectional)
+		(at 154.94 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cb8295c-1fb7-4751-8735-e1afa5a955e6")
+	)
 	(hierarchical_label "iNDAC"
 		(shape input)
-		(at 62.23 116.84 180)
+		(at 63.5 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3030,6 +4100,17 @@
 			(justify right)
 		)
 		(uuid "9f324ece-d113-4915-bad0-bcdadeabc0d1")
+	)
+	(hierarchical_label "EOI"
+		(shape bidirectional)
+		(at 154.94 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d21d0a67-191b-4c81-b44a-f245f8566962")
 	)
 	(hierarchical_label "DIO[0..7]"
 		(shape bidirectional)
@@ -3044,7 +4125,7 @@
 	)
 	(hierarchical_label "iIFC"
 		(shape input)
-		(at 62.23 121.92 180)
+		(at 63.5 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,9 +4134,20 @@
 		)
 		(uuid "eb177e22-44fc-4fbe-af78-9bcc8935c912")
 	)
+	(hierarchical_label "iREN"
+		(shape input)
+		(at 63.5 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb061206-dc88-4abf-bc60-3989fae6f971")
+	)
 	(symbol
 		(lib_id "PARTSDB:SN74LVC07APWR")
-		(at 82.55 124.46 0)
+		(at 83.82 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3065,7 +4157,7 @@
 		(dnp no)
 		(uuid "09a25b4b-f1cd-41d8-b470-dcbf893040b9")
 		(property "Reference" "U2"
-			(at 84.328 105.664 0)
+			(at 85.598 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3076,7 +4168,7 @@
 			)
 		)
 		(property "Value" "SN74LVC07APWR"
-			(at 84.328 107.696 0)
+			(at 85.598 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3087,7 +4179,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 82.55 132.08 0)
+			(at 83.82 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3098,7 +4190,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/scas595w/scas595w.pdf"
-			(at 81.28 113.03 0)
+			(at 82.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3109,7 +4201,7 @@
 			)
 		)
 		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-TSSOP"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3120,7 +4212,7 @@
 			)
 		)
 		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/14/info"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3131,7 +4223,7 @@
 			)
 		)
 		(property "Category" "Integrated Circuits (ICs)/Logic"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3142,7 +4234,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3153,7 +4245,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC07APWR"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +4256,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +4267,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "14-TSSOP"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +4278,7 @@
 			)
 		)
 		(property "Part-DB ID" "14"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +4289,7 @@
 			)
 		)
 		(property "manf" "Texas Instruments"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +4300,7 @@
 			)
 		)
 		(property "manf#" "SN74LVC07APWR"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +4311,7 @@
 			)
 		)
 		(property "DigiKey SPN" "296-8442-6-ND"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +4322,7 @@
 			)
 		)
 		(property "digikey#" "296-8442-6-ND"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3241,7 +4333,7 @@
 			)
 		)
 		(property "Stock" "0"
-			(at 82.55 124.46 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +4396,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 82.55 101.6 0)
+		(at 83.82 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3314,7 +4406,7 @@
 		(dnp no)
 		(uuid "0ef6939a-b515-407c-98ad-02e403e88ded")
 		(property "Reference" "#PWR04"
-			(at 82.55 105.41 0)
+			(at 83.82 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,7 +4417,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 82.55 97.536 0)
+			(at 83.82 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3335,7 +4427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 101.6 0)
+			(at 83.82 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3346,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 101.6 0)
+			(at 83.82 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +4449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 101.6 0)
+			(at 83.82 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +4473,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 134.62 0)
+		(at 83.82 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3389,10 +4481,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "211d46a9-2f13-416f-b1cc-f807d23d7dfa")
 		(property "Reference" "#PWR05"
-			(at 82.55 140.97 0)
+			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3403,7 +4494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 139.7 0)
+			(at 83.82 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3413,7 +4504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 134.62 0)
+			(at 83.82 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +4515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 134.62 0)
+			(at 83.82 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +4526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 134.62 0)
+			(at 83.82 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,6 +4543,332 @@
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/73704267-92dc-4000-926d-27ac1279d609"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:SN74LVC14APWR")
+		(at 208.28 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23c24950-6300-4c37-8872-2ffba3a82540")
+		(property "Reference" "U7"
+			(at 204.216 131.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74LVC14APWR"
+			(at 192.024 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/sg/sdyu001ac/sdyu001ac.pdf?ts=1769658314291"
+			(at 207.01 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inverter IC 6 Channel Schmitt Trigger 14-TSSOP"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/16/info"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)/Logic"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC14APWR"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "14-TSSOP"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "16"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "SN74LVC14APWR"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey SPN" "296-1224-6-ND"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "296-1224-6-ND"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "69f9f068-9847-442d-8beb-679b106f3b71")
+		)
+		(pin "5"
+			(uuid "f5246f2d-979f-4d51-ba80-165414b65a57")
+		)
+		(pin "4"
+			(uuid "56697480-b5c2-4a96-980e-fa50725b2e7a")
+		)
+		(pin "3"
+			(uuid "c872e68e-fd5d-47da-a5b2-50d460c28642")
+		)
+		(pin "2"
+			(uuid "2462f1ee-6ab2-44d4-89bc-6a60961bdebc")
+		)
+		(pin "1"
+			(uuid "c2660c2d-e9ec-4d61-8abb-fd9189f70875")
+		)
+		(pin "10"
+			(uuid "32e7244c-9641-4229-8093-6a9087b34512")
+		)
+		(pin "11"
+			(uuid "35a3846f-7c31-4fef-b860-c6f352b57b56")
+		)
+		(pin "12"
+			(uuid "133019c1-7d86-4662-bccf-4791b12d08ad")
+		)
+		(pin "13"
+			(uuid "073a89cc-fba6-4596-8102-98deeb64a2d0")
+		)
+		(pin "14"
+			(uuid "675621a7-908b-4af5-bb1b-516c36d714dd")
+		)
+		(pin "7"
+			(uuid "0740f8ed-e63b-4936-8777-d8f97e32c898")
+		)
+		(pin "9"
+			(uuid "77216acc-20a4-477d-82f0-b91277b2dc43")
+		)
+		(pin "8"
+			(uuid "4ceb8019-045c-48fe-af5b-3134c5d11dc1")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/73704267-92dc-4000-926d-27ac1279d609"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5051154e-e0d0-4d54-9663-917dfd4cdafd")
+		(property "Reference" "#PWR021"
+			(at 71.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31e6a97d-587e-4a77-8e17-4c9e51d55a73")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/73704267-92dc-4000-926d-27ac1279d609"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3888,6 +5305,304 @@
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/73704267-92dc-4000-926d-27ac1279d609"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:SN74LVC1G07DCKR")
+		(at 83.82 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9760e7a0-420d-451d-98c1-5d8ef963329d")
+		(property "Reference" "U6"
+			(at 76.962 141.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G07DCKR"
+			(at 84.074 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 83.82 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf?ts=1753365038545&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LVC1G07"
+			(at 82.55 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain Output SC-70-5"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/15/info"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)/Logic"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G07DCKR"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "SC-70-5"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "15"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "SN74LVC1G07DCKR"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey SPN" "296-8486-6-ND"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "296-8486-6-ND"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ebe035e9-5914-4722-8862-b367c73f73c5")
+		)
+		(pin "2"
+			(uuid "770b0d56-957d-43ee-bf15-30cfb9556392")
+		)
+		(pin "1"
+			(uuid "7aedaa19-796e-4089-9645-b488e6065bf7")
+		)
+		(pin "4"
+			(uuid "1db28d02-4770-4306-8935-1717d15835b2")
+		)
+		(pin "5"
+			(uuid "3f3d6a7e-9f9d-4b2f-ab0f-c39b85e9db17")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/73704267-92dc-4000-926d-27ac1279d609"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df06b4d4-4426-461f-bc08-e35215548a75")
+		(property "Reference" "#PWR020"
+			(at 96.52 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb2bda2e-5cdd-4c4d-9785-fed4f49056de")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/73704267-92dc-4000-926d-27ac1279d609"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
