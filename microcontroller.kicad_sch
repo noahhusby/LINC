@@ -2880,6 +2880,283 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PARTSDB:CL10B225KP8NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2.2 µF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.2 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/28/info"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Capacitors/Ceramic Capacitors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CL10B225KP8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB Footprint" "C-0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part-DB ID" "28"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manf" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manf#" "CL10B225KP8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey SPN" "1276-1134-6-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "digikey#" "1276-1134-6-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL10B225KP8NNNC_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10B225KP8NNNC_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PARTSDB:CS10820-24M"
 			(pin_names
 				(offset 1.016)
@@ -4911,6 +5188,12 @@
 		(uuid "650e549d-5f65-43b7-98b9-08ecf65d49e0")
 	)
 	(junction
+		(at 129.54 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f5dfd6-5484-4074-bb7e-b533cfd79c63")
+	)
+	(junction
 		(at 66.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4945,6 +5228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85312b52-581d-40a8-a731-1a918871663f")
+	)
+	(junction
+		(at 119.38 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87226dd6-73b7-4ea7-a720-aee36eca4a52")
 	)
 	(junction
 		(at 81.28 63.5)
@@ -5035,10 +5324,6 @@
 		(uuid "256b7340-0c37-41f8-9afc-c7e097178e47")
 	)
 	(no_connect
-		(at 299.72 101.6)
-		(uuid "3c1ef006-06d9-4bf1-9ece-7a09719b9683")
-	)
-	(no_connect
 		(at 299.72 74.93)
 		(uuid "41793ee7-aa4b-49e8-bb30-593909aa53de")
 	)
@@ -5065,10 +5350,6 @@
 	(no_connect
 		(at 83.82 45.72)
 		(uuid "637162d8-a0d6-42bc-b1e5-6a2f8013806b")
-	)
-	(no_connect
-		(at 299.72 99.06)
-		(uuid "64109ea8-f742-463b-a3d6-fbd7576b9fa1")
 	)
 	(no_connect
 		(at 299.72 72.39)
@@ -5354,6 +5635,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 45.72) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125747e5-9c46-4eb8-998e-3d2cfd9f3159")
+	)
+	(wire
+		(pts
 			(xy 66.04 63.5) (xy 66.04 66.04)
 		)
 		(stroke
@@ -5431,6 +5722,16 @@
 			(type default)
 		)
 		(uuid "1dd445a1-5a8a-4278-bfff-294400c5b778")
+	)
+	(wire
+		(pts
+			(xy 299.72 101.6) (xy 312.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2345044b-5343-4fce-a056-01ead8a018ba")
 	)
 	(wire
 		(pts
@@ -5554,6 +5855,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 53.34) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b82d086-4a66-40bd-81a6-76920def122e")
+	)
+	(wire
+		(pts
 			(xy 71.12 180.34) (xy 86.36 180.34)
 		)
 		(stroke
@@ -5601,6 +5912,16 @@
 			(type default)
 		)
 		(uuid "44431195-5f69-4154-9744-50d0498baa43")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45099e96-ed22-407c-9de2-6950ece53252")
 	)
 	(wire
 		(pts
@@ -5904,6 +6225,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4d2584-47fe-45f6-8619-68322882b82b")
+	)
+	(wire
+		(pts
+			(xy 299.72 99.06) (xy 312.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce3f292-b857-4d67-b440-33bcadbe5d87")
+	)
+	(wire
+		(pts
 			(xy 119.38 60.96) (xy 119.38 63.5)
 		)
 		(stroke
@@ -6134,6 +6475,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 58.42) (xy 139.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64c2ca8-6d6a-4e00-b052-da97c23151d9")
+	)
+	(wire
+		(pts
 			(xy 45.72 124.46) (xy 45.72 127)
 		)
 		(stroke
@@ -6191,6 +6542,16 @@
 			(type default)
 		)
 		(uuid "bcc42c8f-8fd0-4b92-a2f4-b1862f898c40")
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72) (xy 119.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde98871-3e6b-4be2-9edb-0cc80da969cc")
 	)
 	(wire
 		(pts
@@ -6274,6 +6635,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 48.26) (xy 119.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44ad0e5-5de1-4035-b832-6324a31371d9")
+	)
+	(wire
+		(pts
 			(xy 48.26 190.5) (xy 48.26 185.42)
 		)
 		(stroke
@@ -6311,6 +6682,16 @@
 			(type default)
 		)
 		(uuid "d76f1aa7-8392-4d86-b7fa-2edff9bc435c")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d789ef16-f494-4b94-93c0-b322e19f213b")
 	)
 	(wire
 		(pts
@@ -6401,6 +6782,16 @@
 			(type default)
 		)
 		(uuid "e8c62a26-f47a-4aed-a428-6f9b4c33306f")
+	)
+	(wire
+		(pts
+			(xy 129.54 45.72) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea399304-7c13-4ffc-8a78-a556da40f45b")
 	)
 	(wire
 		(pts
@@ -6581,6 +6972,16 @@
 			(justify left bottom)
 		)
 		(uuid "29e20fb3-559a-4f09-996d-82afaabe15b6")
+	)
+	(label "GPIB_EN"
+		(at 302.26 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2abd726d-6f79-4e41-a9c3-71aece676789")
 	)
 	(label "iDIO[0..7]"
 		(at 317.5 73.66 0)
@@ -6832,6 +7233,16 @@
 		)
 		(uuid "bde69390-3278-4aaf-a1e8-53c8df920156")
 	)
+	(label "GPIB_DIR"
+		(at 302.26 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1b225f0-ca12-4094-9448-501c070b9147")
+	)
 	(label "iDIO5"
 		(at 307.2784 88.9 0)
 		(effects
@@ -6926,6 +7337,17 @@
 			(justify left)
 		)
 		(uuid "2f256cca-5be9-42f7-b706-f3e7572e6729")
+	)
+	(hierarchical_label "GPIB_EN"
+		(shape output)
+		(at 312.42 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "351d60b4-5265-406e-bdc6-bf15f4a953fb")
 	)
 	(hierarchical_label "iREN"
 		(shape output)
@@ -7058,6 +7480,17 @@
 			(justify left)
 		)
 		(uuid "c973aa86-cf89-46f8-9b79-31145f05665f")
+	)
+	(hierarchical_label "GPIB_DIR"
+		(shape output)
+		(at 312.42 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccb171eb-8759-4ae4-abf9-bd62a655f850")
 	)
 	(symbol
 		(lib_id "PARTSDB:CC0603KRX7R7BB104")
@@ -8703,6 +9136,297 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 139.7 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34c0de65-7492-4b24-8075-997a2c3b31ca")
+		(property "Reference" "#PWR042"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d9fa85b-078e-4bbe-9265-de09b5998d59")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CL10B225KP8NNNC")
+		(at 129.54 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35b73e03-3671-4623-a3fd-683c782efe2c")
+		(property "Reference" "C13"
+			(at 131.826 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 µF"
+			(at 131.826 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/28/info"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B225KP8NNNC"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "28"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "CL10B225KP8NNNC"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey SPN" "1276-1134-6-ND"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "1276-1134-6-ND"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 129.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a167d0da-be58-44fc-9036-a4c7ba58a548")
+		)
+		(pin "2"
+			(uuid "15446ad6-962a-482d-af08-c358f2a1de50")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 139.7 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -8773,6 +9497,219 @@
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:CL10B225KP8NNNC")
+		(at 139.7 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "433110a1-2cdf-4ef5-ae67-0686989a2c13")
+		(property "Reference" "C16"
+			(at 141.986 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 µF"
+			(at 141.986 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/28/info"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B225KP8NNNC"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "C-0603"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "28"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "CL10B225KP8NNNC"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey SPN" "1276-1134-6-ND"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "1276-1134-6-ND"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "337a43af-4076-436a-b860-8565ed028a93")
+		)
+		(pin "2"
+			(uuid "248eb927-51a2-472c-a63c-f61ccc70f628")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9831,6 +10768,84 @@
 			(project "overview"
 				(path "/438032dc-0550-4c6a-bf05-ffddb3516ca6/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d78cde-5dae-43c6-94c3-bee1ee276129")
+		(property "Reference" "#PWR041"
+			(at 129.54 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "093c0c1e-a2bd-421b-95b6-9a2f3860149e")
+		)
+		(instances
+			(project "gpib_controller"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
