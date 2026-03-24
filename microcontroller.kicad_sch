@@ -5264,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 129.54) (xy 309.88 129.54)
+			(xy 299.72 129.54) (xy 312.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5634,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 127) (xy 309.88 127)
+			(xy 299.72 127) (xy 312.42 127)
 		)
 		(stroke
 			(width 0)
@@ -6642,7 +6642,7 @@
 		)
 		(uuid "4f158b02-4b99-4717-917f-20c2afaf7bbd")
 	)
-	(label "USB_DM"
+	(label "iUSB_DM"
 		(at 302.26 127 0)
 		(effects
 			(font
@@ -6762,7 +6762,7 @@
 		)
 		(uuid "8d64340d-26fe-4dc7-936d-c8c1352446cc")
 	)
-	(label "USB_DP"
+	(label "iUSB_DP"
 		(at 302.26 129.54 0)
 		(effects
 			(font
@@ -6894,9 +6894,9 @@
 		)
 		(uuid "23a47ceb-2a31-4881-a46d-3f99cb57e405")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "iUSB_DP"
 		(shape bidirectional)
-		(at 309.88 129.54 0)
+		(at 312.42 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6905,9 +6905,9 @@
 		)
 		(uuid "2643a2ce-5af8-4326-8420-d606d793c55b")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "iUSB_DM"
 		(shape bidirectional)
-		(at 309.88 127 0)
+		(at 312.42 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)

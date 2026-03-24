@@ -645,7 +645,7 @@
         "uuid": "0f352524-50ff-469d-9a68-783e183b0073"
       }
     ],
-    "used_designators": "#PWR24-25,J4",
+    "used_designators": "#PWR31,#PWR35-38,D1-2",
     "variants": []
   },
   "sheets": [
@@ -659,7 +659,7 @@
     ],
     [
       "d07cae73-2e30-4bb2-afc2-b2842e2f5548",
-      "RS485 Transciever"
+      "RS485 Transceiver, USB, Power"
     ],
     [
       "642cbd6b-8c2c-4a8a-b65c-89c798f24c3f",

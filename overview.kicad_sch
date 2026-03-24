@@ -22,6 +22,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 132.08) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e83f912-ca77-49b4-9cd9-cc64018446ea")
+	)
+	(wire
+		(pts
 			(xy 180.34 124.46) (xy 195.58 124.46)
 		)
 		(stroke
@@ -222,6 +232,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 132.08) (xy 241.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd075ba-d980-49df-a983-68f2548a241b")
+	)
+	(wire
+		(pts
 			(xy 180.34 71.12) (xy 195.58 71.12)
 		)
 		(stroke
@@ -249,6 +269,16 @@
 			(type default)
 		)
 		(uuid "c757e519-8ed7-49a4-aa34-7c8b62f67d1e")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 195.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c925d1b7-99b9-4fea-a503-692e4606ab75")
 	)
 	(wire
 		(pts
@@ -289,6 +319,16 @@
 			(type default)
 		)
 		(uuid "f32a5db6-8497-4fcc-a1f2-1e47946bdfea")
+	)
+	(wire
+		(pts
+			(xy 226.06 134.62) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a935f7-3d77-4e3b-9622-da73e9df09d2")
 	)
 	(sheet
 		(at 195.58 63.5)
@@ -744,9 +784,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP" bidirectional
-			(at 180.34 135.89 0)
-			(uuid "ee7b25da-484f-4729-a2c2-3a31110d970c")
+		(pin "iUSB_DM" bidirectional
+			(at 180.34 132.08 0)
+			(uuid "30fe51cb-417f-4dd4-a618-ea67b7af8690")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,9 +794,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" bidirectional
-			(at 180.34 130.81 0)
-			(uuid "51a98d43-56ef-43c9-8bb1-33a3f32fbe35")
+		(pin "iUSB_DP" bidirectional
+			(at 180.34 134.62 0)
+			(uuid "d39db954-5b32-4490-b5cf-379269390b68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,6 +985,26 @@
 				(justify left)
 			)
 		)
+		(pin "USB_DM" bidirectional
+			(at 241.3 132.08 180)
+			(uuid "baa20250-2d03-4e3e-a879-5f741981f9b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 241.3 134.62 180)
+			(uuid "73b9b64c-2c44-49ff-9a8b-7b744053ea79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f"
@@ -955,7 +1015,7 @@
 	)
 	(sheet
 		(at 195.58 116.84)
-		(size 30.48 12.7)
+		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -969,7 +1029,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d07cae73-2e30-4bb2-afc2-b2842e2f5548")
-		(property "Sheetname" "RS485 Transciever"
+		(property "Sheetname" "RS485 Transceiver, USB, Power"
 			(at 195.58 116.1284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -981,7 +1041,7 @@
 			)
 		)
 		(property "Sheetfile" "transciever.kicad_sch"
-			(at 195.58 130.1246 0)
+			(at 195.58 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1049,6 +1109,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 226.06 132.08 0)
+			(uuid "b67b4294-b13c-4b2e-8b2e-86b6119cfd90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 226.06 134.62 0)
+			(uuid "9a573284-36c7-416f-aec4-9c3e2b5c66ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "iUSB_DM" bidirectional
+			(at 195.58 132.08 180)
+			(uuid "ef28fd7b-8670-4665-822d-7f047eb7711d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "iUSB_DP" bidirectional
+			(at 195.58 134.62 180)
+			(uuid "0fd304df-31c8-475a-b080-a576dff0423f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
