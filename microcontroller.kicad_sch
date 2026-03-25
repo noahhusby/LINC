@@ -6983,7 +6983,7 @@
 		)
 		(uuid "2abd726d-6f79-4e41-a9c3-71aece676789")
 	)
-	(label "iDIO[0..7]"
+	(label "iDIO[1..8]"
 		(at 322.58 81.28 0)
 		(effects
 			(font
@@ -7415,7 +7415,7 @@
 		)
 		(uuid "93f85ffb-38f4-4033-9451-c8dfa2fff09a")
 	)
-	(hierarchical_label "iDIO[0..7]"
+	(hierarchical_label "iDIO[1..8]"
 		(shape bidirectional)
 		(at 332.74 81.28 0)
 		(effects

@@ -4056,7 +4056,7 @@
 		)
 		(uuid "6d1baf7b-2210-4633-a45a-9bda849fa777")
 	)
-	(label "DIO[0..7]"
+	(label "DIO[1..8]"
 		(at 321.31 73.66 180)
 		(effects
 			(font
@@ -4380,7 +4380,7 @@
 		)
 		(uuid "c871aaaa-ac22-4064-9b63-4ed05dd9931d")
 	)
-	(hierarchical_label "DIO[0..7]"
+	(hierarchical_label "DIO[1..8]"
 		(shape bidirectional)
 		(at 311.15 73.66 180)
 		(effects

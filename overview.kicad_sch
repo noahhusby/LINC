@@ -388,26 +388,6 @@
 				(justify left top)
 			)
 		)
-		(pin "iDIO[0..7]" bidirectional
-			(at 195.58 88.9 180)
-			(uuid "bfd43e71-f6a2-4699-9c67-468cb91fd6b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIO[0..7]" bidirectional
-			(at 226.06 88.9 0)
-			(uuid "2b9de346-2a6a-4100-9844-791570b734cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "iATN" input
 			(at 195.58 104.14 180)
 			(uuid "484f3a9a-99ec-405c-84de-09c7e27534ad")
@@ -628,6 +608,26 @@
 				(justify left)
 			)
 		)
+		(pin "iDIO[1..8]" bidirectional
+			(at 195.58 88.9 180)
+			(uuid "4cc29ff8-0509-46b9-9226-823194709a8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO[1..8]" bidirectional
+			(at 226.06 88.9 0)
+			(uuid "4fd8fd79-84ba-4675-b8f1-d7cf905665e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f"
@@ -687,16 +687,6 @@
 		(pin "CTRL_RX" bidirectional
 			(at 180.34 154.94 0)
 			(uuid "6c50fc01-0b8b-42ce-a7cb-b25a675d39ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "iDIO[0..7]" bidirectional
-			(at 180.34 88.9 0)
-			(uuid "e18f47af-359e-4f79-942b-c7ccb0634232")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,6 +854,16 @@
 				(justify right)
 			)
 		)
+		(pin "iDIO[1..8]" bidirectional
+			(at 180.34 88.9 0)
+			(uuid "f9a36ee4-ce76-4dc8-9d93-7edf5ce2170b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "gpib_controller"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f"
@@ -913,16 +913,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DIO[0..7]" bidirectional
-			(at 241.3 88.9 180)
-			(uuid "9dceb31d-5fa8-47f9-9718-431da5db68eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "CTRL_RX_N" bidirectional
@@ -1058,6 +1048,16 @@
 		(pin "USB_DP" bidirectional
 			(at 241.3 165.1 180)
 			(uuid "73b9b64c-2c44-49ff-9a8b-7b744053ea79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO[1..8]" bidirectional
+			(at 241.3 88.9 180)
+			(uuid "a5be164b-7a23-45a1-8e9d-9f3ce300bb4e")
 			(effects
 				(font
 					(size 1.27 1.27)
