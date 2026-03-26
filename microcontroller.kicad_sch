@@ -7263,6 +7263,16 @@
 		)
 		(uuid "cf3ea0b4-061c-4dc3-8859-1dc20cda02e2")
 	)
+	(label "VCAP"
+		(at 124.46 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6a4cd07-44ff-40bc-bbcf-8afa8db44855")
+	)
 	(label "iDIO1"
 		(at 312.42 86.36 0)
 		(effects
