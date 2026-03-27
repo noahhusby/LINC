@@ -5134,16 +5134,6 @@
 		)
 		(uuid "ffcebfb0-1c51-4cb2-93ea-37f7221565c4")
 	)
-	(label "DIO8"
-		(at 332.74 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "037edf4b-73f2-40e6-8bb0-664eff9557a2")
-	)
 	(label "iIFC"
 		(at 92.71 119.38 180)
 		(effects
@@ -5153,6 +5143,16 @@
 			(justify right bottom)
 		)
 		(uuid "07eebbc8-3ee2-47f9-827a-b3762dd052b0")
+	)
+	(label "DIO7"
+		(at 332.74 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08361891-c57e-45c7-a12c-8aa43fc5e2d5")
 	)
 	(label "NDAC_SENSE"
 		(at 190.5 149.86 0)
@@ -5174,16 +5174,6 @@
 		)
 		(uuid "105cf660-4550-4cc6-874b-7ed8a7c0f974")
 	)
-	(label "DIO5"
-		(at 332.6168 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11bc1749-1c28-4ccc-bf99-f995c3ec4061")
-	)
 	(label "iNDAC"
 		(at 92.71 114.3 180)
 		(effects
@@ -5194,7 +5184,7 @@
 		)
 		(uuid "13920146-c88e-4f8c-9136-9a00d76b6352")
 	)
-	(label "DIO7"
+	(label "DIO6"
 		(at 332.74 142.24 0)
 		(effects
 			(font
@@ -5202,7 +5192,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "157d8846-5557-4a6c-97a6-df247ae642ce")
+		(uuid "15b68691-aa56-4976-8953-9e0e0249370b")
 	)
 	(label "iATN"
 		(at 92.71 116.84 180)
@@ -5214,26 +5204,6 @@
 		)
 		(uuid "1b448dbc-f054-48cc-8af1-ac8bb14e0762")
 	)
-	(label "DIO2"
-		(at 332.74 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27e3064f-5d0c-4e32-a8dc-5c0f568657da")
-	)
-	(label "DIO4"
-		(at 332.6784 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2983b975-a9dd-4ddf-95d0-3f7f93241e02")
-	)
 	(label "EOI"
 		(at 170.1435 121.92 0)
 		(effects
@@ -5243,6 +5213,16 @@
 			(justify left bottom)
 		)
 		(uuid "2aecd575-6ce4-4346-af27-f294205269ec")
+	)
+	(label "iDIO3"
+		(at 297.18 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bddf46e-e6af-4afb-9b61-3b7d387f73da")
 	)
 	(label "SRQ_SENSE"
 		(at 190.5 144.78 0)
@@ -5264,6 +5244,26 @@
 		)
 		(uuid "34681741-35dd-4f63-a084-f4117549181b")
 	)
+	(label "iDIO7"
+		(at 297.18 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34f9bda5-2331-4ddc-aaf0-48a53634a1ef")
+	)
+	(label "DIO2"
+		(at 332.74 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "397b249a-a454-4d85-aa8e-3e05649df16b")
+	)
 	(label "NRFD"
 		(at 170.18 111.76 0)
 		(effects
@@ -5284,15 +5284,15 @@
 		)
 		(uuid "3f278d56-5ccc-42f3-a0b4-7a7a45c90a0a")
 	)
-	(label "iDIO5"
-		(at 297.3032 132.08 180)
+	(label "iDIO2"
+		(at 297.18 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4c1bee4b-d5c9-494d-b8b6-83e09f1f3291")
+		(uuid "4a37db74-279a-4ac0-a1b8-007c8bdacc4a")
 	)
 	(label "ATN"
 		(at 170.1435 116.84 0)
@@ -5304,15 +5304,25 @@
 		)
 		(uuid "52754ffe-1b64-4b37-9a91-de695b49d044")
 	)
-	(label "iDIO8"
-		(at 297.18 147.32 180)
+	(label "iDIO6"
+		(at 297.18 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "545b0e3c-7e2d-41b3-9dac-e2d18b6de8c9")
+		(uuid "55abf27b-dcd6-4910-b780-4d4c5a11f0ec")
+	)
+	(label "DIO8"
+		(at 332.74 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59e30ce5-4f3a-4ad0-8cfd-373995b65003")
 	)
 	(label "iREN"
 		(at 92.71 147.32 180)
@@ -5334,17 +5344,17 @@
 		)
 		(uuid "5f2c77fa-2764-4d0e-910c-1221de10946b")
 	)
-	(label "iDIO7"
-		(at 297.18 142.24 180)
+	(label "iDIO1"
+		(at 297.18 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6f5336b9-516c-4e38-b8ef-179997930d19")
+		(uuid "6ffa98bb-1ef7-4aa4-992a-a928714c791e")
 	)
-	(label "DIO1"
+	(label "DIO4"
 		(at 332.74 111.76 0)
 		(effects
 			(font
@@ -5352,7 +5362,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "80956c83-1fd4-4315-ae9a-9de2b8b00dee")
+		(uuid "764769e3-7829-4cb3-9f1e-69eac56f6bdd")
+	)
+	(label "DIO3"
+		(at 332.74 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d141c2-3041-430c-99b0-f6eedad1d79e")
 	)
 	(label "GPIB_EN"
 		(at 292.1 149.86 0)
@@ -5364,15 +5384,15 @@
 		)
 		(uuid "8ab24b95-2334-4ee1-a3fc-7f08d5d82f41")
 	)
-	(label "DIO3"
-		(at 332.74 121.92 0)
+	(label "iDIO8"
+		(at 297.0634 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8eab6ca0-b9d5-4d9b-9aae-a0e79ec0dda9")
+		(uuid "8ba5def3-0d9b-4d40-886a-be8dcd313f51")
 	)
 	(label "iNRFD"
 		(at 92.71 111.76 180)
@@ -5404,25 +5424,15 @@
 		)
 		(uuid "99c7d373-6184-41a7-9984-46ee43d34f64")
 	)
-	(label "iDIO6"
-		(at 297.18 137.16 180)
+	(label "DIO5"
+		(at 332.74 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "a0df6ea8-30c2-426d-9fdd-fb53c62896e3")
-	)
-	(label "iDIO1"
-		(at 297.18 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2f765dc-1c8f-40e9-998f-9ece6ab1565f")
+		(uuid "a0a34056-44ad-4e51-a184-29cc2e2f1384")
 	)
 	(label "iDAV"
 		(at 92.71 109.22 180)
@@ -5434,6 +5444,26 @@
 		)
 		(uuid "a458b647-772f-4ad4-a45a-d46a430bb72c")
 	)
+	(label "DIO1"
+		(at 332.74 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae0220be-005b-4826-8c7d-a7c059a640bb")
+	)
+	(label "iDIO4"
+		(at 297.18 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c11b9f9a-450a-44a1-9b70-c35fdef4f49c")
+	)
 	(label "iDIO[1..8]"
 		(at 287.02 106.68 180)
 		(effects
@@ -5443,36 +5473,6 @@
 			(justify right bottom)
 		)
 		(uuid "cba4e4d2-7ce6-4c8a-8d8c-304c6a400054")
-	)
-	(label "iDIO3"
-		(at 297.18 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1742cdb-b9dc-4bd6-a11f-3a4744a12743")
-	)
-	(label "DIO6"
-		(at 332.74 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d230c59f-0429-4c98-acd9-9fb947308670")
-	)
-	(label "iDIO4"
-		(at 297.2416 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da46f61f-eedd-4f96-8b0d-f43a6059094f")
 	)
 	(label "DAV"
 		(at 170.18 109.22 0)
@@ -5494,16 +5494,6 @@
 		)
 		(uuid "e1cf9c3b-b47c-4066-9f52-2aa9fcaaeeeb")
 	)
-	(label "iDIO2"
-		(at 297.18 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e8065094-1299-48d0-bdce-1bd355a328fb")
-	)
 	(label "REN"
 		(at 170.1435 124.46 0)
 		(effects
@@ -5513,6 +5503,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec622daf-3920-41d6-8e50-0517b5e8280a")
+	)
+	(label "iDIO5"
+		(at 297.18 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed467299-7290-4fd3-971f-e9d005484571")
 	)
 	(label "EOI_SENSE"
 		(at 190.5 147.32 0)
