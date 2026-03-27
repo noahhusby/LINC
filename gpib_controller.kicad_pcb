@@ -1872,7 +1872,7 @@
 			(size 1.55 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Overview/GPIB Transceiver/iDAV")
+			(net "/Overview/GPIB Transceiver/GPIB_EN")
 			(pinfunction "PA1_15")
 			(pintype "bidirectional")
 			(uuid "c2e7c131-86e8-4190-ab91-76e0b68a8e1c")
@@ -1882,9 +1882,9 @@
 			(size 1.55 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3E-PA2(USART2_TX)-Pad16)")
+			(net "/Overview/GPIB Transceiver/GPIB_DIR")
 			(pinfunction "PA2(USART2_TX)_16")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "da868014-810a-480f-aae8-db9e30daef0a")
 		)
 		(pad "17" smd roundrect
@@ -1992,9 +1992,9 @@
 			(size 0.3 1.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3H-PB1-Pad27)")
+			(net "/Overview/GPIB Transceiver/iDAV")
 			(pinfunction "PB1_27")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "74cbdd46-5c75-44b2-b6a1-4ebbbd2a0e8c")
 		)
 		(pad "28" smd roundrect
@@ -2112,9 +2112,9 @@
 			(size 1.55 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Overview/GPIB Transceiver/GPIB_EN")
+			(net "unconnected-(U3H-PC8-Pad39)")
 			(pinfunction "PC8_39")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b6846b16-bfdc-43d7-87bd-adceaad73f25")
 		)
 		(pad "40" smd roundrect
@@ -2122,9 +2122,9 @@
 			(size 1.55 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Overview/GPIB Transceiver/GPIB_DIR")
+			(net "unconnected-(U3H-PC9-Pad40)")
 			(pinfunction "PC9_40")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2b251406-513c-43e4-97a7-6949e966aed8")
 		)
 		(pad "41" smd roundrect
@@ -5982,7 +5982,7 @@
 	(footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "3f6149ef-cfbc-4163-82ca-08c98635cd57")
-		(at 161.040501 82.526398 180)
+		(at 144.990501 94.166398)
 		(descr "TSSOP, 14 Pin (JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U2"
@@ -6042,7 +6042,7 @@
 			)
 		)
 		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/14/info"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6055,7 +6055,7 @@
 			)
 		)
 		(property "Category" "Integrated Circuits (ICs)/Logic"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6068,7 +6068,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6081,7 +6081,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC07APWR"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6094,7 +6094,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6107,7 +6107,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "14-TSSOP"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6120,7 +6120,7 @@
 			)
 		)
 		(property "Part-DB ID" "14"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6133,7 +6133,7 @@
 			)
 		)
 		(property "manf" "Texas Instruments"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6146,7 +6146,7 @@
 			)
 		)
 		(property "manf#" "SN74LVC07APWR"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6159,7 +6159,7 @@
 			)
 		)
 		(property "DigiKey SPN" "296-8442-6-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6172,7 +6172,7 @@
 			)
 		)
 		(property "digikey#" "296-8442-6-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6185,7 +6185,7 @@
 			)
 		)
 		(property "Stock" "0"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6210,44 +6210,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 2.31 2.61)
-			(end -2.31 2.61)
+			(start -2.31 -2.61)
+			(end 2.31 -2.61)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "02ae94ed-a37c-46cd-b684-b944e6038f9d")
-		)
-		(fp_line
-			(start 2.31 2.41)
-			(end 2.31 2.61)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9adddb82-d927-42a3-8bd5-af16aaa8fae1")
-		)
-		(fp_line
-			(start 2.31 -2.61)
-			(end 2.31 -2.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ef908c9d-e250-44e3-a383-fc03bb7528f2")
-		)
-		(fp_line
-			(start -2.31 2.61)
-			(end -2.31 2.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "33c8cac3-d31f-4cce-973d-5b45bee04104")
+			(uuid "619e118d-635a-411b-a0c6-4bd7528348fe")
 		)
 		(fp_line
 			(start -2.31 -2.41)
@@ -6260,14 +6230,44 @@
 			(uuid "0a8622e2-7ed5-4a49-a16a-62ddb891a788")
 		)
 		(fp_line
-			(start -2.31 -2.61)
-			(end 2.31 -2.61)
+			(start -2.31 2.61)
+			(end -2.31 2.41)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "619e118d-635a-411b-a0c6-4bd7528348fe")
+			(uuid "33c8cac3-d31f-4cce-973d-5b45bee04104")
+		)
+		(fp_line
+			(start 2.31 -2.61)
+			(end 2.31 -2.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef908c9d-e250-44e3-a383-fc03bb7528f2")
+		)
+		(fp_line
+			(start 2.31 2.41)
+			(end 2.31 2.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9adddb82-d927-42a3-8bd5-af16aaa8fae1")
+		)
+		(fp_line
+			(start 2.31 2.61)
+			(end -2.31 2.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "02ae94ed-a37c-46cd-b684-b944e6038f9d")
 		)
 		(fp_poly
 			(pts
@@ -6282,104 +6282,14 @@
 			(uuid "1be24ae5-fc0f-4955-8aaa-4f3a22f2f374")
 		)
 		(fp_line
-			(start 3.85 2.4)
-			(end 2.45 2.4)
+			(start -3.85 -2.4)
+			(end -2.45 -2.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e7937d8a-bda3-430a-911d-a1c92675b7a4")
-		)
-		(fp_line
-			(start 3.85 -2.4)
-			(end 3.85 2.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0f6c9e4b-d862-4646-a61f-916a4dd653aa")
-		)
-		(fp_line
-			(start 2.45 2.75)
-			(end -2.45 2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "238101d5-ebce-4b6c-b362-400d135c2316")
-		)
-		(fp_line
-			(start 2.45 2.4)
-			(end 2.45 2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f9c57ea4-80de-42bb-aad8-2fed32992d3e")
-		)
-		(fp_line
-			(start 2.45 -2.4)
-			(end 3.85 -2.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a71d82c3-28f7-453c-aaaa-f585b0006602")
-		)
-		(fp_line
-			(start 2.45 -2.75)
-			(end 2.45 -2.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8493af1c-254d-4be9-9325-43abbc0cdaef")
-		)
-		(fp_line
-			(start -2.45 2.75)
-			(end -2.45 2.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3482bf0f-ab9e-4ba3-839f-1d78af2e59c4")
-		)
-		(fp_line
-			(start -2.45 2.4)
-			(end -3.85 2.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2d07ea51-2bdd-4b22-a14b-55462565ad7a")
-		)
-		(fp_line
-			(start -2.45 -2.4)
-			(end -2.45 -2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6f09da0f-3e07-461d-a5f6-465cec22331f")
-		)
-		(fp_line
-			(start -2.45 -2.75)
-			(end 2.45 -2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "14bcd196-1338-4318-85ad-65808388e32b")
+			(uuid "7c164ba5-1ca0-47cb-b3c4-ebf853ffd325")
 		)
 		(fp_line
 			(start -3.85 2.4)
@@ -6392,14 +6302,104 @@
 			(uuid "33db591b-62d8-4de3-b9b0-c0cd8450da2c")
 		)
 		(fp_line
-			(start -3.85 -2.4)
-			(end -2.45 -2.4)
+			(start -2.45 -2.75)
+			(end 2.45 -2.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7c164ba5-1ca0-47cb-b3c4-ebf853ffd325")
+			(uuid "14bcd196-1338-4318-85ad-65808388e32b")
+		)
+		(fp_line
+			(start -2.45 -2.4)
+			(end -2.45 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f09da0f-3e07-461d-a5f6-465cec22331f")
+		)
+		(fp_line
+			(start -2.45 2.4)
+			(end -3.85 2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d07ea51-2bdd-4b22-a14b-55462565ad7a")
+		)
+		(fp_line
+			(start -2.45 2.75)
+			(end -2.45 2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3482bf0f-ab9e-4ba3-839f-1d78af2e59c4")
+		)
+		(fp_line
+			(start 2.45 -2.75)
+			(end 2.45 -2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8493af1c-254d-4be9-9325-43abbc0cdaef")
+		)
+		(fp_line
+			(start 2.45 -2.4)
+			(end 3.85 -2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a71d82c3-28f7-453c-aaaa-f585b0006602")
+		)
+		(fp_line
+			(start 2.45 2.4)
+			(end 2.45 2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9c57ea4-80de-42bb-aad8-2fed32992d3e")
+		)
+		(fp_line
+			(start 2.45 2.75)
+			(end -2.45 2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "238101d5-ebce-4b6c-b362-400d135c2316")
+		)
+		(fp_line
+			(start 3.85 -2.4)
+			(end 3.85 2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f6c9e4b-d862-4646-a61f-916a4dd653aa")
+		)
+		(fp_line
+			(start 3.85 2.4)
+			(end 2.45 2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e7937d8a-bda3-430a-911d-a1c92675b7a4")
 		)
 		(fp_poly
 			(pts
@@ -6425,7 +6425,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.8625 -1.95 180)
+			(at -2.8625 -1.95)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6435,7 +6435,7 @@
 			(uuid "7b23fad3-d1b3-4a87-a904-acc03af30681")
 		)
 		(pad "2" smd roundrect
-			(at -2.8625 -1.3 180)
+			(at -2.8625 -1.3)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6445,7 +6445,7 @@
 			(uuid "ed2e288b-bb12-413e-9a80-81dfcc3756e6")
 		)
 		(pad "3" smd roundrect
-			(at -2.8625 -0.65 180)
+			(at -2.8625 -0.65)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6455,7 +6455,7 @@
 			(uuid "5407b123-2367-4b01-990d-8d5f93770b98")
 		)
 		(pad "4" smd roundrect
-			(at -2.8625 0 180)
+			(at -2.8625 0)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6465,7 +6465,7 @@
 			(uuid "ecfbe879-6252-4809-a613-32cd1285b4f9")
 		)
 		(pad "5" smd roundrect
-			(at -2.8625 0.65 180)
+			(at -2.8625 0.65)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6475,7 +6475,7 @@
 			(uuid "9a7a5a43-0569-4704-84ab-b6d66152ca1a")
 		)
 		(pad "6" smd roundrect
-			(at -2.8625 1.3 180)
+			(at -2.8625 1.3)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6485,7 +6485,7 @@
 			(uuid "f57a2076-38b2-4a8d-bbf2-d0b044753fe7")
 		)
 		(pad "7" smd roundrect
-			(at -2.8625 1.95 180)
+			(at -2.8625 1.95)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6495,7 +6495,7 @@
 			(uuid "6820e490-e57c-4e32-bae5-ef6cad914c95")
 		)
 		(pad "8" smd roundrect
-			(at 2.8625 1.95 180)
+			(at 2.8625 1.95)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6505,7 +6505,7 @@
 			(uuid "17189867-988c-4986-a9f0-502cb96dfad7")
 		)
 		(pad "9" smd roundrect
-			(at 2.8625 1.3 180)
+			(at 2.8625 1.3)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6515,7 +6515,7 @@
 			(uuid "ee907e6d-bda8-43a3-b046-5a62400797e2")
 		)
 		(pad "10" smd roundrect
-			(at 2.8625 0.65 180)
+			(at 2.8625 0.65)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6525,7 +6525,7 @@
 			(uuid "dd20e442-933d-4849-8bf4-0693316e12d4")
 		)
 		(pad "11" smd roundrect
-			(at 2.8625 0 180)
+			(at 2.8625 0)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6535,7 +6535,7 @@
 			(uuid "9a9cd5cc-ebac-4ead-a3e2-bb3620169fab")
 		)
 		(pad "12" smd roundrect
-			(at 2.8625 -0.65 180)
+			(at 2.8625 -0.65)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6545,7 +6545,7 @@
 			(uuid "64307edb-ae42-46a3-8521-06fc86dab2ea")
 		)
 		(pad "13" smd roundrect
-			(at 2.8625 -1.3 180)
+			(at 2.8625 -1.3)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6555,7 +6555,7 @@
 			(uuid "2d093317-d56c-4a56-a05d-19457bf74047")
 		)
 		(pad "14" smd roundrect
-			(at 2.8625 -1.95 180)
+			(at 2.8625 -1.95)
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11521,7 +11521,7 @@
 	(footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "8bee2a55-274d-4f39-b318-7b426621c549")
-		(at 152.568001 82.786398)
+		(at 144.990501 87.166398)
 		(descr "TSSOP, 14 Pin (JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U7"
@@ -18730,164 +18730,292 @@
 		(uuid "e45afed4-b981-4a25-ac90-f50079e10df6")
 	)
 	(segment
-		(start 167.665501 97.916398)
-		(end 168.665501 97.916398)
+		(start 173.812803 84.4087)
+		(end 171.050602 84.4087)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO1")
-		(uuid "459e4302-d3ed-4adf-abb7-5a2671a9df63")
+		(uuid "0173c7d7-f817-4ef2-97cf-dc54e43be11d")
 	)
 	(segment
-		(start 173.812803 84.4087)
+		(start 165.590501 96.616397)
+		(end 165.590501 93.552618)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO1")
+		(uuid "0c7908e9-15c0-4fb3-9d8e-4eebc5a54a8c")
+	)
+	(segment
+		(start 174.170501 91.390662)
 		(end 174.170501 84.766398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO1")
-		(uuid "4833a63d-9e82-4f71-b579-063b22d0c800")
+		(uuid "45f8d908-6133-4aad-95de-277933bf924e")
 	)
 	(segment
-		(start 174.170501 91.390662)
-		(end 173.062633 92.49853)
+		(start 166.890502 97.916398)
+		(end 165.590501 96.616397)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO1")
-		(uuid "b2ab0f12-e1a9-4685-8cc2-58c504c31732")
+		(uuid "b2d11674-4964-4b06-b25f-eeae8b1f8e29")
 	)
 	(segment
-		(start 171.050602 84.4087)
-		(end 173.812803 84.4087)
+		(start 167.665501 97.916398)
+		(end 166.890502 97.916398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO1")
-		(uuid "b4ccd783-8e85-4c5e-9398-afb211502970")
+		(uuid "bd5afdc7-4405-415e-8030-cc4836ea5ae9")
 	)
 	(segment
-		(start 174.170501 84.766398)
+		(start 165.590501 93.552618)
+		(end 166.476721 92.666398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO1")
+		(uuid "d145e7c0-527d-4e53-8210-bb69d18aac43")
+	)
+	(segment
+		(start 172.894765 92.666398)
 		(end 174.170501 91.390662)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO1")
-		(uuid "c3bb1c65-58cb-41ec-b311-02b873ff297f")
+		(uuid "e8fdaf4a-f935-4ef1-93c7-c1de91340932")
+	)
+	(segment
+		(start 166.476721 92.666398)
+		(end 172.894765 92.666398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO1")
+		(uuid "f589882e-3a2b-4a4c-af03-b935249d6b17")
+	)
+	(segment
+		(start 174.170501 84.766398)
+		(end 173.812803 84.4087)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO1")
+		(uuid "ff5d7f18-43e7-457a-a03d-347bf702be34")
+	)
+	(segment
+		(start 165.890501 96.416397)
+		(end 165.890501 93.676882)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO2")
+		(uuid "13ffbff0-b5b9-46c5-9429-26e0795431fe")
+	)
+	(segment
+		(start 165.890501 93.676882)
+		(end 166.600985 92.966398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO2")
+		(uuid "244709ee-fb0b-4e30-90d7-c4085dae670c")
+	)
+	(segment
+		(start 167.665501 97.416398)
+		(end 166.890502 97.416398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO2")
+		(uuid "5b77f701-0703-47e3-adde-2764d2912fd1")
+	)
+	(segment
+		(start 166.600985 92.966398)
+		(end 173.019029 92.966398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO2")
+		(uuid "62180f40-77ea-4ae4-a465-5fb7ee996ec0")
 	)
 	(segment
 		(start 174.470501 84.226398)
-		(end 174.470501 91.514926)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/iDIO2")
-		(uuid "1485dc1e-641d-4d6a-b6e1-b65ca3c030c7")
-	)
-	(segment
-		(start 174.002803 83.7587)
-		(end 174.470501 84.226398)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/iDIO2")
-		(uuid "61fc3ae9-0669-4624-ac2c-479d8ca95591")
-	)
-	(segment
-		(start 171.050602 83.7587)
 		(end 174.002803 83.7587)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO2")
-		(uuid "90243465-dc79-4ed8-805b-87379af6f361")
+		(uuid "685b70b4-3ca3-4666-af91-be54ef31efda")
+	)
+	(segment
+		(start 174.002803 83.7587)
+		(end 171.050602 83.7587)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO2")
+		(uuid "76198ca9-d002-4a59-bc5e-d88148aaaec3")
+	)
+	(segment
+		(start 166.890502 97.416398)
+		(end 165.890501 96.416397)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO2")
+		(uuid "ad473abd-6851-4e9b-9253-c761df93a60d")
 	)
 	(segment
 		(start 174.470501 91.514926)
-		(end 173.274765 92.710662)
+		(end 174.470501 84.226398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO2")
-		(uuid "c241b997-bf28-4d55-9d19-b0cfa64dd734")
+		(uuid "cb97b49f-4042-438e-a4ca-613517da9fdb")
 	)
 	(segment
-		(start 167.665501 97.416398)
-		(end 168.731186 97.416398)
+		(start 173.019029 92.966398)
+		(end 174.470501 91.514926)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO2")
-		(uuid "fc6ab025-b5eb-4bff-ab11-60a3e31ee2df")
+		(uuid "d3d45ced-daf4-40a5-8718-5d94f8e8cb29")
 	)
 	(segment
-		(start 171.050602 83.1087)
-		(end 174.432803 83.1087)
+		(start 166.966238 96.916398)
+		(end 166.190501 96.140661)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO3")
-		(uuid "3989f1f8-486f-4746-9638-25fee5645123")
+		(uuid "04764d89-b215-4af5-9de7-2c8b454acab5")
 	)
 	(segment
-		(start 174.432803 83.1087)
-		(end 174.770501 83.446398)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/iDIO3")
-		(uuid "8e9c3c2d-3935-4f97-a706-1e6e5d1cceb4")
-	)
-	(segment
-		(start 174.770501 83.446398)
+		(start 173.143293 93.266398)
 		(end 174.770501 91.63919)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO3")
-		(uuid "94f24002-572e-4047-9cfe-a0db7e6d583e")
+		(uuid "23ac9d3c-39ad-4518-9023-267d523aa535")
+	)
+	(segment
+		(start 166.190501 96.140661)
+		(end 166.190501 93.801146)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO3")
+		(uuid "25aa88f4-fe22-4edc-a82c-cc959f01ee67")
+	)
+	(segment
+		(start 174.770501 83.446398)
+		(end 174.432803 83.1087)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO3")
+		(uuid "340381c7-2e64-4ce7-9bca-b0a7e9ce998c")
 	)
 	(segment
 		(start 167.665501 96.916398)
-		(end 168.665501 96.916398)
+		(end 166.966238 96.916398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO3")
-		(uuid "a30a77d1-fad9-4af7-a883-782833e20ef2")
+		(uuid "696e78a8-7884-408d-8707-306a01ef3afa")
+	)
+	(segment
+		(start 166.725249 93.266398)
+		(end 173.143293 93.266398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO3")
+		(uuid "8dd7f6d2-b464-4075-9ddf-9fcaf328bdb4")
+	)
+	(segment
+		(start 174.432803 83.1087)
+		(end 171.050602 83.1087)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO3")
+		(uuid "e69b9ef9-3bfd-454d-99f6-19477af14789")
 	)
 	(segment
 		(start 174.770501 91.63919)
-		(end 173.486897 92.922794)
+		(end 174.770501 83.446398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO3")
-		(uuid "ac37bcab-7bf6-423a-8f89-f8317604dfcd")
+		(uuid "ee7e3244-7fec-4381-a715-64bc8c058f55")
 	)
 	(segment
-		(start 171.050602 82.4587)
+		(start 166.190501 93.801146)
+		(end 166.725249 93.266398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO3")
+		(uuid "faa5e445-db03-4c3f-aad1-470c072f01cb")
+	)
+	(segment
+		(start 175.070501 83.056398)
 		(end 174.472803 82.4587)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO4")
-		(uuid "29a482ac-df97-4db3-9c7b-b81af04457f8")
+		(uuid "12bfd5ce-c700-499b-ae64-4dd510d942de")
 	)
 	(segment
-		(start 174.472803 82.4587)
+		(start 175.070501 91.763454)
 		(end 175.070501 83.056398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO4")
-		(uuid "6750cf33-c8d7-4e07-ac31-48db7c9a990a")
-	)
-	(segment
-		(start 175.070501 91.763454)
-		(end 173.699029 93.134926)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/iDIO4")
-		(uuid "7ae3df3c-277d-492b-8a03-fc0171a46ec8")
+		(uuid "5711b2d6-b35d-4a20-acbf-f02bd7710296")
 	)
 	(segment
 		(start 167.665501 96.416398)
-		(end 168.472911 96.416398)
+		(end 166.890502 96.416398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO4")
-		(uuid "e2db0c5f-6bc9-4853-b730-012223cc17a1")
+		(uuid "866dddbb-8df7-46a1-849e-7da0dddaa812")
 	)
 	(segment
-		(start 175.070501 83.056398)
+		(start 166.490501 93.92541)
+		(end 166.849513 93.566398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO4")
+		(uuid "9b951325-d11d-4a17-9150-423be9d77e0a")
+	)
+	(segment
+		(start 166.490501 96.016397)
+		(end 166.490501 93.92541)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO4")
+		(uuid "a87a1d42-dd90-4b8e-aa2a-431cb77f233d")
+	)
+	(segment
+		(start 174.472803 82.4587)
+		(end 171.050602 82.4587)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO4")
+		(uuid "c933c71d-af5c-46f0-9b9e-745e45c21fa9")
+	)
+	(segment
+		(start 166.890502 96.416398)
+		(end 166.490501 96.016397)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO4")
+		(uuid "cff0864e-9c08-49f2-8764-1aa08613b53a")
+	)
+	(segment
+		(start 166.849513 93.566398)
+		(end 173.267557 93.566398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/iDIO4")
+		(uuid "ebdd75b7-6b1a-4606-aef6-2c7d45bac6c9")
+	)
+	(segment
+		(start 173.267557 93.566398)
 		(end 175.070501 91.763454)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO4")
-		(uuid "fe99275c-517a-4074-b0dd-2ea86b8efd98")
+		(uuid "f8cbdac5-7748-4166-81b1-96c00b99dc23")
 	)
 	(segment
 		(start 186.086002 117.232796)
@@ -19154,14 +19282,6 @@
 		(uuid "01e0bfd1-7218-46d1-a112-1ee1b7e47f11")
 	)
 	(segment
-		(start 173.570501 91.142134)
-		(end 172.638369 92.074266)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/iDIO7")
-		(uuid "33c83d00-4e2d-4768-a8c1-3a884f313fab")
-	)
-	(segment
 		(start 173.570501 86.146398)
 		(end 173.570501 91.142134)
 		(width 0.2)
@@ -19178,12 +19298,12 @@
 		(uuid "eab3c0cc-8fd6-4b3d-b5fa-d2f5153bc90f")
 	)
 	(segment
-		(start 171.050602 85.0587)
-		(end 173.512803 85.0587)
+		(start 173.512803 85.0587)
+		(end 173.870501 85.416398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO8")
-		(uuid "5b25cb94-d41a-4a20-81d2-efcff4001fda")
+		(uuid "4c9553a7-7ab1-4f32-809d-b9cff363fbf0")
 	)
 	(segment
 		(start 173.870501 85.416398)
@@ -19191,63 +19311,71 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO8")
-		(uuid "af534ba9-c701-4730-91e1-7fbdd9c4be93")
+		(uuid "9b92de3d-5d55-4aad-839d-c38b30cd90ed")
 	)
 	(segment
-		(start 173.870501 91.266398)
-		(end 172.850501 92.286398)
+		(start 171.050602 85.0587)
+		(end 173.512803 85.0587)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/iDIO8")
-		(uuid "c06addbb-7576-4fc0-8639-e700b0ed242b")
+		(uuid "ed911e04-4040-4b5e-9c64-d22b989bc86f")
 	)
 	(segment
-		(start 173.512803 85.0587)
-		(end 173.870501 85.416398)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/iDIO8")
-		(uuid "dff72cd3-9f92-4836-b41e-dd2248610f72")
-	)
-	(segment
-		(start 176.775602 82.4587)
-		(end 176.038103 82.4587)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/GPIB_EN")
-		(uuid "183e6831-3fa7-4d0b-ab6b-6dd65dc16587")
-	)
-	(segment
-		(start 175.670501 92.011982)
-		(end 174.123293 93.55919)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/GPIB_EN")
-		(uuid "6d1706c2-393f-48e0-8a95-a84f4f1c0eb7")
-	)
-	(segment
-		(start 176.038103 82.4587)
-		(end 175.670501 82.826302)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/GPIB_EN")
-		(uuid "8e843476-e77c-4ed0-905d-be82f797825a")
-	)
-	(segment
-		(start 175.670501 82.826302)
+		(start 173.516085 94.166398)
 		(end 175.670501 92.011982)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/GPIB_EN")
-		(uuid "d3060222-b6a2-4275-bbfc-682d653a2c5c")
+		(uuid "338af532-d05d-40e3-ab7d-63856844f908")
 	)
 	(segment
-		(start 174.262803 81.8087)
-		(end 175.370501 82.916398)
+		(start 168.581489 94.166398)
+		(end 173.516085 94.166398)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Overview/GPIB Transceiver/GPIB_DIR")
-		(uuid "148e2a6c-101d-4033-beda-eb84ad830e4b")
+		(net "/Overview/GPIB Transceiver/GPIB_EN")
+		(uuid "4b7193f4-1631-421f-9fad-1b299044f4a0")
+	)
+	(segment
+		(start 175.670501 92.011982)
+		(end 175.670501 82.826302)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_EN")
+		(uuid "66c8ece6-5f99-405d-8204-d376a8b4fe8a")
+	)
+	(segment
+		(start 176.038103 82.4587)
+		(end 176.775602 82.4587)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_EN")
+		(uuid "941c9893-4477-4d9d-9bda-8673b7c5ef1f")
+	)
+	(segment
+		(start 175.670501 82.826302)
+		(end 176.038103 82.4587)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_EN")
+		(uuid "b66574bb-d434-4377-847e-9f3ca9f2f275")
+	)
+	(segment
+		(start 167.665501 94.416398)
+		(end 168.331489 94.416398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_EN")
+		(uuid "e12e89e1-df2a-4b8b-84f8-ebee0ea9be93")
+	)
+	(segment
+		(start 168.331489 94.416398)
+		(end 168.581489 94.166398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_EN")
+		(uuid "ea176df8-088b-4baf-a9e6-3cd34123cb06")
 	)
 	(segment
 		(start 175.370501 82.916398)
@@ -19255,7 +19383,31 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/GPIB_DIR")
-		(uuid "50522357-03eb-4b86-94ef-5bb931f04796")
+		(uuid "104f56a6-e7a9-4f4e-8187-ae31c0573e1c")
+	)
+	(segment
+		(start 167.715501 93.866398)
+		(end 167.665501 93.916398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_DIR")
+		(uuid "5b8740b1-49b8-424e-9f9d-c5027e16ca30")
+	)
+	(segment
+		(start 174.262803 81.8087)
+		(end 175.370501 82.916398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_DIR")
+		(uuid "a4e86aa4-d328-40f5-909b-6507a35b97f0")
+	)
+	(segment
+		(start 175.370501 91.887718)
+		(end 173.391821 93.866398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Overview/GPIB Transceiver/GPIB_DIR")
+		(uuid "b3f5eb6b-8fe6-4d10-9376-b2f8fd698166")
 	)
 	(segment
 		(start 171.050602 81.8087)
@@ -19263,15 +19415,15 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/GPIB_DIR")
-		(uuid "92295146-ca68-4acd-bde3-3cddf17271be")
+		(uuid "bc0b501e-4c8a-415f-ae6f-a5bbec1bf080")
 	)
 	(segment
-		(start 175.370501 91.887718)
-		(end 173.911161 93.347058)
+		(start 173.391821 93.866398)
+		(end 167.715501 93.866398)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Overview/GPIB Transceiver/GPIB_DIR")
-		(uuid "a4719899-2ded-4841-bd23-5329454baa19")
+		(uuid "ecb9eae0-62bb-42a1-a283-7d3c32ca5616")
 	)
 	(segment
 		(start 177.513101 87.6587)
@@ -21219,59 +21371,6 @@
 		)
 	)
 	(group ""
-		(uuid "31abccab-5f30-4f28-8067-fb3f03092d30")
-		(members "01e0bfd1-7218-46d1-a112-1ee1b7e47f11" "0bc0e172-666d-43ba-9c44-d82a3dc9b6fc"
-			"0fb0dfc2-778c-4483-b05a-b1be5abdc2f7" "144bd030-ea11-4d27-8e06-50471aaa43ee"
-			"1485dc1e-641d-4d6a-b6e1-b65ca3c030c7" "148e2a6c-101d-4033-beda-eb84ad830e4b"
-			"171a2d35-7a03-4a39-b552-4f588665241b" "183e6831-3fa7-4d0b-ab6b-6dd65dc16587"
-			"1d38b36b-b073-4233-a7da-f1b98747e752" "2708c2ab-bfdd-4b4c-9c1a-d019c8bbfd97"
-			"29a482ac-df97-4db3-9c7b-b81af04457f8" "2a09a25c-214f-4402-a5ef-3ff7af94f6d9"
-			"2c708129-0911-40a6-a0c5-54370ee9dfa1" "31dfa9f0-115d-44c6-bdad-398e1d0fa2c9"
-			"33c83d00-4e2d-4768-a8c1-3a884f313fab" "343bae18-db74-440e-a41b-8f4eae6c2c40"
-			"34ab2d0a-2258-44ff-9354-1d31ad8ae43f" "362caad5-08ee-4db7-9b02-9ce7e44ac83c"
-			"3989f1f8-486f-4746-9638-25fee5645123" "3b795aa5-c7c1-48a5-a84c-4d61b85c4e06"
-			"3baed56f-eba4-41b1-91c5-43cee977313d" "3fb35cb3-9858-4e7b-8a40-fe6f9301ed6d"
-			"41c71422-207d-46d5-a2ad-e5f2c68a9157" "41fbe96f-2d57-4d6d-8792-3d8dbe4f67d8"
-			"46b92231-5f3f-4b53-a762-47f28b80f652" "4833a63d-9e82-4f71-b579-063b22d0c800"
-			"4dc935be-dfc7-4beb-a171-deb77eb49a61" "4fbff7c7-90a6-49f4-80f8-5da809386673"
-			"50522357-03eb-4b86-94ef-5bb931f04796" "5134e6e6-1571-46ee-b991-55a2e9d5060d"
-			"54a2fec0-ad41-4ea1-8169-7a27ab771f02" "5b25cb94-d41a-4a20-81d2-efcff4001fda"
-			"5d97b288-881f-43f5-9734-92e5d1feb737" "5f3fb52b-c64c-4437-b57f-2ae1b9dfe5ac"
-			"6047b777-ed9b-42ce-8fca-b1a07342ad37" "617014a4-cf25-4b5f-be0c-eec44d3f55df"
-			"61fc3ae9-0669-4624-ac2c-479d8ca95591" "62658033-1024-486e-8db4-ec97a019c8dc"
-			"6750cf33-c8d7-4e07-ac31-48db7c9a990a" "6d1706c2-393f-48e0-8a95-a84f4f1c0eb7"
-			"7566905a-c643-4240-a61a-30599eeaeabc" "7596cec8-c9ee-4253-b1cf-e2762fa23f06"
-			"75b1045f-5e54-40b5-90a3-7c5a1bbbc951" "764e8b04-cd0e-4c6b-91eb-7d8e7145cab5"
-			"78330fb1-df96-40c1-a113-4b951de59928" "7ae3df3c-277d-492b-8a03-fc0171a46ec8"
-			"7ce34657-6e1e-4d74-8ae4-1044ed493a07" "7e2dede2-2d52-4adc-8042-c25c0168ab76"
-			"7ec7eaa4-f815-4d78-8521-a0aae4170780" "85ab11a5-738c-4cfa-b19a-7a7e3a7f4e84"
-			"8638c485-04e9-4bbd-88fd-473c8e8e82fd" "88ef777d-4daf-4c4c-b80b-24dbc90f3306"
-			"8accca8a-bc5b-49d0-963e-370486afb2ab" "8b1fdeeb-4117-4327-8169-b262e7a49f15"
-			"8e843476-e77c-4ed0-905d-be82f797825a" "8e9c3c2d-3935-4f97-a706-1e6e5d1cceb4"
-			"90243465-dc79-4ed8-805b-87379af6f361" "9226647f-ba0a-4cf3-8ee1-b0b7fa7457b1"
-			"92295146-ca68-4acd-bde3-3cddf17271be" "94f24002-572e-4047-9cfe-a0db7e6d583e"
-			"950398b1-6f53-4f7d-ad15-b3ef9e29c9c3" "9b1abf89-400e-4810-b7fc-5ca350132fa0"
-			"a07557d1-8e11-47fd-8b75-e793c7f31192" "a07e262d-72e2-41dd-85af-8e8033a263a9"
-			"a0c7a6de-3ce6-4f7f-8c97-7bf2b3c5d8c1" "a4719899-2ded-4841-bd23-5329454baa19"
-			"a6ab6adb-2f5c-487c-a38e-fc7c9fc22c0c" "a6ba18ee-1023-4f8e-ae8d-3eb863b90204"
-			"ab79b9e1-99c2-476e-8c8d-151dec8779fa" "ac37bcab-7bf6-423a-8f89-f8317604dfcd"
-			"af534ba9-c701-4730-91e1-7fbdd9c4be93" "b09e68ff-e78d-4fb5-bfcb-ad727f48341e"
-			"b2ab0f12-e1a9-4685-8cc2-58c504c31732" "b2e30005-8ca5-47d7-803f-11dff8d731f9"
-			"b4ccd783-8e85-4c5e-9398-afb211502970" "b523c289-f3a6-452b-af04-f3df3b4f3d6d"
-			"b52a1b81-fc91-4452-861f-d6fb94a66f75" "c06addbb-7576-4fc0-8639-e700b0ed242b"
-			"c0fecd26-4e13-4225-8f3c-9edd65001f18" "c19014db-18f5-4f43-a6f2-7de275ea63c1"
-			"c241b997-bf28-4d55-9d19-b0cfa64dd734" "c3bb1c65-58cb-41ec-b311-02b873ff297f"
-			"c42d8e53-9022-407c-ba61-ece1aafea3ea" "c6e28a69-4a6c-4d7c-b4ac-c243ca92e57e"
-			"c97b3b32-8401-43c7-87c7-bc8380f7c686" "d1c3431c-0de6-4511-bd71-506529b01260"
-			"d3060222-b6a2-4275-bbfc-682d653a2c5c" "db0ffd31-183d-417a-9c9f-5e66d8bec3d1"
-			"dbe87f30-ec9b-44ec-90c1-5e4a6f6e4811" "dff72cd3-9f92-4836-b41e-dd2248610f72"
-			"e6e4870a-a792-41d7-89f2-e8c2603c50ed" "e770e6eb-e0ad-43f5-a533-6271c079a2c6"
-			"eab3c0cc-8fd6-4b3d-b5fa-d2f5153bc90f" "f2a63fba-3063-478a-8ad7-6ea7c3dfa4bc"
-			"f3cc5195-585f-4d71-a6e9-90bfb5a6e5b0" "fbc5dd78-bfcd-4b30-bf83-82b2789dc6d5"
-			"fe99275c-517a-4074-b0dd-2ea86b8efd98"
-		)
-	)
-	(group ""
 		(uuid "5392d001-e248-4458-9331-d84ccb9f299c")
 		(members "0e3df918-17b3-4635-aa1a-5e5b3e384edc" "1a7fe38e-0590-462a-bbb7-0324ec8a6d16"
 			"46df804d-877f-482b-886d-04dd11ef7d38" "7725fa15-c96b-4306-942e-1d04860c258a"
@@ -21282,11 +21381,9 @@
 	(group ""
 		(uuid "a0092f78-b971-4feb-84b9-2e8c514bd859")
 		(members "16642daf-e2da-4055-805d-cf1aca5d2b6c" "1a997808-c3c9-4da6-b595-e6e26d684b2d"
-			"459e4302-d3ed-4adf-abb7-5a2671a9df63" "5a3047cb-6825-4219-8d4a-a0d98bbb2f98"
-			"8c35e6a6-5c80-4322-b95a-48fb648aefd7" "97915128-1891-4470-8be8-85f03937b6b6"
-			"a30a77d1-fad9-4af7-a883-782833e20ef2" "e2db0c5f-6bc9-4853-b730-012223cc17a1"
-			"f1327c54-d9fa-4d08-8a10-11ff59dc9e6c" "f5752697-c85b-4dce-ae96-a086ddf13551"
-			"fc6ab025-b5eb-4bff-ab11-60a3e31ee2df"
+			"5a3047cb-6825-4219-8d4a-a0d98bbb2f98" "8c35e6a6-5c80-4322-b95a-48fb648aefd7"
+			"97915128-1891-4470-8be8-85f03937b6b6" "f1327c54-d9fa-4d08-8a10-11ff59dc9e6c"
+			"f5752697-c85b-4dce-ae96-a086ddf13551"
 		)
 	)
 	(group ""
