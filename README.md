@@ -22,4 +22,4 @@ The goal of this project is to create a controller that can translate commands f
 
 ## License
 
-This project is licensed under the `MIT License`.
+This project is licensed under the `CERN OHL-P-v2 License`.
