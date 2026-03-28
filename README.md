@@ -1,5 +1,4 @@
-# LINC
-#### The *Laboratory Instrument Network Controller*, a modern GPIB interface for controlling test & measurement equipment.
+<img src="/graphics/Linc_Logo.png" width="850">
 
 ## About
 
