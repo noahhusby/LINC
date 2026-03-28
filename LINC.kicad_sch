@@ -10,12 +10,12 @@
 		(rev "0.1")
 	)
 	(lib_symbols)
-	(text "This project is licensed under the MIT License\nView license: https://opensource.org/license/mit"
+	(text "This project is licensed under the CERN-OHL-P-v2 License"
 		(exclude_from_sim no)
-		(at 25.4 66.04 0)
+		(at 25.146 63.246 0)
 		(effects
 			(font
-				(face "Helvetica")
+				(face "Times New Roman")
 				(size 2.032 2.032)
 				(italic yes)
 				(color 0 0 0 1)
@@ -26,22 +26,23 @@
 	)
 	(text "Designed by Noah Husby <opensource@husbylabs.com>"
 		(exclude_from_sim no)
-		(at 71.12 40.64 0)
+		(at 25.4 40.386 0)
 		(effects
 			(font
-				(face "Helvetica")
+				(face "Times New Roman")
 				(size 2.54 2.54)
 				(color 0 0 0 1)
 			)
+			(justify left)
 		)
 		(uuid "6dca0294-472a-471f-b19a-d1d055cdb4ed")
 	)
 	(text "This module acts as a GPIB/HP-IB (General Purpose Interface Bus) controller that reads and sends \ncommands to a PM2812 power supply.The USB-C port on the board allows serial communication with a \ncomputer to monitor the power supply. Additionally, an RS485 interface is exposed for a desk-\nmounted control panel which will display power supply status and allow for control."
 		(exclude_from_sim no)
-		(at 25.4 53.34 0)
+		(at 25.146 52.324 0)
 		(effects
 			(font
-				(face "Helvetica")
+				(face "Times New Roman")
 				(size 2.54 2.54)
 				(color 0 0 0 1)
 			)
@@ -51,14 +52,15 @@
 	)
 	(text "LINC (Laboratory Instrument Network Controller)"
 		(exclude_from_sim no)
-		(at 148.844 33.528 0)
+		(at 143.256 28.702 0)
 		(effects
 			(font
-				(face "Helvetica")
+				(face "Times New Roman")
 				(size 7.62 7.62)
 				(bold yes)
 				(color 0 0 0 1)
 			)
+			(justify top)
 		)
 		(uuid "7a6907ac-c12d-4a78-a45b-148f8ab21927")
 	)
