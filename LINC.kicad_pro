@@ -538,7 +538,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "linc_pcb",
+      "plot": "gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

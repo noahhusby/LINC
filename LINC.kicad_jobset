@@ -221,7 +221,7 @@
       "settings": {
         "black_and_white": true,
         "check_zones": false,
-        "create_gerber_job_file": true,
+        "create_gerber_job_file": false,
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
         "disable_aperture_macros": false,
@@ -271,17 +271,7 @@
           "Edge.Cuts"
         ],
         "layers_to_include_on_all_layers": [
-          "B.Cu",
-          "B.Mask",
-          "B.Paste",
-          "B.SilkS",
-          "In2.Cu",
-          "In1.Cu",
-          "F.Cu",
-          "F.Mask",
-          "F.Paste",
-          "F.SilkS",
-          "Edge.Cuts"
+          "B.Cu"
         ],
         "mirror": false,
         "negative": false,
