@@ -6,8 +6,8 @@
 	(paper "User" 431.8 279.4)
 	(title_block
 		(title "Microcontroller")
-		(date "2026-03-12")
-		(rev "1")
+		(date "2026-03-27")
+		(rev "0.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -19487,7 +19487,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 111.76) (xy 314.96 111.76)
+			(xy 304.8 111.76) (xy 322.58 111.76)
 		)
 		(stroke
 			(width 0)
@@ -19627,6 +19627,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 104.14) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9144af45-fcec-4595-b0c4-1152907c72dc")
+	)
+	(wire
+		(pts
 			(xy 53.34 198.12) (xy 53.34 200.66)
 		)
 		(stroke
@@ -19647,7 +19657,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 114.3) (xy 323.85 114.3)
+			(xy 304.8 114.3) (xy 322.58 114.3)
 		)
 		(stroke
 			(width 0)
@@ -19967,7 +19977,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 58.42) (xy 323.85 58.42)
+			(xy 304.8 58.42) (xy 320.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -19987,7 +19997,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 63.5) (xy 323.85 63.5)
+			(xy 304.8 63.5) (xy 320.04 63.5)
 		)
 		(stroke
 			(width 0)
@@ -20147,7 +20157,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 60.96) (xy 323.85 60.96)
+			(xy 304.8 60.96) (xy 320.04 60.96)
 		)
 		(stroke
 			(width 0)
@@ -20217,6 +20227,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 116.84) (xy 220.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec478573-625f-49f6-a404-d1181bcc57fd")
+	)
+	(wire
+		(pts
 			(xy 50.8 81.28) (xy 50.8 78.74)
 		)
 		(stroke
@@ -20224,16 +20244,6 @@
 			(type default)
 		)
 		(uuid "ec6ff378-e96c-4d94-8bb4-edef6008557a")
-	)
-	(wire
-		(pts
-			(xy 210.82 104.14) (xy 229.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee6a15ea-2ff0-44a7-aa1c-8928e76e4730")
 	)
 	(wire
 		(pts
@@ -20254,16 +20264,6 @@
 			(type default)
 		)
 		(uuid "f08d3e31-3f2d-4906-a6bf-45c0883b8ca1")
-	)
-	(wire
-		(pts
-			(xy 210.82 116.84) (xy 228.6 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2039c36-a552-4aff-99d3-011160e9a2fc")
 	)
 	(wire
 		(pts
@@ -20346,7 +20346,7 @@
 		(uuid "fb0ba89b-e7a8-4b0b-b76a-750f69d97e6c")
 	)
 	(label "NRFD_SENSE"
-		(at 308.61 114.3 0)
+		(at 309.88 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20386,7 +20386,7 @@
 		(uuid "207834b1-201f-4096-9998-c4dc8a11dd07")
 	)
 	(label "iNDAC"
-		(at 214.63 119.38 0)
+		(at 213.36 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20396,7 +20396,7 @@
 		(uuid "287bb5d7-8e9b-44f8-a358-9680d786d4d5")
 	)
 	(label "DAV_SENSE"
-		(at 308.61 58.42 0)
+		(at 307.34 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20596,7 +20596,7 @@
 		(uuid "86daf4bb-ce84-4bde-82bb-23919fc0dcec")
 	)
 	(label "iNRFD"
-		(at 215.9 116.84 0)
+		(at 213.36 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20636,7 +20636,7 @@
 		(uuid "bde5629e-fae4-4d21-8d02-1e86bf2da17d")
 	)
 	(label "NDAC_SENSE"
-		(at 308.61 63.5 0)
+		(at 307.34 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20656,7 +20656,7 @@
 		(uuid "cb7baf5e-6b92-4b56-b412-8b532c844cdb")
 	)
 	(label "iATN"
-		(at 308.61 111.76 0)
+		(at 309.88 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20666,7 +20666,7 @@
 		(uuid "cc5c6824-1d90-4a78-a53f-2c242f426acd")
 	)
 	(label "SRQ_SENSE"
-		(at 308.61 60.96 0)
+		(at 307.34 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20676,7 +20676,7 @@
 		(uuid "ce49460c-e8ec-4685-a3b4-fcd234fd85d7")
 	)
 	(label "EOI_SENSE"
-		(at 214.63 104.14 0)
+		(at 213.36 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20729,7 +20729,7 @@
 	)
 	(hierarchical_label "EOI_SENSE"
 		(shape input)
-		(at 229.87 104.14 0)
+		(at 223.52 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20740,7 +20740,7 @@
 	)
 	(hierarchical_label "DAV_SENSE"
 		(shape input)
-		(at 323.85 58.42 0)
+		(at 320.04 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20784,7 +20784,7 @@
 	)
 	(hierarchical_label "iNRFD"
 		(shape output)
-		(at 228.6 116.84 0)
+		(at 220.98 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20872,7 +20872,7 @@
 	)
 	(hierarchical_label "NDAC_SENSE"
 		(shape input)
-		(at 323.85 63.5 0)
+		(at 320.04 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20883,7 +20883,7 @@
 	)
 	(hierarchical_label "iATN"
 		(shape output)
-		(at 314.96 111.76 0)
+		(at 322.58 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20894,7 +20894,7 @@
 	)
 	(hierarchical_label "NRFD_SENSE"
 		(shape input)
-		(at 323.85 114.3 0)
+		(at 322.58 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20905,7 +20905,7 @@
 	)
 	(hierarchical_label "SRQ_SENSE"
 		(shape input)
-		(at 323.85 60.96 0)
+		(at 320.04 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)

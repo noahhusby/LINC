@@ -237,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1"
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -703,7 +703,8 @@
     ]
   ],
   "text_variables": {
-    "PROJECT_NAME": "PM 2812 GPIB Controller"
+    "PROJECT_NAME": "LINC",
+    "Revision": "0.1"
   },
   "tuning_profiles": {
     "meta": {

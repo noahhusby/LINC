@@ -5,8 +5,9 @@
 	(uuid "0f352524-50ff-469d-9a68-783e183b0073")
 	(paper "User" 431.8 279.4)
 	(title_block
-		(date "2026-03-12")
-		(rev "1")
+		(title "Project Overview")
+		(date "2026-03-27")
+		(rev "0.1")
 	)
 	(lib_symbols)
 	(text "This project is licensed under the MIT License\nView license: https://opensource.org/license/mit"
@@ -48,9 +49,9 @@
 		)
 		(uuid "6f3f8180-3307-47c3-b445-73f0b59cee9c")
 	)
-	(text "PM2812 GPIB Controller"
+	(text "LINC (Laboratory Instrument Network Controller)"
 		(exclude_from_sim no)
-		(at 86.36 33.02 0)
+		(at 148.844 33.528 0)
 		(effects
 			(font
 				(face "Helvetica")
