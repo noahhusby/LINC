@@ -397,7 +397,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PARTSDB:CC0603KRX7R7BB104"
+		(symbol "PARTSDB:CL10A475KP8NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -421,561 +421,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "[[Capacitance]]"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Capacitors/Ceramic Capacitors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0603KRX7R7BB104"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB Footprint" "C-0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB ID" "5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf#" "CC0603KRX7R7BB104"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey SPN" "311-1088-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "digikey#" "311-1088-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CC0603KRX7R7BB104_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CC0603KRX7R7BB104_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PARTSDB:CC0603KRX7R9BB103"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10000 pF"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Product%20Guide-Catalog/yageo_High-20Capacitance-20MLCCs_2016_19050911_141.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/24/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Capacitors/Ceramic Capacitors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0603KRX7R9BB103"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB Footprint" "C-0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB ID" "24"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf#" "CC0603KRX7R9BB103"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey SPN" "311-1085-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "digikey#" "311-1085-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CC0603KRX7R9BB103_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CC0603KRX7R9BB103_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PARTSDB:CL10A106MA8NRNC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10 µF"
+			(property "Value" "4.7 µF"
 				(at 0.254 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1008,7 +454,7 @@
 					)
 				)
 			)
-			(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(property "Description" "4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1019,284 +465,7 @@
 					)
 				)
 			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/20/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Capacitors/Ceramic Capacitors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL10A106MA8NRNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB Footprint" "C-0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB ID" "20"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf" "Samsung Electro-Mechanics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf#" "CL10A106MA8NRNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey SPN" "1276-1869-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "digikey#" "1276-1869-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CL10A106MA8NRNC_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CL10A106MA8NRNC_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PARTSDB:CL10A226MP8NUNE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "22 µF"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7742/DataSheet_CL10A226MP8NUN_20251030.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/23/info"
+			(property "Part-DB URL" "http://192.168.3.4:6050/en/part/6/info"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1329,7 +498,7 @@
 					)
 				)
 			)
-			(property "MPN" "CL10A226MP8NUNE"
+			(property "MPN" "CL10A475KP8NNNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1362,7 +531,7 @@
 					)
 				)
 			)
-			(property "Part-DB ID" "23"
+			(property "Part-DB ID" "6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1384,7 +553,7 @@
 					)
 				)
 			)
-			(property "manf#" "CL10A226MP8NUNE"
+			(property "manf#" "CL10A475KP8NNNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1395,7 +564,7 @@
 					)
 				)
 			)
-			(property "DigiKey SPN" "1276-1274-6-ND"
+			(property "DigiKey SPN" "1276-1044-1-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1406,7 +575,7 @@
 					)
 				)
 			)
-			(property "digikey#" "1276-1274-6-ND"
+			(property "digikey#" "1276-1044-1-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1439,7 +608,7 @@
 					)
 				)
 			)
-			(symbol "CL10A226MP8NUNE_0_1"
+			(symbol "CL10A475KP8NNNC_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1465,7 +634,7 @@
 					)
 				)
 			)
-			(symbol "CL10A226MP8NUNE_1_1"
+			(symbol "CL10A475KP8NNNC_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1818,594 +987,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PARTSDB:LTST-C191KRKT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Red"
-				(at -4.445 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/22/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Optoelectronics/LED Indication/Discrete"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Lite-On Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "LTST-C191KRKT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB ID" "22"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf" "Lite-On Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf#" "LTST-C191KRKT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey SPN" "160-1447-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "digikey#" "160-1447-6-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED_SMD:LED_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LTST-C191KRKT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LTST-C191KRKT_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PARTSDB:RC0603FR-0710KL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10k"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/10/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Resistors/Chip Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-0710KL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB Footprint" "R-0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB ID" "10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf#" "RC0603FR-0710KL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey SPN" "311-10.0KHRDKR-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "digikey#" "311-10.0KHRDKR-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0603FR-0710KL_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PARTSDB:RC0603FR-07150RL"
 			(pin_numbers
 				(hide yes)
@@ -2681,564 +1262,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PARTSDB:RC0603FR-0715K8L"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PARTSDB:TLV74311PDBVR"
 			(pin_names
 				(offset 0.254)
-				(hide yes)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "15.8k"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/19/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Resistors/Chip Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-0715K8L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB Footprint" "R-0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB ID" "19"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf#" "RC0603FR-0715K8L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey SPN" "311-15.8KHRDKR-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "digikey#" "311-15.8KHRDKR-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0603FR-0715K8L_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PARTSDB:RC0603FR-0768RL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "68"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "68 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/26/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Resistors/Chip Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-0768RL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB Footprint" "R-0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part-DB ID" "26"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manf#" "RC0603FR-0768RL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey SPN" "311-68.0HRDKR-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "digikey#" "311-68.0HRDKR-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0603FR-0768RL_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PARTSDB:TPSM861253RDXR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0.508 -1.524 0)
+				(at -3.81 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3247,17 +1281,30 @@
 					)
 				)
 			)
-			(property "Value" "TPSM861253RDXR"
-				(at 0 0 0)
+			(property "Value" "TLV74311PDBVR"
+				(at 0 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RDX0007A_QFN-FCMOD-7-3.3x4mm-P0.5mm_4EP"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3268,7 +1315,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm861253.pdf?ts=1707934545074"
+			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3279,7 +1326,7 @@
 					)
 				)
 			)
-			(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 3.3V 1A 3.8V - 17V Input"
+			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/31/info"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3290,18 +1337,7 @@
 					)
 				)
 			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/18/info"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Power Supplies - Board Mount/DC DC Converters"
+			(property "Category" "Integrated Circuits (ICs)/Power Management (PMIC)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3323,7 +1359,7 @@
 					)
 				)
 			)
-			(property "MPN" "TPSM861253RDXR"
+			(property "MPN" "TLV74311PDBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3345,7 +1381,7 @@
 					)
 				)
 			)
-			(property "Part-DB Footprint" "7-QFN-FCMOD (4x3.3)"
+			(property "Part-DB Footprint" "SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3356,7 +1392,7 @@
 					)
 				)
 			)
-			(property "Part-DB ID" "18"
+			(property "Part-DB ID" "31"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3378,7 +1414,7 @@
 					)
 				)
 			)
-			(property "manf#" "TPSM861253RDXR"
+			(property "manf#" "TLV74311PDBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3389,7 +1425,7 @@
 					)
 				)
 			)
-			(property "DigiKey SPN" "296-TPSM861253RDXRDKR-ND"
+			(property "DigiKey SPN" "296-50002-6-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3400,7 +1436,7 @@
 					)
 				)
 			)
-			(property "digikey#" "296-TPSM861253RDXRDKR-ND"
+			(property "digikey#" "296-50002-6-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3422,7 +1458,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Package_DFN_QFN:Texas_RDX0007A_QFN-FCMOD-7-3.3x4mm-P0.5mm_4EP"
+			(property "ki_fp_filters" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3433,10 +1469,10 @@
 					)
 				)
 			)
-			(symbol "TPSM861253RDXR_0_1"
+			(symbol "TLV74311PDBVR_0_1"
 				(rectangle
-					(start 0 -2.54)
-					(end 15.24 -15.24)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3446,11 +1482,11 @@
 					)
 				)
 			)
-			(symbol "TPSM861253RDXR_1_1"
+			(symbol "TLV74311PDBVR_1_1"
 				(pin power_in line
-					(at -2.54 -5.08 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VIN"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3465,10 +1501,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at -2.54 -12.7 0)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "SW"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3483,10 +1519,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 -5.08 180)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "VOUT"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3501,10 +1537,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 -12.7 180)
+				(pin no_connect line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "PGND"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3519,10 +1556,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 17.78 -10.16 180)
+				(pin power_out line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "PG"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3530,42 +1567,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -7.62 180)
-					(length 2.54)
-					(name "VOS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4435,7 +2436,7 @@
 	)
 	(text "5V to 3V3 @ 1A"
 		(exclude_from_sim no)
-		(at 218.44 119.126 0)
+		(at 251.46 121.666 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4449,7 +2450,7 @@
 	)
 	(text "USB Protection"
 		(exclude_from_sim no)
-		(at 99.06 119.38 0)
+		(at 132.08 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4463,7 +2464,7 @@
 	)
 	(text "RS485 Transceiver"
 		(exclude_from_sim no)
-		(at 99.06 185.166 0)
+		(at 132.08 187.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4476,70 +2477,32 @@
 		(uuid "e9a5589c-7684-4560-8630-9d89e8bd8fe7")
 	)
 	(junction
-		(at 251.46 93.98)
+		(at 269.24 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b99c8a7-8876-45db-a28f-32586f75ec6c")
+		(uuid "0c4e6e1d-ebbe-4fbf-af8f-69f2511a93c1")
 	)
 	(junction
-		(at 307.34 83.82)
+		(at 289.56 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "397f51d3-c31f-4a54-92ec-d1327f53dba4")
+		(uuid "3a55b54c-a905-42c5-b035-ef88375c547f")
 	)
 	(junction
-		(at 297.18 83.82)
+		(at 266.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71cc7d83-eab2-4731-b21c-69cdcaae81e3")
+		(uuid "55cc957b-29a0-4585-bfa0-6211b073ceff")
 	)
 	(junction
-		(at 220.98 83.82)
+		(at 256.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ff4fd9-a79d-4d43-856f-0e39420d6df8")
 	)
-	(junction
-		(at 241.3 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f512b8e-ae57-4b65-a8b7-89a43d5dc3e7")
-	)
-	(junction
-		(at 251.46 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9244febe-47ce-4d7c-b822-8b1497999714")
-	)
-	(junction
-		(at 287.02 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92ba9a4f-f96d-41db-997f-61686adc74da")
-	)
-	(junction
-		(at 231.14 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf64068e-5382-4c09-8e72-f520776633bc")
-	)
-	(junction
-		(at 261.62 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e77b5140-466d-4268-a242-3d23d312c709")
-	)
-	(no_connect
-		(at 284.48 88.9)
-		(uuid "6d481a87-aee5-4cc4-9c45-04384dae3ba3")
-	)
-	(no_connect
-		(at 264.16 91.44)
-		(uuid "a302cb52-fbcb-41f4-903f-3b1cd8338a7a")
-	)
 	(wire
 		(pts
-			(xy 132.08 104.14) (xy 132.08 106.68)
+			(xy 165.1 106.68) (xy 165.1 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4549,57 +2512,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 83.82) (xy 264.16 83.82)
+			(xy 269.24 91.44) (xy 271.78 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0eef98c6-59e2-420c-8afd-8fa673a5a478")
-	)
-	(wire
-		(pts
-			(xy 251.46 86.36) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ae4815-5270-40ab-907f-ce09db3e824f")
-	)
-	(wire
-		(pts
-			(xy 284.48 83.82) (xy 287.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b5f049c-511a-4097-ba85-fd785f0cfb19")
-	)
-	(wire
-		(pts
-			(xy 261.62 93.98) (xy 261.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ddd75a2-a1ca-4cda-95b5-c72c7378a143")
-	)
-	(wire
-		(pts
-			(xy 251.46 93.98) (xy 261.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3a4a3b-0291-4f0c-91f3-4c2d482d2b03")
+		(uuid "0d891b3e-8411-4050-90ea-c0f8e29d8bdc")
 	)
 	(polyline
 		(pts
-			(xy 170.18 180.34) (xy 170.18 182.88)
+			(xy 203.2 182.88) (xy 203.2 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4610,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 83.82) (xy 241.3 83.82)
+			(xy 266.7 91.44) (xy 269.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4620,7 +2543,7 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 180.34) (xy 99.06 182.88)
+			(xy 132.08 182.88) (xy 132.08 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4631,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 96.52) (xy 127 96.52)
+			(xy 144.78 99.06) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4641,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 83.82) (xy 231.14 91.44)
+			(xy 266.7 91.44) (xy 266.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4651,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 96.52) (xy 297.18 104.14)
+			(xy 289.56 104.14) (xy 289.56 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +2584,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 152.4) (xy 154.94 152.4)
+			(xy 269.24 93.98) (xy 269.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38479456-5ef2-4642-a189-da0b11bbb7df")
+	)
+	(wire
+		(pts
+			(xy 175.26 154.94) (xy 187.96 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4671,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 83.82) (xy 231.14 83.82)
+			(xy 256.54 91.44) (xy 266.7 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4681,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 86.36) (xy 220.98 83.82)
+			(xy 256.54 93.98) (xy 256.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4691,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 127 99.06)
+			(xy 144.78 101.6) (xy 160.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4701,17 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 101.6) (xy 307.34 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cedd264-ab2a-4084-bbf0-499f6becb721")
-	)
-	(wire
-		(pts
-			(xy 132.08 88.9) (xy 132.08 91.44)
+			(xy 165.1 91.44) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4721,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 149.86) (xy 109.22 149.86)
+			(xy 154.94 152.4) (xy 142.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4731,17 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 86.36) (xy 287.02 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e9c3831-6ce5-4e80-bf71-75de24b9979f")
-	)
-	(wire
-		(pts
-			(xy 132.08 170.18) (xy 132.08 172.72)
+			(xy 165.1 172.72) (xy 165.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4751,27 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 86.36) (xy 261.62 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611b76f1-1282-42bb-8619-6f5301e42c0b")
-	)
-	(wire
-		(pts
-			(xy 307.34 83.82) (xy 307.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d1ceec2-3fe6-40fb-87fb-e89431c5c8eb")
-	)
-	(wire
-		(pts
-			(xy 142.24 157.48) (xy 154.94 157.48)
+			(xy 175.26 160.02) (xy 187.96 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4781,7 +2674,7 @@
 	)
 	(polyline
 		(pts
-			(xy 170.18 114.554) (xy 170.18 117.094)
+			(xy 203.2 117.094) (xy 203.2 119.634)
 		)
 		(stroke
 			(width 0)
@@ -4792,27 +2685,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 101.6) (xy 251.46 104.14)
+			(xy 271.78 93.98) (xy 269.24 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7358024c-c442-4e94-84d2-a944fc593bbc")
-	)
-	(wire
-		(pts
-			(xy 287.02 83.82) (xy 297.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d50b149-30d2-49cc-9579-0d179b96076d")
+		(uuid "7b12f1b9-d738-40f7-a331-0ed1f1c2eb91")
 	)
 	(polyline
 		(pts
-			(xy 99.06 117.094) (xy 170.18 117.094)
+			(xy 132.08 119.634) (xy 203.2 119.634)
 		)
 		(stroke
 			(width 0)
@@ -4823,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 137.16) (xy 132.08 139.7)
+			(xy 165.1 139.7) (xy 165.1 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4833,17 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 91.44) (xy 251.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "875bcf12-4b4e-4690-a5dc-0d41c96ec544")
-	)
-	(wire
-		(pts
-			(xy 220.98 101.6) (xy 220.98 104.14)
+			(xy 256.54 106.68) (xy 256.54 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4853,7 +2726,7 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 114.554) (xy 99.06 117.094)
+			(xy 132.08 117.094) (xy 132.08 119.634)
 		)
 		(stroke
 			(width 0)
@@ -4864,17 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 83.82) (xy 307.34 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e6433b-ec8a-448b-abfa-03cd56d7f8ce")
-	)
-	(wire
-		(pts
-			(xy 142.24 147.32) (xy 154.94 147.32)
+			(xy 175.26 149.86) (xy 187.96 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4884,7 +2747,7 @@
 	)
 	(polyline
 		(pts
-			(xy 312.42 114.3) (xy 312.42 116.84)
+			(xy 294.64 116.84) (xy 294.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4895,27 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 91.44) (xy 307.34 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "980edf60-79ea-45ec-8014-1f45181a88db")
-	)
-	(wire
-		(pts
-			(xy 261.62 101.6) (xy 261.62 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b5534b-9d7b-4f0d-bd6c-b713039ff1b2")
-	)
-	(wire
-		(pts
-			(xy 121.92 160.02) (xy 109.22 160.02)
+			(xy 154.94 162.56) (xy 142.24 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4925,27 +2768,17 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 91.44) (xy 287.02 104.14)
+			(xy 287.02 91.44) (xy 289.56 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1fa635d-f65c-4791-ab5b-68af2caf28aa")
+		(uuid "b2cd5495-e7a5-479c-9cad-683a8ccc3c78")
 	)
 	(wire
 		(pts
-			(xy 251.46 93.98) (xy 251.46 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5df5aec-0b73-4f83-bb3c-e745df6ea79e")
-	)
-	(wire
-		(pts
-			(xy 220.98 91.44) (xy 220.98 96.52)
+			(xy 256.54 99.06) (xy 256.54 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4955,17 +2788,17 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 86.36) (xy 261.62 93.98)
+			(xy 289.56 91.44) (xy 289.56 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b96b2c0e-da07-4b4c-838d-f699f2c1a034")
+		(uuid "bad10a88-4e5d-4cb0-b215-404248ee416f")
 	)
 	(polyline
 		(pts
-			(xy 218.44 114.3) (xy 218.44 116.84)
+			(xy 251.46 116.84) (xy 251.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4976,7 +2809,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 81.28) (xy 220.98 83.82)
+			(xy 279.4 101.6) (xy 279.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c033fd04-6513-4365-8ec4-b9ab5df01ae7")
+	)
+	(wire
+		(pts
+			(xy 256.54 88.9) (xy 256.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4986,7 +2829,7 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 182.88) (xy 170.18 182.88)
+			(xy 132.08 185.42) (xy 203.2 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4997,37 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 241.3 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caaa7c39-25c2-47ed-8d3d-8b4990cdda35")
-	)
-	(wire
-		(pts
-			(xy 241.3 96.52) (xy 241.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d29b4238-6e08-4c0f-b0ee-0d9cbe12236f")
-	)
-	(wire
-		(pts
-			(xy 287.02 83.82) (xy 287.02 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46c46e2-ed23-458a-b544-fb614bcfb403")
-	)
-	(wire
-		(pts
-			(xy 307.34 81.28) (xy 307.34 83.82)
+			(xy 289.56 88.9) (xy 289.56 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5037,17 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 91.44) (xy 297.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0266a89-4f38-4b71-81d3-e14817fae934")
-	)
-	(wire
-		(pts
-			(xy 142.24 162.56) (xy 154.94 162.56)
+			(xy 175.26 165.1) (xy 187.96 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5057,17 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49caca9-d0df-4749-93c9-40461d86f0d9")
-	)
-	(wire
-		(pts
-			(xy 137.16 99.06) (xy 152.4 99.06)
+			(xy 170.18 101.6) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5077,17 +2870,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 91.44) (xy 287.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71dbfa2-26ae-4bb1-a9a1-14623ebbad3a")
-	)
-	(wire
-		(pts
-			(xy 231.14 96.52) (xy 231.14 104.14)
+			(xy 266.7 104.14) (xy 266.7 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +2880,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 152.4 96.52)
+			(xy 170.18 99.06) (xy 185.42 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5107,7 +2890,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 116.84) (xy 312.42 116.84)
+			(xy 251.46 119.38) (xy 294.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5117,7 +2900,7 @@
 		(uuid "fe902382-80b9-4a98-a352-91c507fe1982")
 	)
 	(label "USB_DP"
-		(at 139.7 99.06 0)
+		(at 172.72 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5127,7 +2910,7 @@
 		(uuid "04003d95-5ebc-4500-9fad-1f178c0092bd")
 	)
 	(label "CTRL_RX_P"
-		(at 143.51 147.32 0)
+		(at 176.53 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5137,7 +2920,7 @@
 		(uuid "469b89db-f6d9-49cb-8604-5af8c033eae3")
 	)
 	(label "CTRL_RX"
-		(at 119.38 149.86 180)
+		(at 152.4 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5147,7 +2930,7 @@
 		(uuid "4f441be8-4cd3-467a-b7c5-48cd4bb02015")
 	)
 	(label "iUSB_DP"
-		(at 116.84 99.06 0)
+		(at 149.86 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5157,7 +2940,7 @@
 		(uuid "616dbe2a-0f22-4594-9b8a-565f7e101e3c")
 	)
 	(label "CTRL_TX_N"
-		(at 143.51 162.56 0)
+		(at 176.53 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5167,7 +2950,7 @@
 		(uuid "767a0658-67d2-49cb-af15-c0997c1eafce")
 	)
 	(label "CTRL_TX_P"
-		(at 143.51 157.48 0)
+		(at 176.53 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5177,7 +2960,7 @@
 		(uuid "7efb1a9e-5118-4ffb-89f0-93d05f9a708b")
 	)
 	(label "iUSB_DM"
-		(at 116.84 96.52 0)
+		(at 149.86 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5187,7 +2970,7 @@
 		(uuid "977c2555-0c01-4f6a-ba2a-818e80412959")
 	)
 	(label "CTRL_RX_N"
-		(at 143.51 152.4 0)
+		(at 176.53 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5197,7 +2980,7 @@
 		(uuid "c999207d-abe5-404c-b43b-ab8c68eede93")
 	)
 	(label "CTRL_TX"
-		(at 119.38 160.02 180)
+		(at 152.4 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5207,7 +2990,7 @@
 		(uuid "ca964a03-bd91-4c36-ba8a-2df1397701d9")
 	)
 	(label "USB_DM"
-		(at 139.7 96.52 0)
+		(at 172.72 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5218,7 +3001,7 @@
 	)
 	(hierarchical_label "CTRL_TX"
 		(shape bidirectional)
-		(at 109.22 160.02 180)
+		(at 142.24 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5229,7 +3012,7 @@
 	)
 	(hierarchical_label "iUSB_DM"
 		(shape bidirectional)
-		(at 111.76 96.52 180)
+		(at 144.78 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5240,7 +3023,7 @@
 	)
 	(hierarchical_label "USB_DM"
 		(shape bidirectional)
-		(at 152.4 96.52 0)
+		(at 185.42 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5251,7 +3034,7 @@
 	)
 	(hierarchical_label "iUSB_DP"
 		(shape bidirectional)
-		(at 111.76 99.06 180)
+		(at 144.78 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5262,7 +3045,7 @@
 	)
 	(hierarchical_label "CTRL_TX_P"
 		(shape bidirectional)
-		(at 154.94 157.48 0)
+		(at 187.96 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5273,7 +3056,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
-		(at 152.4 99.06 0)
+		(at 185.42 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5284,7 +3067,7 @@
 	)
 	(hierarchical_label "CTRL_RX"
 		(shape bidirectional)
-		(at 109.22 149.86 180)
+		(at 142.24 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5295,7 +3078,7 @@
 	)
 	(hierarchical_label "CTRL_TX_N"
 		(shape bidirectional)
-		(at 154.94 162.56 0)
+		(at 187.96 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,7 +3089,7 @@
 	)
 	(hierarchical_label "CTRL_RX_P"
 		(shape bidirectional)
-		(at 154.94 147.32 0)
+		(at 187.96 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5317,7 +3100,7 @@
 	)
 	(hierarchical_label "CTRL_RX_N"
 		(shape bidirectional)
-		(at 154.94 152.4 0)
+		(at 187.96 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5328,7 +3111,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 132.08 96.52 0)
+		(at 165.1 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5339,7 +3122,7 @@
 		(fields_autoplaced yes)
 		(uuid "1007a32d-36fc-4405-bd90-602664fc3a98")
 		(property "Reference" "U8"
-			(at 133.7311 88.9 0)
+			(at 166.7511 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5350,7 +3133,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 133.7311 91.44 0)
+			(at 166.7511 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5361,7 +3144,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 133.35 102.87 0)
+			(at 166.37 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,7 +3157,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 133.35 104.775 0)
+			(at 166.37 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +3169,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 132.08 96.52 0)
+			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5424,221 +3207,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PARTSDB:LTST-C191KRKT")
-		(at 307.34 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ef63f60-5584-48dd-a7a5-15db056cdf43")
-		(property "Reference" "D2"
-			(at 309.118 88.392 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Red"
-			(at 309.118 90.1065 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 307.34 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
-			(at 307.34 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/22/info"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Optoelectronics/LED Indication/Discrete"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Lite-On Inc."
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LTST-C191KRKT"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "22"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "Lite-On Inc."
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "LTST-C191KRKT"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "160-1447-6-ND"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "160-1447-6-ND"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 307.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "506a3909-1ef1-424b-86fe-4cdf0f1bb541")
-		)
-		(pin "1"
-			(uuid "9b6216e2-6c3e-4acc-b6eb-86cc9afd589e")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PARTSDB:LTST-C191KGKT")
-		(at 220.98 88.9 90)
+		(at 256.54 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5648,7 +3218,7 @@
 		(dnp no)
 		(uuid "2f2a3a0d-8bd5-4fed-8416-51414d45990f")
 		(property "Reference" "D1"
-			(at 222.758 88.138 90)
+			(at 258.318 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5659,7 +3229,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 222.758 89.916 90)
+			(at 258.318 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5670,7 +3240,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 220.98 88.9 90)
+			(at 256.54 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5681,7 +3251,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 220.98 88.9 90)
+			(at 256.54 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5692,7 +3262,7 @@
 			)
 		)
 		(property "Description" "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5703,7 +3273,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5714,7 +3284,7 @@
 			)
 		)
 		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/21/info"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5725,7 +3295,7 @@
 			)
 		)
 		(property "Category" "Optoelectronics/LED Indication/Discrete"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5736,7 +3306,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +3317,7 @@
 			)
 		)
 		(property "MPN" "LTST-C191KGKT"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5758,7 +3328,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +3339,7 @@
 			)
 		)
 		(property "Part-DB ID" "21"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +3350,7 @@
 			)
 		)
 		(property "manf" "Lite-On Inc."
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,7 +3361,7 @@
 			)
 		)
 		(property "manf#" "LTST-C191KGKT"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5802,7 +3372,7 @@
 			)
 		)
 		(property "DigiKey SPN" "160-1446-6-ND"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5813,7 +3383,7 @@
 			)
 		)
 		(property "digikey#" "160-1446-6-ND"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5824,7 +3394,7 @@
 			)
 		)
 		(property "Stock" "0"
-			(at 220.98 88.9 0)
+			(at 256.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +3421,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 220.98 81.28 0)
+		(at 256.54 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5863,7 +3433,7 @@
 		(fields_autoplaced yes)
 		(uuid "41572968-731c-4448-b873-f6e18054dadc")
 		(property "Reference" "#PWR031"
-			(at 220.98 85.09 0)
+			(at 256.54 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,7 +3444,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 220.98 76.2 0)
+			(at 256.54 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5884,7 +3454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 81.28 0)
+			(at 256.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +3465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 81.28 0)
+			(at 256.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,7 +3476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 220.98 81.28 0)
+			(at 256.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5929,8 +3499,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PARTSDB:CC0603KRX7R7BB104")
-		(at 241.3 93.98 0)
+		(lib_id "PARTSDB:CL10A475KP8NNNC")
+		(at 266.7 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5938,9 +3508,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4bcc38b3-9eeb-425b-82ef-b43de801d1aa")
+		(uuid "5263234e-3eb3-4c44-ba33-0242094f0cc2")
 		(property "Reference" "C11"
-			(at 243.6195 92.9795 0)
+			(at 269.24 100.3363 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5950,8 +3520,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 243.3608 94.6058 0)
+		(property "Value" "4.7 µF"
+			(at 269.24 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5962,7 +3532,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 241.3 93.98 0)
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5972,8 +3542,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
-			(at 241.3 93.98 0)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,8 +3553,8 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 241.3 93.98 0)
+		(property "Description" "4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5994,8 +3564,8 @@
 				)
 			)
 		)
-		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/5/info"
-			(at 241.3 93.98 0)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/6/info"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6006,7 +3576,7 @@
 			)
 		)
 		(property "Category" "Capacitors/Ceramic Capacitors"
-			(at 241.3 93.98 0)
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6016,8 +3586,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 241.3 93.98 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,8 +3597,8 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R7BB104"
-			(at 241.3 93.98 0)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +3609,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 241.3 93.98 0)
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +3620,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "C-0603"
-			(at 241.3 93.98 0)
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6060,8 +3630,8 @@
 				)
 			)
 		)
-		(property "Part-DB ID" "5"
-			(at 241.3 93.98 0)
+		(property "Part-DB ID" "6"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,8 +3641,8 @@
 				)
 			)
 		)
-		(property "manf" "YAGEO"
-			(at 241.3 93.98 0)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,8 +3652,8 @@
 				)
 			)
 		)
-		(property "manf#" "CC0603KRX7R7BB104"
-			(at 241.3 93.98 0)
+		(property "manf#" "CL10A475KP8NNNC"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6093,8 +3663,8 @@
 				)
 			)
 		)
-		(property "DigiKey SPN" "311-1088-6-ND"
-			(at 241.3 93.98 0)
+		(property "DigiKey SPN" "1276-1044-1-ND"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6104,8 +3674,8 @@
 				)
 			)
 		)
-		(property "digikey#" "311-1088-6-ND"
-			(at 241.3 93.98 0)
+		(property "digikey#" "1276-1044-1-ND"
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +3686,7 @@
 			)
 		)
 		(property "Stock" "0"
-			(at 241.3 93.98 0)
+			(at 266.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6126,11 +3696,11 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "26845248-9ec7-4d81-9a15-c3e1db5c4a44")
-		)
 		(pin "2"
-			(uuid "f378568e-a305-4f6d-a1b2-24c98a44968f")
+			(uuid "512a81c9-c99b-487a-8325-21e67e5f3805")
+		)
+		(pin "1"
+			(uuid "efd8f1cf-e5ed-48ec-bd0b-389ad4d0e828")
 		)
 		(instances
 			(project "LINC"
@@ -6143,377 +3713,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 307.34 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53bd6105-2788-4d02-8c05-bc0e2366d5ad")
-		(property "Reference" "#PWR037"
-			(at 307.34 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 307.34 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fee3cd38-adeb-44a1-aec6-cc7ed2648911")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 261.62 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c7d8c4-1ee6-45a4-b037-51de1ea8768c")
-		(property "Reference" "#PWR034"
-			(at 261.62 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a746ed8-0ea3-45ec-aea5-9dae96dd66c8")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PARTSDB:CL10A226MP8NUNE")
-		(at 297.18 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54f96f6f-cd66-4d9c-8530-fbf9b549505a")
-		(property "Reference" "C14"
-			(at 299.72 92.7163 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 µF"
-			(at 299.72 95.2563 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7742/DataSheet_CL10A226MP8NUN_20251030.pdf"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/23/info"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors/Ceramic Capacitors"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10A226MP8NUNE"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "C-0603"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "23"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "Samsung Electro-Mechanics"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "CL10A226MP8NUNE"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "1276-1274-6-ND"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "1276-1274-6-ND"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 297.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57da6a57-dd16-45cb-9351-c437d5c95319")
-		)
-		(pin "1"
-			(uuid "c6caf85d-3e01-492a-b984-a567146b8d7e")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 297.18 104.14 0)
+		(at 289.56 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6524,7 +3724,7 @@
 		(fields_autoplaced yes)
 		(uuid "59181221-5a53-486e-ab73-14b02783e429")
 		(property "Reference" "#PWR036"
-			(at 297.18 110.49 0)
+			(at 289.56 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +3735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.18 109.22 0)
+			(at 289.56 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6545,7 +3745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 104.14 0)
+			(at 289.56 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6556,7 +3756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 104.14 0)
+			(at 289.56 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6567,7 +3767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 104.14 0)
+			(at 289.56 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6591,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 172.72 0)
+		(at 165.1 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6602,7 +3802,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c5d0060-4f71-47d2-a86b-6077f7b2e8ad")
 		(property "Reference" "#PWR016"
-			(at 132.08 179.07 0)
+			(at 165.1 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6613,7 +3813,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 177.8 0)
+			(at 165.1 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6623,7 +3823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 172.72 0)
+			(at 165.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +3834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 172.72 0)
+			(at 165.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +3845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 172.72 0)
+			(at 165.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,8 +3868,230 @@
 		)
 	)
 	(symbol
+		(lib_id "PARTSDB:TLV74311PDBVR")
+		(at 279.4 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6329fd9c-ceed-4927-8e19-49c853a7d6e4")
+		(property "Reference" "U4"
+			(at 279.4 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74311PDBVR"
+			(at 279.4 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 279.4 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/31/info"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)/Power Management (PMIC)"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV74311PDBVR"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "SOT-23-5"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "31"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "TLV74311PDBVR"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey SPN" "296-50002-6-ND"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "296-50002-6-ND"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "6b527a30-9f8a-48b8-b58f-d223aa146252")
+		)
+		(pin "4"
+			(uuid "a525ebcb-b891-4476-a3b5-6e8fe79e5f3a")
+		)
+		(pin "3"
+			(uuid "72932001-2fb3-479a-862b-5b0f272abb12")
+		)
+		(pin "2"
+			(uuid "631276ee-eb94-48d8-a7bd-c6f1508b4663")
+		)
+		(pin "1"
+			(uuid "bbb74bad-8224-4d3d-ae5e-536cc661da0d")
+		)
+		(instances
+			(project "LINC"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 287.02 104.14 0)
+		(at 279.4 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6680,7 +4102,7 @@
 		(fields_autoplaced yes)
 		(uuid "6786a9be-ea8f-4a7e-9a44-fa170d2901a1")
 		(property "Reference" "#PWR029"
-			(at 287.02 110.49 0)
+			(at 279.4 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +4113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 109.22 0)
+			(at 279.4 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6701,7 +4123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 104.14 0)
+			(at 279.4 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 104.14 0)
+			(at 279.4 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +4145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 287.02 104.14 0)
+			(at 279.4 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,7 +4169,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 104.14 0)
+		(at 256.54 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6758,7 +4180,7 @@
 		(fields_autoplaced yes)
 		(uuid "697f782d-9f8a-4beb-9e11-0c29e92bc312")
 		(property "Reference" "#PWR035"
-			(at 220.98 110.49 0)
+			(at 256.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6769,7 +4191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 109.22 0)
+			(at 256.54 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6779,7 +4201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 104.14 0)
+			(at 256.54 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6790,7 +4212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 104.14 0)
+			(at 256.54 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +4223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 104.14 0)
+			(at 256.54 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,434 +4246,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PARTSDB:RC0603FR-0715K8L")
-		(at 251.46 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "700add3f-3b20-4304-98be-69ce48d81d29")
-		(property "Reference" "R2"
-			(at 253.238 88.392 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15.8k"
-			(at 252.984 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/19/info"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Resistors/Chip Resistor"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-0715K8L"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "R-0603"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "19"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "YAGEO"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "RC0603FR-0715K8L"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "311-15.8KHRDKR-ND"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "311-15.8KHRDKR-ND"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 251.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0cf7eef2-9b9c-4c14-aa33-a5c2a533adab")
-		)
-		(pin "2"
-			(uuid "ad729fee-d61a-4b63-b414-e3c5afa1aeb7")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PARTSDB:CL10A106MA8NRNC")
-		(at 231.14 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "700d5149-944c-4d42-b031-3f6b66951e47")
-		(property "Reference" "C12"
-			(at 233.68 92.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 233.68 94.742 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/20/info"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors/Ceramic Capacitors"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10A106MA8NRNC"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "C-0603"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "20"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "Samsung Electro-Mechanics"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "CL10A106MA8NRNC"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "1276-1869-6-ND"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "1276-1869-6-ND"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 231.14 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5204eecd-eb27-412e-b1d7-c0438897e4ef")
-		)
-		(pin "1"
-			(uuid "e92c1d94-29d9-4cf2-a25b-ab6bdb18060c")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 132.08 137.16 0)
+		(at 165.1 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7262,7 +4258,7 @@
 		(fields_autoplaced yes)
 		(uuid "7770c669-3da0-4595-8b41-d34de3c71e09")
 		(property "Reference" "#PWR015"
-			(at 132.08 140.97 0)
+			(at 165.1 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7273,7 +4269,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 132.08 132.08 0)
+			(at 165.1 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7283,7 +4279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 137.16 0)
+			(at 165.1 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +4290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 137.16 0)
+			(at 165.1 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7305,7 +4301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 132.08 137.16 0)
+			(at 165.1 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7328,221 +4324,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PARTSDB:RC0603FR-0768RL")
-		(at 307.34 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78191bce-42cd-40c3-9298-bbec592647b0")
-		(property "Reference" "R5"
-			(at 309.118 98.298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68"
-			(at 309.118 100.076 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "68 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/26/info"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Resistors/Chip Resistor"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-0768RL"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "R-0603"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "26"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "YAGEO"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "RC0603FR-0768RL"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "311-68.0HRDKR-ND"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "311-68.0HRDKR-ND"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c4dad76-2910-4222-8c76-eacbd7d00418")
-		)
-		(pin "1"
-			(uuid "7c6d8238-5435-4d6a-a253-3cd89375d509")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 132.08 88.9 0)
+		(at 165.1 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7553,7 +4336,7 @@
 		(fields_autoplaced yes)
 		(uuid "79e664d2-463f-4306-9e7f-519c40cfa142")
 		(property "Reference" "#PWR027"
-			(at 132.08 92.71 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7564,7 +4347,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 132.08 83.82 0)
+			(at 165.1 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7574,7 +4357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 88.9 0)
+			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +4368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 88.9 0)
+			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +4379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 88.9 0)
+			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,8 +4402,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 251.46 104.14 0)
+		(lib_id "PARTSDB:CL10A475KP8NNNC")
+		(at 289.56 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7628,87 +4411,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ec484ab-0d0a-4704-bca4-303e261c9ac7")
-		(property "Reference" "#PWR032"
-			(at 251.46 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db946840-0921-4c02-ba5a-d40bf6069db8")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PARTSDB:RC0603FR-0710KL")
-		(at 251.46 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81952b60-e590-4d3b-bc3c-9ee6e6786694")
-		(property "Reference" "R3"
-			(at 252.984 98.298 0)
+		(uuid "872a6cc4-3a46-44ed-9898-37b39443c52b")
+		(property "Reference" "C12"
+			(at 292.1 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7718,8 +4423,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 252.984 100.076 0)
+		(property "Value" "4.7 µF"
+			(at 292.1 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7729,8 +4434,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 251.46 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7740,8 +4445,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 251.46 99.06 0)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7751,8 +4456,8 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 251.46 99.06 0)
+		(property "Description" "4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,8 +4467,8 @@
 				)
 			)
 		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/10/info"
-			(at 251.46 99.06 0)
+		(property "Part-DB URL" "http://192.168.3.4:6050/en/part/6/info"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,8 +4478,8 @@
 				)
 			)
 		)
-		(property "Category" "Resistors/Chip Resistor"
-			(at 251.46 99.06 0)
+		(property "Category" "Capacitors/Ceramic Capacitors"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,8 +4489,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 251.46 99.06 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,8 +4500,8 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 251.46 99.06 0)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +4512,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 251.46 99.06 0)
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,8 +4522,8 @@
 				)
 			)
 		)
-		(property "Part-DB Footprint" "R-0603"
-			(at 251.46 99.06 0)
+		(property "Part-DB Footprint" "C-0603"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,8 +4533,8 @@
 				)
 			)
 		)
-		(property "Part-DB ID" "10"
-			(at 251.46 99.06 0)
+		(property "Part-DB ID" "6"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,8 +4544,8 @@
 				)
 			)
 		)
-		(property "manf" "YAGEO"
-			(at 251.46 99.06 0)
+		(property "manf" "Samsung Electro-Mechanics"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,8 +4555,8 @@
 				)
 			)
 		)
-		(property "manf#" "RC0603FR-0710KL"
-			(at 251.46 99.06 0)
+		(property "manf#" "CL10A475KP8NNNC"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,8 +4566,8 @@
 				)
 			)
 		)
-		(property "DigiKey SPN" "311-10.0KHRDKR-ND"
-			(at 251.46 99.06 0)
+		(property "DigiKey SPN" "1276-1044-1-ND"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7872,8 +4577,8 @@
 				)
 			)
 		)
-		(property "digikey#" "311-10.0KHRDKR-ND"
-			(at 251.46 99.06 0)
+		(property "digikey#" "1276-1044-1-ND"
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +4589,7 @@
 			)
 		)
 		(property "Stock" "0"
-			(at 251.46 99.06 0)
+			(at 289.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,15 +4600,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5f7905bb-7047-4856-b710-751ea593b43d")
+			(uuid "b6c56475-6835-40d1-a25d-4ca786121e78")
 		)
 		(pin "1"
-			(uuid "d1ea81f8-10a5-4494-bc4f-387cda9a4860")
+			(uuid "c2f74fcd-bbd6-4117-86eb-3a12b8cabba4")
 		)
 		(instances
 			(project "LINC"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "R3")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7911,7 +4616,7 @@
 	)
 	(symbol
 		(lib_id "PARTSDB:RC0603FR-07150RL")
-		(at 220.98 99.06 0)
+		(at 256.54 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7921,7 +4626,7 @@
 		(dnp no)
 		(uuid "880ca3d6-bab6-478b-ae30-a6344e090bae")
 		(property "Reference" "R4"
-			(at 222.504 98.298 0)
+			(at 258.064 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7932,7 +4637,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 222.504 100.076 0)
+			(at 258.064 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7943,7 +4648,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +4659,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7965,7 +4670,7 @@
 			)
 		)
 		(property "Description" "150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7976,7 +4681,7 @@
 			)
 		)
 		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/25/info"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7987,7 +4692,7 @@
 			)
 		)
 		(property "Category" "Resistors/Chip Resistor"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,7 +4703,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8009,7 +4714,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07150RL"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +4725,7 @@
 			)
 		)
 		(property "Manufacturing Status" "Active"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8031,7 +4736,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "R-0603"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +4747,7 @@
 			)
 		)
 		(property "Part-DB ID" "25"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,7 +4758,7 @@
 			)
 		)
 		(property "manf" "YAGEO"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +4769,7 @@
 			)
 		)
 		(property "manf#" "RC0603FR-07150RL"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +4780,7 @@
 			)
 		)
 		(property "DigiKey SPN" "311-150HRDKR-ND"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8086,7 +4791,7 @@
 			)
 		)
 		(property "digikey#" "311-150HRDKR-ND"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +4802,7 @@
 			)
 		)
 		(property "Stock" "0"
-			(at 220.98 99.06 0)
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8123,448 +4828,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PARTSDB:TPSM861253RDXR")
-		(at 266.7 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a2f4530-271a-4dc4-9f46-35204edd0413")
-		(property "Reference" "U9"
-			(at 274.32 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPSM861253RDXR"
-			(at 274.32 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RDX0007A_QFN-FCMOD-7-3.3x4mm-P0.5mm_4EP"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm861253.pdf?ts=1707934545074"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 3.3V 1A 3.8V - 17V Input"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/18/info"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Power Supplies - Board Mount/DC DC Converters"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TPSM861253RDXR"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "7-QFN-FCMOD (4x3.3)"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "18"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "Texas Instruments"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "TPSM861253RDXR"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "296-TPSM861253RDXRDKR-ND"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "296-TPSM861253RDXRDKR-ND"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 266.7 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46f55d3c-99fb-4955-ab8c-44136b90472b")
-		)
-		(pin "2"
-			(uuid "f79470bf-0a52-46e6-94f8-5979df3c5b02")
-		)
-		(pin "3"
-			(uuid "1dd2e23c-8090-49db-95d3-dd8bb86d65ac")
-		)
-		(pin "4"
-			(uuid "451bfd0e-3079-4e5f-a461-80410bfdaa05")
-		)
-		(pin "5"
-			(uuid "e23096a0-1389-4ead-8721-f452f32e8f3e")
-		)
-		(pin "6"
-			(uuid "2ddc70d2-a064-4d02-bebd-55d70e4b06f6")
-		)
-		(pin "7"
-			(uuid "51f1161f-0da5-4340-8ff6-e2a7af4653c4")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PARTSDB:CC0603KRX7R9BB103")
-		(at 261.62 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a57f2737-ee75-4806-bc37-550d42ec937b")
-		(property "Reference" "C15"
-			(at 263.906 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10000 pF"
-			(at 263.906 99.568 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Product%20Guide-Catalog/yageo_High-20Capacitance-20MLCCs_2016_19050911_141.pdf"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/24/info"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors/Ceramic Capacitors"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB103"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "C-0603"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "24"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "YAGEO"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "CC0603KRX7R9BB103"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "311-1085-6-ND"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "311-1085-6-ND"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 261.62 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "710fb981-82c4-4dce-bcde-bf2f40a82d60")
-		)
-		(pin "1"
-			(uuid "59b55864-1653-4db1-8685-5fd6fd90ec0d")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_UART:THVD1451D")
-		(at 132.08 154.94 0)
+		(at 165.1 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8574,7 +4839,7 @@
 		(dnp no)
 		(uuid "afc47f4c-8988-4c36-a6d5-22dd9ca9b417")
 		(property "Reference" "U5"
-			(at 134.366 138.938 0)
+			(at 167.386 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8585,7 +4850,7 @@
 			)
 		)
 		(property "Value" "THVD1451D"
-			(at 134.366 140.97 0)
+			(at 167.386 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8596,7 +4861,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 132.08 154.94 0)
+			(at 165.1 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,7 +4873,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/thvd1451.pdf"
-			(at 132.08 154.94 0)
+			(at 165.1 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8619,7 +4884,7 @@
 			)
 		)
 		(property "Description" "RS485 transceiver, 3.3-V to 5-V, 18-kV IEC ESD Protection, SOIC-8"
-			(at 132.08 154.94 0)
+			(at 165.1 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,7 +4929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 104.14 0)
+		(at 266.7 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8675,7 +4940,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9dbc60a-353e-4e39-8f1a-d60b13d7464a")
 		(property "Reference" "#PWR033"
-			(at 231.14 110.49 0)
+			(at 266.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8686,7 +4951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 109.22 0)
+			(at 266.7 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8696,7 +4961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 104.14 0)
+			(at 266.7 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8707,7 +4972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 104.14 0)
+			(at 266.7 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8718,7 +4983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 104.14 0)
+			(at 266.7 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8742,7 +5007,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 106.68 0)
+		(at 165.1 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8753,7 +5018,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3ee197d-0e61-4259-9c70-860e314be53c")
 		(property "Reference" "#PWR028"
-			(at 132.08 113.03 0)
+			(at 165.1 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,7 +5029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 111.76 0)
+			(at 165.1 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8774,7 +5039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 106.68 0)
+			(at 165.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +5050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 106.68 0)
+			(at 165.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8796,7 +5061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 106.68 0)
+			(at 165.1 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8820,7 +5085,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 307.34 81.28 0)
+		(at 289.56 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8831,7 +5096,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3a17354-19c9-4639-aa96-9ade6a695f35")
 		(property "Reference" "#PWR038"
-			(at 307.34 85.09 0)
+			(at 289.56 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8842,7 +5107,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 307.34 76.2 0)
+			(at 289.56 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8852,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 81.28 0)
+			(at 289.56 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8863,7 +5128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 81.28 0)
+			(at 289.56 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8874,7 +5139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 307.34 81.28 0)
+			(at 289.56 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8891,84 +5156,6 @@
 			(project "LINC"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e46d8839-60b6-4ab0-bf78-7df75896bfa3")
-		(property "Reference" "#PWR030"
-			(at 241.3 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be5bee14-01ac-4eec-96db-f86635dd949a")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
