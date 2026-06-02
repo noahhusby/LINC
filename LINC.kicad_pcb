@@ -1532,7 +1532,7 @@
 			)
 		)
 		(property ki_fp_filters "LQFP*10x10mm*P0.5mm*")
-		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd/aa0b9f54-da1c-4f65-85e2-e611f1c6f1fb")
+		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd/eb04ba12-2dab-43dc-8ca6-b58a3a61d160")
 		(sheetname "/Overview/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
 		(units
@@ -1542,7 +1542,7 @@
 			)
 			(unit
 				(name "B")
-				(pins "3" "4" "5" "6" "46" "49" "60" "7")
+				(pins "3" "4" "5" "6" "46" "49" "55" "60" "7")
 			)
 			(unit
 				(name "C")
@@ -1566,8 +1566,8 @@
 			)
 			(unit
 				(name "H")
-				(pins "15" "20" "41" "42" "43" "50" "26" "27" "28" "55" "56" "57" "58"
-					"8" "9" "10" "11" "24" "25" "37" "38" "39" "40" "51" "52" "53" "2" "54"
+				(pins "15" "20" "41" "42" "43" "50" "26" "27" "28" "56" "57" "58" "8"
+					"9" "10" "11" "24" "25" "37" "38" "39" "40" "51" "52" "53" "2" "54"
 				)
 			)
 		)
@@ -2433,9 +2433,9 @@
 			(size 0.3 1.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3H-PB3(JTDO)-Pad55)")
-			(pinfunction "PB3(JTDO)_55")
-			(pintype "bidirectional+no_connect")
+			(net "Net-(J2-SWO)")
+			(pinfunction "PB3-JTDO/SWO_55")
+			(pintype "bidirectional")
 			(uuid "690d9533-58be-4016-9b7e-c831c89b4dd4")
 		)
 		(pad "56" smd roundrect
@@ -14709,9 +14709,9 @@
 			(at 0 -2.032 180)
 			(size 0.7366 2.794)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(J2-SWO-Pad06)")
+			(net "Net-(J2-SWO)")
 			(pinfunction "SWO_06")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "826fdaf2-08e6-43e2-9de3-3d6b7d67a39d")
 		)
@@ -24378,6 +24378,22 @@
 		(uuid "adbec96b-9a60-49ff-8cc3-6aec52aa133b")
 	)
 	(segment
+		(start 147.530501 104.398398)
+		(end 157.183501 104.398398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-SWDIO)")
+		(uuid "a952087b-53ef-4f72-bae4-17ca4ed349b4")
+	)
+	(segment
+		(start 156.315501 100.416398)
+		(end 157.0905 100.416398)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-SWDIO)")
+		(uuid "abe50a0b-b3b3-4d9d-b411-8c8b2c48cd0b")
+	)
+	(segment
 		(start 148.258501 102.666398)
 		(end 146.963801 102.666398)
 		(width 0.2)
@@ -24416,22 +24432,6 @@
 		(layer "F.Cu")
 		(net "Net-(J2-SWCLK)")
 		(uuid "a36420f0-8ba2-4c2c-8e4f-1d3685da9b3d")
-	)
-	(segment
-		(start 147.530501 104.398398)
-		(end 157.183501 104.398398)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-SWDIO)")
-		(uuid "a952087b-53ef-4f72-bae4-17ca4ed349b4")
-	)
-	(segment
-		(start 156.315501 100.416398)
-		(end 157.0905 100.416398)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-SWDIO)")
-		(uuid "abe50a0b-b3b3-4d9d-b411-8c8b2c48cd0b")
 	)
 	(segment
 		(start 177.513101 87.6587)
