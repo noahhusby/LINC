@@ -19,7 +19,8 @@
         "plot_drawing_sheet": true,
         "show_hop_over": false,
         "use_background_color": true,
-        "variant_name": ""
+        "variant_name": "",
+        "variant_names": []
       },
       "type": "sch_export_plot_pdf"
     },
@@ -157,6 +158,7 @@
         "rotation_z": 0.0,
         "side": "top",
         "use_board_stackup_colors": true,
+        "variant": "",
         "width": 1728,
         "zoom": 1.0
       },
@@ -210,6 +212,7 @@
         "rotation_z": 0.0,
         "side": "front",
         "use_board_stackup_colors": true,
+        "variant": "",
         "width": 1728,
         "zoom": 1.0
       },
@@ -284,7 +287,8 @@
         "subtract_solder_mask_from_silk": false,
         "use_drill_origin": false,
         "use_protel_file_extension": true,
-        "use_x2_format": true
+        "use_x2_format": true,
+        "variant": ""
       },
       "type": "pcb_export_gerbers"
     },
@@ -310,6 +314,27 @@
         "zero_format": "decimal"
       },
       "type": "pcb_export_drill"
+    },
+    {
+      "description": "",
+      "id": "ae4101bb-0aff-41f6-b310-75f9e1e38870",
+      "settings": {
+        "description": "",
+        "exclude_bom": false,
+        "exclude_dnp": false,
+        "exclude_footprints_with_th": false,
+        "format": "csv",
+        "gerber_board_edge": true,
+        "negate_bottom_x": false,
+        "output_filename": "",
+        "side": "both",
+        "single_file": false,
+        "smd_only": true,
+        "units": "mm",
+        "use_drill_place_file_origin": true,
+        "variant": ""
+      },
+      "type": "pcb_export_pos"
     }
   ],
   "meta": {
@@ -333,7 +358,8 @@
       "id": "d263b14b-5bdb-4627-b090-ee8f69701461",
       "only": [
         "c960c45b-8cea-4fdb-a335-ad4bc79d1a37",
-        "2ff95602-b5e4-4dd0-86bd-8f914642577d"
+        "2ff95602-b5e4-4dd0-86bd-8f914642577d",
+        "ae4101bb-0aff-41f6-b310-75f9e1e38870"
       ],
       "settings": {
         "output_path": "outputs/fabrication/gerbers"
