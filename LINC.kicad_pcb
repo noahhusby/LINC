@@ -2924,7 +2924,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV74311PDBVR"
+		(property "Value" "TLV74333PDBVR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "92c6b465-09d2-489c-a701-2ac2322c86ed")
@@ -2969,7 +2969,7 @@
 				)
 			)
 		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/31/info"
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/34/info"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3008,7 +3008,7 @@
 				)
 			)
 		)
-		(property "MPN" "TLV74311PDBVR"
+		(property "MPN" "TLV74333PDBVR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3047,7 +3047,7 @@
 				)
 			)
 		)
-		(property "Part-DB ID" "31"
+		(property "Part-DB ID" "34"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3073,7 +3073,7 @@
 				)
 			)
 		)
-		(property "manf#" "TLV74311PDBVR"
+		(property "manf#" "TLV74333PDBVR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3086,7 +3086,7 @@
 				)
 			)
 		)
-		(property "DigiKey SPN" "296-50002-6-ND"
+		(property "DigiKey SPN" "296-47852-6-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3099,7 +3099,7 @@
 				)
 			)
 		)
-		(property "digikey#" "296-50002-6-ND"
+		(property "digikey#" "296-47852-6-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3126,7 +3126,7 @@
 			)
 		)
 		(property ki_fp_filters "Package_TO_SOT_SMD:SOT-23-5")
-		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548/6329fd9c-ceed-4927-8e19-49c853a7d6e4")
+		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548/6d8c2740-725a-40e0-902e-fe9b9dc08572")
 		(sheetname "/Overview/RS485 Transceiver, USB, Power/")
 		(sheetfile "transciever.kicad_sch")
 		(units
@@ -9110,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9abd58c6-c7ec-4135-b30d-981ce33184c5")
@@ -9132,7 +9132,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9143,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/10/info"
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/32/info"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9182,7 +9182,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9221,7 +9221,7 @@
 				)
 			)
 		)
-		(property "Part-DB ID" "10"
+		(property "Part-DB ID" "32"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9247,7 +9247,7 @@
 				)
 			)
 		)
-		(property "manf#" "RC0603FR-0710KL"
+		(property "manf#" "RC0603FR-071KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9260,7 +9260,7 @@
 				)
 			)
 		)
-		(property "DigiKey SPN" "311-10.0KHRDKR-ND"
+		(property "DigiKey SPN" "311-1.00KHRDKR-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9273,7 +9273,7 @@
 				)
 			)
 		)
-		(property "digikey#" "311-10.0KHRDKR-ND"
+		(property "digikey#" "311-1.00KHRDKR-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9300,7 +9300,7 @@
 			)
 		)
 		(property ki_fp_filters "Resistor_SMD:R_0603_1608Metric")
-		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd/aaf787fb-5271-4809-bde2-3a01d8c768bb")
+		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/83228e4c-1b13-4f9e-b3cd-649bd449edfd/7aec289a-03f6-440c-9016-9fc7fb6388bc")
 		(sheetname "/Overview/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
 		(units

@@ -1262,7 +1262,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PARTSDB:TLV74311PDBVR"
+		(symbol "PARTSDB:TLV74333PDBVR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1281,7 +1281,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV74311PDBVR"
+			(property "Value" "TLV74333PDBVR"
 				(at 0 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1326,7 +1326,7 @@
 					)
 				)
 			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/31/info"
+			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/34/info"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1359,7 +1359,7 @@
 					)
 				)
 			)
-			(property "MPN" "TLV74311PDBVR"
+			(property "MPN" "TLV74333PDBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1392,7 +1392,7 @@
 					)
 				)
 			)
-			(property "Part-DB ID" "31"
+			(property "Part-DB ID" "34"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1414,7 +1414,7 @@
 					)
 				)
 			)
-			(property "manf#" "TLV74311PDBVR"
+			(property "manf#" "TLV74333PDBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1425,7 +1425,7 @@
 					)
 				)
 			)
-			(property "DigiKey SPN" "296-50002-6-ND"
+			(property "DigiKey SPN" "296-47852-6-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1436,7 +1436,7 @@
 					)
 				)
 			)
-			(property "digikey#" "296-50002-6-ND"
+			(property "digikey#" "296-47852-6-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1469,7 +1469,7 @@
 					)
 				)
 			)
-			(symbol "TLV74311PDBVR_0_1"
+			(symbol "TLV74333PDBVR_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -1482,7 +1482,7 @@
 					)
 				)
 			)
-			(symbol "TLV74311PDBVR_1_1"
+			(symbol "TLV74333PDBVR_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -3868,228 +3868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PARTSDB:TLV74311PDBVR")
-		(at 279.4 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6329fd9c-ceed-4927-8e19-49c853a7d6e4")
-		(property "Reference" "U4"
-			(at 279.4 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV74311PDBVR"
-			(at 279.4 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 279.4 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/31/info"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Integrated Circuits (ICs)/Power Management (PMIC)"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TLV74311PDBVR"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "SOT-23-5"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "31"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "Texas Instruments"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "TLV74311PDBVR"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "296-50002-6-ND"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "296-50002-6-ND"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "6b527a30-9f8a-48b8-b58f-d223aa146252")
-		)
-		(pin "4"
-			(uuid "a525ebcb-b891-4476-a3b5-6e8fe79e5f3a")
-		)
-		(pin "3"
-			(uuid "72932001-2fb3-479a-862b-5b0f272abb12")
-		)
-		(pin "2"
-			(uuid "631276ee-eb94-48d8-a7bd-c6f1508b4663")
-		)
-		(pin "1"
-			(uuid "bbb74bad-8224-4d3d-ae5e-536cc661da0d")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 279.4 109.22 0)
 		(unit 1)
@@ -4240,6 +4018,228 @@
 			(project "LINC"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:TLV74333PDBVR")
+		(at 279.4 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8c2740-725a-40e0-902e-fe9b9dc08572")
+		(property "Reference" "U4"
+			(at 279.4 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74333PDBVR"
+			(at 279.4 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 279.4 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/34/info"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)/Power Management (PMIC)"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV74333PDBVR"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "SOT-23-5"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "34"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "TLV74333PDBVR"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey SPN" "296-47852-6-ND"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "296-47852-6-ND"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a316687-4413-4175-8d01-010e9f6cde8e")
+		)
+		(pin "1"
+			(uuid "c8f22e38-5c1c-49ab-b2bc-64c3a0714032")
+		)
+		(pin "4"
+			(uuid "e13a6a78-c361-4a6e-85e7-c06df051ec49")
+		)
+		(pin "3"
+			(uuid "81f3fd33-44f8-419f-9806-3b520637d3e8")
+		)
+		(pin "5"
+			(uuid "d269ffd4-25ea-4a00-b979-fb9713a322c1")
+		)
+		(instances
+			(project "LINC"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
+					(reference "U4")
 					(unit 1)
 				)
 			)
