@@ -7909,7 +7909,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "Red"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2b81d759-2554-457f-9aae-8811311cca01")
@@ -7920,7 +7920,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7931,7 +7931,7 @@
 				)
 			)
 		)
-		(property "Description" "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+		(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7955,7 +7955,7 @@
 				)
 			)
 		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/21/info"
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/22/info"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7994,7 +7994,7 @@
 				)
 			)
 		)
-		(property "MPN" "LTST-C191KGKT"
+		(property "MPN" "LTST-C191KRKT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8020,7 +8020,7 @@
 				)
 			)
 		)
-		(property "Part-DB ID" "21"
+		(property "Part-DB ID" "22"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8046,7 +8046,7 @@
 				)
 			)
 		)
-		(property "manf#" "LTST-C191KGKT"
+		(property "manf#" "LTST-C191KRKT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8059,7 +8059,7 @@
 				)
 			)
 		)
-		(property "DigiKey SPN" "160-1446-6-ND"
+		(property "DigiKey SPN" "160-1447-6-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8072,7 +8072,7 @@
 				)
 			)
 		)
-		(property "digikey#" "160-1446-6-ND"
+		(property "digikey#" "160-1447-6-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8099,7 +8099,7 @@
 			)
 		)
 		(property ki_fp_filters "LED_SMD:LED_0603_1608Metric")
-		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548/2f2a3a0d-8bd5-4fed-8416-51414d45990f")
+		(path "/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548/869a9e93-1fd9-4a37-b5ec-f830805b4a70")
 		(sheetname "/Overview/RS485 Transceiver, USB, Power/")
 		(sheetfile "transciever.kicad_sch")
 		(units

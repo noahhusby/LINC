@@ -674,7 +674,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PARTSDB:LTST-C191KGKT"
+		(symbol "PARTSDB:LTST-C191KRKT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -698,7 +698,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Green"
+			(property "Value" "Red"
 				(at -4.445 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -720,7 +720,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -731,7 +731,7 @@
 					)
 				)
 			)
-			(property "Description" "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -753,7 +753,7 @@
 					)
 				)
 			)
-			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/21/info"
+			(property "Part-DB URL" "http://parts.husbylabs.com/en/part/22/info"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -786,7 +786,7 @@
 					)
 				)
 			)
-			(property "MPN" "LTST-C191KGKT"
+			(property "MPN" "LTST-C191KRKT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -808,7 +808,7 @@
 					)
 				)
 			)
-			(property "Part-DB ID" "21"
+			(property "Part-DB ID" "22"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -830,7 +830,7 @@
 					)
 				)
 			)
-			(property "manf#" "LTST-C191KGKT"
+			(property "manf#" "LTST-C191KRKT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -841,7 +841,7 @@
 					)
 				)
 			)
-			(property "DigiKey SPN" "160-1446-6-ND"
+			(property "DigiKey SPN" "160-1447-6-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -852,7 +852,7 @@
 					)
 				)
 			)
-			(property "digikey#" "160-1446-6-ND"
+			(property "digikey#" "160-1447-6-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -885,7 +885,7 @@
 					)
 				)
 			)
-			(symbol "LTST-C191KGKT_0_1"
+			(symbol "LTST-C191KRKT_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -947,7 +947,7 @@
 					)
 				)
 			)
-			(symbol "LTST-C191KGKT_1_1"
+			(symbol "LTST-C191KRKT_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -2498,7 +2498,7 @@
 		(at 256.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78ff4fd9-a79d-4d43-856f-0e39420d6df8")
+		(uuid "84737162-a5b7-4dc1-bf90-ce4f5d4f2aa2")
 	)
 	(wire
 		(pts
@@ -3201,219 +3201,6 @@
 			(project "LINC"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PARTSDB:LTST-C191KGKT")
-		(at 256.54 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f2a3a0d-8bd5-4fed-8416-51414d45990f")
-		(property "Reference" "D1"
-			(at 258.318 95.758 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Green"
-			(at 258.318 97.536 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 256.54 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 256.54 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/21/info"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Optoelectronics/LED Indication/Discrete"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Lite-On Inc."
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LTST-C191KGKT"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "21"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf" "Lite-On Inc."
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "LTST-C191KGKT"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey SPN" "160-1446-6-ND"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey#" "160-1446-6-ND"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "0"
-			(at 256.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17fdb8cf-0690-4e13-892c-5b2db5e4b85d")
-		)
-		(pin "2"
-			(uuid "c63ab4b3-e0ec-43a2-b25c-bc914e5365e3")
-		)
-		(instances
-			(project "LINC"
-				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4396,6 +4183,219 @@
 			(project "LINC"
 				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PARTSDB:LTST-C191KRKT")
+		(at 256.54 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "869a9e93-1fd9-4a37-b5ec-f830805b4a70")
+		(property "Reference" "D1"
+			(at 258.318 95.758 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 258.318 97.536 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 256.54 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
+			(at 256.54 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB URL" "http://parts.husbylabs.com/en/part/22/info"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Optoelectronics/LED Indication/Discrete"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "22"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf" "Lite-On Inc."
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "LTST-C191KRKT"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey SPN" "160-1447-6-ND"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey#" "160-1447-6-ND"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "0"
+			(at 256.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e46e3a4c-ada1-427f-bd0a-557e32ffc282")
+		)
+		(pin "2"
+			(uuid "7a65e073-5753-4804-bf90-35fd3140f1a5")
+		)
+		(instances
+			(project "LINC"
+				(path "/0f352524-50ff-469d-9a68-783e183b0073/642cbd6b-8c2c-4a8a-b65c-89c798f24c3f/d07cae73-2e30-4bb2-afc2-b2842e2f5548"
+					(reference "D1")
 					(unit 1)
 				)
 			)
